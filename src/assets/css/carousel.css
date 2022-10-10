@@ -46,6 +46,7 @@
   background-color: #34215b;
   color: #fff;
   position: relative;
+  margin-top: 3rem;
 }
 .allCarousels-container {
   overflow-x: auto;
@@ -123,6 +124,7 @@
 @media (min-width: 1200px) {
   .carousels-section {
     padding: 5rem 10rem;
+    margin-top: 0;
   }
   .carousel-flex {
     flex-direction: row;
