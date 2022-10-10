@@ -1,65 +1,41 @@
+# Conference Website
+
+Developed by [Encode Web Team](https://github.com/Encode-PDEU) ([Preet Sojitra](https://github.com/Preet-Sojitra), [Parth Sood](https://github.com/psood708) and [Aniket Patel](https://github.com/Aniket-Patel-swg))
+
 # Folder Structure
 
+```
 .
 ├── public
-│ └── index.html
-└── src
-├── assets
-└── Components
+│   └── index.html
+├── src
+│   ├── assets
+│   │   ├── css
+│   │   ├── data
+│   │   │   └── carouseldata.js
+│   │   └── images
+│   ├── Components
+│   ├── App.js
+│   └── index.js
+└── README.md
+```
 
-## Available Scripts
+## Getting Started with Project locally
 
-In the project directory, you can run:
+1. Fork the repo and clone using the following command
 
-### `npm start`
+   `git clone https://github.com/Preet-Sojitra/conference.git`
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+2. Change the directory
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+   `cd conference`
 
-### `npm test`
+3. Install the dependencies
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+   `npm install`
 
-### `npm run build`
+4. Start local server
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+   `npm start`
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+   Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
