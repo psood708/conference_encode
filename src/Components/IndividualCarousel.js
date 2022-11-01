@@ -9,7 +9,7 @@ export default function IndividualCarousel(props) {
       style={{
         left: `${left}%`,
         transform: `translateX(${props.translateX}%)`,
-        transition: "all 1s linear",
+        transition: "transform 1s linear",
       }}
     >
       <div className="carousel-flex">

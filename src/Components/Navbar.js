@@ -1,6 +1,6 @@
 import React, {useState} from "react"
 import logo from "../assets/images/logo.png"
-import "../assets/css/navbar.css" 
+import "../assets/css/navbar.css"
 
 // import { useRef,useEffect } from "react"
 export default function Navbar() {
@@ -48,22 +48,32 @@ export default function Navbar() {
           <ul className="nav-main-menu">
             <li className="nav-item">
               <a href="/" className="nav-link">
-                CONFERENCE
+                HOME
               </a>
             </li>
             <li className="nav-item">
               <a href="/" className="nav-link">
-                EXHIBITION
+                THEMES
               </a>
             </li>
             <li className="nav-item">
               <a href="/" className="nav-link">
-                ATTEND
+                KEYNOTE SPEAKERS
               </a>
             </li>
             <li className="nav-item">
               <a href="/" className="nav-link">
-                PRESS
+                COMMITTEES
+              </a>
+            </li>
+            <li className="nav-item">
+              <a href="/" className="nav-link">
+                CALL FOR PAPER
+              </a>
+            </li>
+            <li className="nav-item">
+              <a href="/" className="nav-link">
+                CONTACT US
               </a>
             </li>
           </ul>
