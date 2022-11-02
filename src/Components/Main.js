@@ -14,7 +14,6 @@ export default function Main() {
       </div>
       <div className="cards-container">
         <div className="card">Thrust Areas</div>
-        <div className="card">Call For Papers</div>
         <div className="card">Objectives & Outcomes</div>
         <div className="card">Organizing Committee</div>
         <div className="card">Fees & Important Dates</div>
