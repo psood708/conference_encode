@@ -13,11 +13,12 @@ export default function Main() {
         </p>
       </div>
       <div className="cards-container">
-        <div className="card">Production & animation</div>
-        <div className="card">Research & Education</div>
-        <div className="card">Art & Design</div>
-        <div className="card">Gaming & Interactive</div>
-        <div className="card">New Technologies</div>
+        <div className="card">Thrust Areas</div>
+        <div className="card">Call For Papers</div>
+        <div className="card">Objectives & Outcomes</div>
+        <div className="card">Organizing Committee</div>
+        <div className="card">Fees & Important Dates</div>
+        <div className="card">About Us</div>
       </div>
     </div>
   )

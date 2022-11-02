@@ -57,7 +57,7 @@ export default function Carousel() {
         </button>
         <button className="btn next-btn" id="next" onClick={translateCarousel}>
           Next
-        </button>
+        </button> 
       </div>
       <div className="indicators">
         <div className="indicator active-indicator" id="0"></div>
