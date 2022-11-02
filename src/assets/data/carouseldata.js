@@ -20,8 +20,8 @@ const carouseldata = [
     key: 1,
     mainHeading1: "Lorem ipsum dolor",
     mainHeading2: "sit",
-    subTitle1: "Lorem ipsum dolor",
-    subTitle2: "Lorem ipsum dolor",
+    subTitle1: "",
+    subTitle2: "",
     title: "Lorem ipsum dolor",
     description:
       "Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime mollitia,molestiae quas vel sint commodi repudiandae consequuntur voluptatum laborum numquam blanditiis harum quisquam eius sed odit fugiat iusto fuga praesentium optio, eaque rerum! Provident .",
