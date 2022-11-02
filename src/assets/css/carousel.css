@@ -172,7 +172,8 @@
   .carousel-image-container img {
     /* max-width: 85%; */
     width: 500px;
-    height: 90%;
+    /* height: 90%; */
+    height: 370px;
     object-fit: cover;
   }
 

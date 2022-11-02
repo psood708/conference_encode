@@ -1,6 +1,7 @@
 import React, {useState} from "react"
 import logo from "../assets/images/logo.png"
 import "../assets/css/navbar.css"
+// import Theme from "./Theme";
 
 // import { useRef,useEffect } from "react"
 export default function Navbar() {
@@ -44,16 +45,17 @@ export default function Navbar() {
               </a>
             </li>
           </ul>
-
+        
           <ul className="nav-main-menu">
+            
             <li className="nav-item">
               <a href="/" className="nav-link">
                 HOME
               </a>
             </li>
             <li className="nav-item">
-              <a href="/" className="nav-link">
-                THEMES
+            <a href="/" className="nav-link">
+              THEME
               </a>
             </li>
             <li className="nav-item">
@@ -77,7 +79,10 @@ export default function Navbar() {
               </a>
             </li>
           </ul>
+
+        
         </div>
+        
         <div id="hamburger" className="hamburger" onClick={ToggleSwitch}>
           <span className="bar"></span>
           <span className="bar"></span>
