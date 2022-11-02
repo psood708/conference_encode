@@ -23,6 +23,11 @@
   align-items: center;
 }
 
+.timer-container > div > :nth-child(1) {
+  min-width: 45px;
+  text-align: center;
+}
+
 @media (max-width: 900px) {
   .countdown-container {
     flex-direction: column;
