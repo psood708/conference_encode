@@ -10,7 +10,7 @@
 .carousel-text-container {
   margin-top: 1rem;
 }
-.main-heading-2 { 
+.main-heading-2 {
   text-transform: uppercase;
 }
 .main-heading-1,
@@ -99,7 +99,8 @@
 @media (min-width: 600px) and (max-width: 1200px) {
   .allCarousels-container {
     /* height: 90vh; */
-    height: 820px;
+    /* height: 820px; */
+    height: 760px;
   }
   .carousel-container {
     padding: 2rem 4rem;
@@ -177,8 +178,8 @@
 
   /* Carousel.js file css */
   .allCarousels-container {
-    /* height: 50vh; */
-    height: 55vh;
+    height: 50vh;
+    /* height: 55vh; */
   }
   .btns-container {
     justify-content: space-between;
