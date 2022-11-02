@@ -5,6 +5,7 @@ import Section2 from "./Components/Section2"
 import Sponsor from "./Components/Sponsor"
 import Footer from "./Components/Footer"
 import Carousel from "./Components/Carousel"
+import Contact from "./Components/Contact"
 function App() {
   return (
     <div className="landing-page">
@@ -14,6 +15,7 @@ function App() {
       <Section2 />
       <Carousel />
       <Sponsor />
+      <Contact />
       <Footer />
     </div>
   )
