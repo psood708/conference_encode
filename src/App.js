@@ -1,11 +1,11 @@
-import Navbar from "./Components/Navbar"
-import Main from "./Components/Main"
-import CountDown from "./Components/CountDown"
-import Section2 from "./Components/Section2"
-import Sponsor from "./Components/Sponsor"
-import Footer from "./Components/Footer"
-import Carousel from "./Components/Carousel"
-import Contact from "./Components/Contact"
+import Navbar from "./Components/Navbar";
+import Main from "./Components/Main";
+import CountDown from "./Components/CountDown";
+import Section2 from "./Components/Section2";
+import Sponsor from "./Components/Sponsor";
+import Footer from "./Components/Footer";
+import Carousel from "./Components/Carousel";
+import Contact from "./Components/Contact";
 function App() {
   return (
     <div className="landing-page">
@@ -18,7 +18,7 @@ function App() {
       <Contact />
       <Footer />
     </div>
-  )
+  );
 }
 
-export default App
+export default App;
