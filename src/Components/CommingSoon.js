@@ -11,7 +11,7 @@ const CommingSoon = () => {
       <div className="heroSection">
         {/* <hr /> */}
         <p className="greenHydrogenText">Green Hydrogen</p>
-        <p className="mainText">Comming Soon...</p>
+        <p className="mainText">Coming Soon...</p>
         <div className="forDummyText">
           <p className="dummyText">
             Lorem ipsum dolor sit amet consectetur adipisicing elit. Ea numquam
@@ -21,7 +21,7 @@ const CommingSoon = () => {
           </p>
         </div>
         <div className="Button">
-          <a href="/">
+          <a href="/conference">
             <button className="ButtonStyle">Go Back</button>
           </a>
         </div>

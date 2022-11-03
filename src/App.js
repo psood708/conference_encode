@@ -20,11 +20,11 @@ function App() {
   return (
     <BrowserRouter>
       <Routes>
-        <Route exact path="/conference" element={<FirstPage />} />
-        <Route exact path="/conference/committee" element={<Committee />} />
-        <Route exact path="/conference/themes" element={<Theme />} />
-        <Route exact path="/conference/CommingSoon" element={<CommingSoon />} />
-        <Route exact path="/conference/Contact" element={<Contact />} />
+        <Route  path="/conference" element={<FirstPage />} />
+        <Route  path="/conference/committee" element={<Committee />} />
+        <Route  path="/conference/themes" element={<Theme />} />
+        <Route  path="/conference/CommingSoon" element={<CommingSoon />} />
+        <Route  path="/conference/Contact" element={<Contact />} />
       </Routes>
     </BrowserRouter>
   )
