@@ -1,9 +1,12 @@
 import "../assets/css/contact.css"
+import Footer from "./footer";
+import Navbar from "./Navbar";
 
 const Contact = () => {
   return (
     <>
-      <div className="contactus">
+    <Navbar />
+      <div className="contactus">  
         <div className="con-title">
             <h1>Contacts</h1>
         </div>
@@ -27,6 +30,7 @@ const Contact = () => {
             </ul>
         </div>
       </div>
+      <Footer />
     </>
   );
 };

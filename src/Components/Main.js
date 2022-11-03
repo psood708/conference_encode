@@ -12,12 +12,13 @@ export default function Main() {
           computer graphics, animation, VR, Gaming, and Emerging Technologies.
         </p>
       </div>
-      <div className="cards-container">
-        <div className="card">Thrust Areas</div>
+      <div className="heading-container">
+        {/* <div className="card">Thrust Areas</div>
         <div className="card">Objectives & Outcomes</div>
         <div className="card">Organizing Committee</div>
         <div className="card">Fees & Important Dates</div>
-        <div className="card">About Us</div>
+        <div className="card">About Us</div> */}
+        <p>Green Hydrogen</p>
       </div>
     </div>
   )

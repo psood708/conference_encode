@@ -40,7 +40,7 @@ export default function Navbar() {
               </a>
             </li>
             <li>
-              <a href="/" className="upLinks">
+              <a href="/CommingSoon" className="upLinks">
                 REGISTER
               </a>
             </li>
@@ -69,12 +69,12 @@ export default function Navbar() {
               </a>
             </li>
             <li className="nav-item">
-              <a href="/" className="nav-link">
+              <a href="/CommingSoon" className="nav-link">
                 CALL FOR PAPER
               </a>
             </li>
             <li className="nav-item">
-              <a href="/" className="nav-link">
+              <a href="/Contact" className="nav-link">
                 CONTACT US
               </a>
             </li>
