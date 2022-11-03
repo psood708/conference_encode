@@ -50,7 +50,21 @@ export default function Carousel() {
         })
 
     if (e.target.id === "next") {
-      console.log(indicators.current.children[count])
+      if (count === 2) {
+        indicators.current.children[count].classList.remove("active-indicator")
+        indicators.current.children[0].classList.add("active-indicator")
+      } else {
+        indicators.current.children[count].classList.remove("active-indicator")
+        indicators.current.children[count + 1].classList.add("active-indicator")
+      }
+    } else {
+      if (count === 0) {
+        indicators.current.children[count].classList.remove("active-indicator")
+        indicators.current.children[2].classList.add("active-indicator")
+      } else {
+        indicators.current.children[count].classList.remove("active-indicator")
+        indicators.current.children[count - 1].classList.add("active-indicator")
+      }
     }
   }
 
