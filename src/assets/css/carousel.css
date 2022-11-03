@@ -28,7 +28,7 @@
   margin: 1.2rem 1.5rem;
 }
 
-.title {
+.carousel-title {
   text-align: center;
   margin-bottom: 0.5rem;
 }
@@ -43,8 +43,8 @@
 
 /* CSS for Carousel.js file*/
 .carousels-section {
-  background-color: #34215b;
-  color: #fff;
+  background-color: #007350;
+  color: rgb(1, 78, 11);
   position: relative;
   margin-top: 3rem;
 }
@@ -63,12 +63,12 @@
   padding-bottom: 25px;
 }
 .btn {
-  background-color: #4cc5b2;
+  background-color: #5ac057;
   padding: 5px 12px;
   border: none;
   border-radius: 50px;
   width: 180px;
-  color: #34215b;
+  color: #2c4228;
   font-weight: 600;
   font-size: 15px;
   cursor: pointer;
@@ -97,11 +97,6 @@
 }
 
 @media (min-width: 600px) and (max-width: 1200px) {
-  .allCarousels-container {
-    /* height: 90vh; */
-    /* height: 820px; */
-    height: 760px;
-  }
   .carousel-container {
     padding: 2rem 4rem;
   }
@@ -121,11 +116,17 @@
 }
 
 @media (min-width: 600px) and (max-width: 1000px) {
+  .allCarousels-container {
+    height: 810px;
+  }
   .carousel-image-container img {
     width: 75%;
   }
 }
 @media (min-width: 1000px) and (max-width: 1200px) {
+  .allCarousels-container {
+    height: 780px;
+  }
   .carousel-image-container img {
     width: 60%;
   }
@@ -157,7 +158,7 @@
     margin: 0;
     margin-top: 1.8rem;
   }
-  .title {
+  .carousel-title {
     text-align: left;
   }
   .description p {
@@ -172,7 +173,8 @@
   .carousel-image-container img {
     /* max-width: 85%; */
     width: 500px;
-    height: 90%;
+    /* height: 90%; */
+    height: 350px;
     object-fit: cover;
   }
 

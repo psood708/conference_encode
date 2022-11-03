@@ -1,5 +1,5 @@
 .header {
-  background-color: #34215b;
+  background-color: #004C5C;
   opacity: 1;
   padding-top: 1%;
   /* position: fixed; */
@@ -17,7 +17,8 @@
   list-style: none;
 }
 .nav-main-menu a {
-  color: white;
+  color: rgb(86, 142, 95);
+  font-weight: 100;
   text-decoration: none;
 }
 .nav-up a {
@@ -117,7 +118,7 @@
     top: 80px;
     gap: 0;
     flex-direction: column;
-    background-color: #34215b;
+    background-color: #004C5C;
     width: 100%;
     text-align: center;
     transition: 0.3s;
@@ -150,7 +151,7 @@
     /* transform: scale(1.2); */
 
     transition-delay: 0.3s;
-    background-color: #473470;
+    background-color: #004C5C;
     border-radius: 10px;
     color: #f0cb47;
     transition: 0.7s ease-out;

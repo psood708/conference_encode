@@ -1,7 +1,9 @@
 /* Main section  */
+@import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,400;0,500;0,700;1,100;1,900&display=swap');
+
 .main {
   background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)),
-    url("../images/main-bg.png");
+    url("../images/Windmill image.jpg");
   background-color: #392647;
   background-repeat: no-repeat;
   background-size: contain;
@@ -16,9 +18,11 @@
 }
 
 .main-heading {
-  font-size: clamp(24px, calc(1.5rem + ((1vw - 3px) * 3.5)), 45px);
-  font-weight: 400;
+  font-size: clamp(24px, calc(1.5rem + ((1vw - 3px) * 3.5)), 49px);
+  font-family: 'Roboto','Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-weight: 900;
   font-family: var(--font-family);
+  padding-top: 1.3em;
   text-transform: uppercase;
   text-align: center;
 }
@@ -26,10 +30,23 @@
 .main-desc {
   margin-top: 1rem;
   font-size: clamp(15px, calc(0.9375rem + ((1vw - 3px) * 0.5)), 18px);
-  font-weight: 400px;
+  font-family: 'Raleway','Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-weight: 100px;
   text-align: center;
+  color: rgb(203, 203, 203);
 }
-
+.heading-container{
+  padding: 5em;
+}
+.heading-container p{
+  font-family: 'Roboto','Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-weight: 900;
+  padding-top: 2.7em;
+  padding-left: 3.2em;
+  font-size: 75px;
+  align-items: center;
+  display:none;
+}
 /* Cards */
 .cards-container {
   display: flex;
@@ -64,7 +81,7 @@
 @media (min-width: 600px) and (max-width: 750px) {
   .main {
     background: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.7) #392647),
-      url("../images/main-bg.png") no-repeat;
+      url("../images/Windmill image.jpg") no-repeat;
     background-size: contain;
   }
   .main-text-container {
@@ -83,6 +100,15 @@
 }
 
 @media (min-width: 1000px) {
+  .heading-container {
+    padding-left: 1em;
+    font-size: 15px;
+  }
+  .heading-container p{
+    /* align-items: center; */
+    text-align: center;
+    display: block;
+  }
   .main-text-container {
     max-width: 400px;
     padding-top: 100px;
@@ -111,7 +137,7 @@
 @media (min-width: 1250px) {
   .main {
     background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)),
-      url("../images/main-bg.png");
+      url("../images/Windmill image.jpg");
     background-color: #392647;
     background-repeat: no-repeat;
     background-size: cover;
