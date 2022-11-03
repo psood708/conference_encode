@@ -6,6 +6,7 @@ import Sponsor from "./Components/Sponsor";
 import Footer from "./Components/Footer";
 import Carousel from "./Components/Carousel";
 import Contact from "./Components/Contact";
+import Committee from "./Components/Committee";
 function App() {
   return (
     <div className="landing-page">
