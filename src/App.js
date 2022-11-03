@@ -1,25 +1,22 @@
-import Navbar from "./Components/Navbar";
-import Main from "./Components/Main";
-import CountDown from "./Components/CountDown";
-import Section2 from "./Components/Section2";
-import Sponsor from "./Components/Sponsor";
-import Footer from "./Components/Footer";
-import Carousel from "./Components/Carousel";
-import Contact from "./Components/Contact";
-import Committee from "./Components/Committee";
+import Contact from "./Components/Contact"
+import FirstPage from "./Pages/FirstPage"
+import React from "react"
+import {BrowserRouter, Routes, Route} from "react-router-dom"
+import CommingSoon from "./Components/CommingSoon"
+import Committee from "./Components/Committee"
+import Theme from "./Components/Theme"
 function App() {
   return (
-    <div className="landing-page">
-      <Navbar />
-      <Main />
-      <CountDown />
-      <Section2 />
-      <Carousel />
-      <Sponsor />
-      <Contact />
-      <Footer />
-    </div>
-  );
+    <BrowserRouter>
+      <Routes>
+        <Route path="/conference" element={<FirstPage />} />
+        <Route path="/committee" element={<Committee />} />
+        <Route path="/themes" element={<Theme />} />
+        <Route path="/CommingSoon" element={<CommingSoon />} />
+        <Route path="/Contact" element={<Contact />} />
+      </Routes>
+    </BrowserRouter>
+  )
 }
 
-export default App;
+export default App

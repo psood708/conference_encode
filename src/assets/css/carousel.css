@@ -43,8 +43,8 @@
 
 /* CSS for Carousel.js file*/
 .carousels-section {
-  background-color: #34215b;
-  color: #fff;
+  background-color: #007350;
+  color: rgb(1, 78, 11);
   position: relative;
   margin-top: 3rem;
 }
@@ -63,12 +63,12 @@
   padding-bottom: 25px;
 }
 .btn {
-  background-color: #4cc5b2;
+  background-color: #5ac057;
   padding: 5px 12px;
   border: none;
   border-radius: 50px;
   width: 180px;
-  color: #34215b;
+  color: #2c4228;
   font-weight: 600;
   font-size: 15px;
   cursor: pointer;

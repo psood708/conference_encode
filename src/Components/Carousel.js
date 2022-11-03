@@ -1,4 +1,5 @@
 import React from "react"
+import {useRef} from "react"
 import IndividualCarousel from "./IndividualCarousel"
 import carouseldata from "../assets/data/carouseldata"
 import "../assets/css/carousel.css"
@@ -6,6 +7,7 @@ import "../assets/css/carousel.css"
 export default function Carousel() {
   const [count, setCount] = React.useState(0)
   const [translateX, setTranslateX] = React.useState(0)
+  const indicators = useRef()
 
   const carousels = carouseldata.map((carousel) => {
     return (
@@ -46,6 +48,10 @@ export default function Carousel() {
           }
           return prevTranslateX - 100
         })
+
+    if (e.target.id === "next") {
+      console.log(indicators.current.children[count])
+    }
   }
 
   return (
@@ -57,9 +63,9 @@ export default function Carousel() {
         </button>
         <button className="btn next-btn" id="next" onClick={translateCarousel}>
           Next
-        </button> 
+        </button>
       </div>
-      <div className="indicators">
+      <div className="indicators" ref={indicators}>
         <div className="indicator active-indicator" id="0"></div>
         <div className="indicator" id="1"></div>
         <div className="indicator" id="2"></div>

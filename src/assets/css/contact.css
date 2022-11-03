@@ -5,6 +5,7 @@
   flex-direction: column;
   font-family: Calibri;
   margin: 0 100px;
+  padding: 5em;
 }
 .title h1 {
   font-size: 50px;
