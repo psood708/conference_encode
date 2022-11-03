@@ -45,17 +45,16 @@ export default function Navbar() {
               </a>
             </li>
           </ul>
-        
+
           <ul className="nav-main-menu">
-            
             <li className="nav-item">
               <a href="/" className="nav-link">
                 HOME
               </a>
             </li>
             <li className="nav-item">
-            <a href="/" className="nav-link">
-              THEME
+              <a href="/" className="nav-link">
+                THEME
               </a>
             </li>
             <li className="nav-item">
@@ -64,7 +63,7 @@ export default function Navbar() {
               </a>
             </li>
             <li className="nav-item">
-              <a href="/" className="nav-link">
+              <a href="/committee" className="nav-link">
                 COMMITTEES
               </a>
             </li>
@@ -79,10 +78,8 @@ export default function Navbar() {
               </a>
             </li>
           </ul>
-
-        
         </div>
-        
+
         <div id="hamburger" className="hamburger" onClick={ToggleSwitch}>
           <span className="bar"></span>
           <span className="bar"></span>
