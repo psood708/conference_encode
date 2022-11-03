@@ -19,7 +19,7 @@ export default function IndividualCarousel(props) {
             <h3 className="main-heading-1">{props.mainHeading2}</h3>
           </div>
           <div className="main-description">
-            <div className="title">
+            <div className="carousel-title">
               <h1>{props.title}</h1>
             </div>
             <div className="description">
