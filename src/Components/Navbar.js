@@ -35,12 +35,12 @@ export default function Navbar() {
         <div className="links">
           <ul className="nav-up">
             <li>
-              <a href="/commingsoon" className="upLinks">
+              <a href="/conference/commingsoon" className="upLinks">
                 SPONSOR
               </a>
             </li>
             <li>
-              <a href="/commingsoon" className="upLinks">
+              <a href="/conference/commingsoon" className="upLinks">
                 REGISTER
               </a>
             </li>
@@ -53,27 +53,27 @@ export default function Navbar() {
               </a>
             </li>
             <li className="nav-item">
-              <a href="/themes" className="nav-link">
+              <a href="/conference/themes" className="nav-link">
                 THEME
               </a>
             </li>
             <li className="nav-item">
-              <a href="/commingsoon" className="nav-link">
+              <a href="/conference/commingsoon" className="nav-link">
                 KEYNOTE SPEAKERS
               </a>
             </li>
             <li className="nav-item">
-              <a href="/committee" className="nav-link">
+              <a href="/conference/committee" className="nav-link">
                 COMMITTEES
               </a>
             </li>
             <li className="nav-item">
-              <a href="/commingsoon" className="nav-link">
+              <a href="/conference/commingsoon" className="nav-link">
                 CALL FOR PAPER
               </a>
             </li>
             <li className="nav-item">
-              <a href="/contact" className="nav-link">
+              <a href="/conferene/contact" className="nav-link">
                 CONTACT US
               </a>
             </li>
