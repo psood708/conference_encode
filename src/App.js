@@ -10,10 +10,10 @@ function App() {
     <HashRouter>
       <Routes>
         <Route exact path="/" element={<FirstPage />} />
-        <Route exact path="/committee" element={<Committee />} />
-        <Route exact path="/themes" element={<Theme />} />
-        <Route exact path="/commingsoon" element={<CommingSoon />} />
-        <Route exact path="/contact" element={<Contact />} />
+        <Route exact path="/conference/committee" element={<Committee />} />
+        <Route exact path="/conference/themes" element={<Theme />} />
+        <Route exact path="/conference/commingsoon" element={<CommingSoon />} />
+        <Route exact path="/conference/contact" element={<Contact />} />
       </Routes>
     </HashRouter>
   )
