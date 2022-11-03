@@ -28,7 +28,7 @@ export default function IndividualCarousel(props) {
           </div>
         </div>
         <div className="carousel-image-container">
-          <img src={`${props.imageSrc}`} alt="random" />
+          <img src={`${props.imageSrc}`} alt={`${props.alt}`} />
         </div>
       </div>
     </div>

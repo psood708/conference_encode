@@ -11,6 +11,7 @@ const carouseldata = [
     description:
       '"The flame of teaching and learning at PDPU shone brightest even during the darkest days of the pandemic. Our faculty continued to present award-winning research papers in national and international conferences. Our students continued to enjoy co-curricular and extra-curricular activities held digitally. Dear members of the PDPU Community, our accomplishments so far have been a source of joy."',
     imageSrc: img1,
+    alt: "Mukesh ambani at PDEU",
   },
   {
     key: 1,
@@ -20,6 +21,7 @@ const carouseldata = [
     description:
       '" I have been associated with projects of this university since early days and, therefore, I am glad to see the PDPU is creating its own identity, not just in the country but also in the world. I am sure that the university will continue to grow from strength to strength and will make a significant contribution to the development of the country."',
     imageSrc: img2,
+    alt: "Narendra Modi at PDEU",
   },
   {
     key: 2,
@@ -28,9 +30,8 @@ const carouseldata = [
     title: "ICEIM",
     description:
       "Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime mollitia,molestiae quas vel sint commodi repudiandae consequuntur voluptatum laborum numquam blanditiis harum quisquam eius sed odit fugiat iusto fuga praesentium optio, eaque rerum! Provident .",
-    imageSrc:
-      // "https://images.unsplash.com/photo-1665076034878-1bf3eb03a853?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxlZGl0b3JpYWwtZmVlZHw0Mnx8fGVufDB8fHx8&auto=format&fit=crop&w=600&q=60",
-      img3,
+    imageSrc: img3,
+    alt: "Chairman of PDEU",
   },
 ]
 
