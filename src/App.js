@@ -6,12 +6,16 @@ import Sponsor from "./Components/sponsor";
 import Footer from "./Components/footer";
 import Carousel from "./Components/Carousel";
 import Contact from "./Components/Contact";
+<<<<<<< HEAD
 import Cards from "./Components/Cards";
 import FirstPage from './Pages/FirstPage'
 import React from "react";
 import { BrowserRouter, Routes, Route } from 'react-router-dom';
 import CommingSoon from "./Components/CommingSoon";
 
+=======
+import Committee from "./Components/Committee";
+>>>>>>> f6b7c745a202735e4c25dbfb1018fb956bde9912
 function App() {
   return (
     // <div className="landing-page">

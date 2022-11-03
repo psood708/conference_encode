@@ -30,3 +30,12 @@
 .content ul li a:hover {
   color: #1d1292;
 }
+
+@media (max-width: 450px) {
+  .contactus {
+    margin: 0 50px;
+  }
+  .con-title {
+    text-align: center;
+  }
+}
