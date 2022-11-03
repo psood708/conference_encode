@@ -6,7 +6,7 @@ export default function Main() {
     <div className="main">
       <div className="main-text-container">
         <h1 className="main-heading">
-          Green Hydrogen for Global Decarbinization
+          Green Hydrogen for Global Decarbonization
         </h1>
         <p className="main-desc">
           Green Hydrogen is expected to become a $ 12-15 trillion global
