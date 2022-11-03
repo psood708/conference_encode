@@ -2,7 +2,7 @@ import React from "react"
 import "../assets/css/CommingSoon.css"
 import "../Components/Navbar.js"
 import Navbar from "../Components/Navbar.js"
-import Footer from "../Components/Footer.js"
+import Footer from "./Footer.js"
 
 const CommingSoon = () => {
   return (
