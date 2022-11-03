@@ -5,42 +5,33 @@ import img1 from "../images/carousel-images/1.jpg"
 const carouseldata = [
   {
     key: 0,
-    mainHeading1: "Together we thrive",
-    mainHeading2: "achievements",
-    // subTitle1: "Together We Thrive",
-    // subTitle2: "Together We Thrive",
-    title: "School of Petroleum Management",
+    mainHeading1: "Dr. Mukesh Ambani",
+    mainHeading2: "Chairman of Board",
+    title: "Mukesh Ambani at PDEU",
     description:
-      "Recharge and reboot at SIGGRAPH 2019, as multifaceted as you are—featuring global innovators who are changing what’s possible in computer graphics, animation, VR, Gaming, and Emerging Technologies.",
-    imageSrc:
-      // "https://images.unsplash.com/photo-1665107411141-a40f1ecea59a?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxlZGl0b3JpYWwtZmVlZHwzNHx8fGVufDB8fHx8&auto=format&fit=crop&w=600&q=60",
-      img1,
+      '"The flame of teaching and learning at PDPU shone brightest even during the darkest days of the pandemic. Our faculty continued to present award-winning research papers in national and international conferences. Our students continued to enjoy co-curricular and extra-curricular activities held digitally. Dear members of the PDPU Community, our accomplishments so far have been a source of joy."',
+    imageSrc: img1,
+    alt: "Mukesh ambani at PDEU",
   },
   {
     key: 1,
-    mainHeading1: "Lorem ipsum dolor",
-    mainHeading2: "sit",
-    // subTitle1: "",
-    // subTitle2: "",
+    mainHeading1: "Narendra Modi",
+    mainHeading2: "Prime Minister of India",
     title: "Pandit Deendayal Energy University",
     description:
-      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime mollitia,molestiae quas vel sint commodi repudiandae consequuntur voluptatum laborum numquam blanditiis harum quisquam eius sed odit fugiat iusto fuga praesentium optio, eaque rerum! Provident .",
-    imageSrc:
-      // "https://images.unsplash.com/photo-1665065960436-188a7471b1c7?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxlZGl0b3JpYWwtZmVlZHwyNHx8fGVufDB8fHx8&auto=format&fit=crop&w=600&q=60",
-      img2,
+      '" I have been associated with projects of this university since early days and, therefore, I am glad to see the PDPU is creating its own identity, not just in the country but also in the world. I am sure that the university will continue to grow from strength to strength and will make a significant contribution to the development of the country."',
+    imageSrc: img2,
+    alt: "Narendra Modi at PDEU",
   },
   {
     key: 2,
-    mainHeading1: "Veritatis obcaecati tenetur",
-    mainHeading2: "iureeius",
-    // subTitle1: "Veritatis obcaecati tenetur",
-    // subTitle2: "Veritatis obcaecati tenetur",
+    mainHeading1: "Dr Hasmukh Adhia",
+    // mainHeading2: "iureeius",
     title: "ICEIM",
     description:
       "Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime mollitia,molestiae quas vel sint commodi repudiandae consequuntur voluptatum laborum numquam blanditiis harum quisquam eius sed odit fugiat iusto fuga praesentium optio, eaque rerum! Provident .",
-    imageSrc:
-      // "https://images.unsplash.com/photo-1665076034878-1bf3eb03a853?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxlZGl0b3JpYWwtZmVlZHw0Mnx8fGVufDB8fHx8&auto=format&fit=crop&w=600&q=60",
-      img3,
+    imageSrc: img3,
+    alt: "Chairman of PDEU",
   },
 ]
 

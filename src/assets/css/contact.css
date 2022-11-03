@@ -1,0 +1,40 @@
+.contactus {
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  flex-direction: column;
+  font-family: Calibri;
+  margin: 0 100px;
+}
+.title h1 {
+  font-size: 50px;
+}
+.content ul {
+  list-style: none;
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
+.content ul li {
+  margin: 50px 0;
+}
+.content ul li p {
+  color: #5f5f5f;
+}
+.content ul li a {
+  text-decoration: none;
+  font-weight: bolder;
+  color: #7e066c;
+}
+.content ul li a:hover {
+  color: #1d1292;
+}
+
+@media (max-width: 450px) {
+  .contactus {
+    margin: 0 50px;
+  }
+  .con-title {
+    text-align: center;
+  }
+}
