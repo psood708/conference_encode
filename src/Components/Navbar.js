@@ -35,7 +35,7 @@ export default function Navbar() {
         <div className="links">
           <ul className="nav-up">
             <li>
-              <a href="/" className="upLinks">
+              <a href="/conference" className="upLinks">
                 SPONSOR
               </a>
             </li>
@@ -48,17 +48,17 @@ export default function Navbar() {
 
           <ul className="nav-main-menu">
             <li className="nav-item">
-              <a href="/" className="nav-link">
+              <a href="/conference" className="nav-link">
                 HOME
               </a>
             </li>
             <li className="nav-item">
-              <a href="/" className="nav-link">
+              <a href="/themes" className="nav-link">
                 THEME
               </a>
             </li>
             <li className="nav-item">
-              <a href="/" className="nav-link">
+              <a href="/conference" className="nav-link">
                 KEYNOTE SPEAKERS
               </a>
             </li>
