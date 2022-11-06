@@ -42,7 +42,9 @@ tr {
   display: flex;
   width: 100%;
   padding: (12px * 1.5) 0;
-  margin: 1rem 0;
+  height: 4rem;
+  text-align: center;
+  line-height: 4rem;
 }
 td:nth-child(1) {
   padding-left: 2rem;
