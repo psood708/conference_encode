@@ -14,7 +14,7 @@ export default function IndividualCarousel(props) {
     >
       <div className="carousel-flex">
         <div className="carousel-text-container">
-          <div classname="main-heading">
+          <div className="main-heading">
             <h1 className="main-heading-2">{props.mainHeading1}</h1>
             <h3 className="main-heading-1">{props.mainHeading2}</h3>
           </div>

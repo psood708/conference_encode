@@ -12,21 +12,21 @@ const Contact = () => {
             <li>
               <p>General Inquiries</p>
               <p>Conference Chair, IEEE GlobConHT 2023</p>
-              <a class="url" href="mailto:r.n.s@ieee.org">
+              <a className="url" href="mailto:r.n.s@ieee.org">
                 Email Id: r.n.s@ieee.org
               </a>
             </li>
             <li>
               <p>Technical & Paper Submissions: </p>
               <p>Technical Chair, IEEE GlobConHT 2023</p>
-              <a class="url" href="mailto:globconht@gmail.com">
+              <a className="url" href="mailto:globconht@gmail.com">
                 Email Id: globconht@gmail.com
               </a>
             </li>
             <li>
               <p>Special Sessions, Tutorials, Workshops Proposals : </p>
               <p>Conference Secretary, IEEE GlobConHT 2023</p>
-              <a class="url" href="mailto:university_conference@yahoo.com">
+              <a className="url" href="mailto:university_conference@yahoo.com">
                 Email Id: university_conference@yahoo.com
               </a>
             </li>

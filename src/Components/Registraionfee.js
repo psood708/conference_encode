@@ -121,7 +121,7 @@ const Registraionfee = () => {
           <p>**18% GST is applicable on registration fees</p>
           <p>10% additional discount if 5 & above nos. of Students/delegates pay at once while registering for the
 conference from the same organization.</p>
-          <p>For Registrations, please email us at <span><a class="url" href="mailto:green.hydrogen@pdpu.ac.in">green.hydrogen@pdpu.ac.in</a></span> or <span><a class="url" href="mailto:greenhydrogenpdpu@gmail.com">greenhydrogenpdpu@gmail.com</a></span></p>
+          <p>For Registrations, please email us at <span><a className="url" href="mailto:green.hydrogen@pdpu.ac.in">green.hydrogen@pdpu.ac.in</a></span> or <span><a className="url" href="mailto:greenhydrogenpdpu@gmail.com">greenhydrogenpdpu@gmail.com</a></span></p>
         </div>
       </div>
     </>
