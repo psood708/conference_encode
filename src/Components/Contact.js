@@ -1,11 +1,8 @@
 import "../assets/css/contact.css"
-import Footer from "./Footer"
-import Navbar from "./Navbar"
 
 const Contact = () => {
   return (
     <>
-      <Navbar />
       <div className="contactus">
         <div className="con-title">
           <h1>Contacts</h1>
@@ -36,7 +33,6 @@ const Contact = () => {
           </ul>
         </div>
       </div>
-      <Footer />
     </>
   )
 }
