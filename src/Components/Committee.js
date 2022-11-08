@@ -11,10 +11,10 @@ const Committee = () => {
             <div>
                 <h3 className='subheading'>Organizing Committee</h3>
                 <div className='names'>
-                    <p><u>Chief Patron</u><tr /><span>Prof. S. Sundar Manoharan, Director General, PDEU</span></p>
-                    <p><u>Patron</u><tr /><span>Dr. Anirbid B Sircar, , Director,SPT, PDEU</span></p>
-                    <p><u>Convener</u><tr /><span>Dr. Rohit Srivastava, PDEU</span></p>
-                    <p><u>Treasurer</u><tr /><span>Dr. Hari S, PDEU<br />Mr. Mohit Goyal, PDEU<br />Mr. Hari Pavan Yalamati, PDEU</span></p>
+                    <p><u>Chief Patron</u><br /><span>Prof. S. Sundar Manoharan, Director General, PDEU</span></p>
+                    <p><u>Patron</u><br /><span>Dr. Anirbid B Sircar, , Director,SPT, PDEU</span></p>
+                    <p><u>Convener</u><br /><span>Dr. Rohit Srivastava, PDEU</span></p>
+                    <p><u>Treasurer</u><br /><span>Dr. Hari S, PDEU<br />Mr. Mohit Goyal, PDEU<br />Mr. Hari Pavan Yalamati, PDEU</span></p>
                 </div>
             </div>
             <div>

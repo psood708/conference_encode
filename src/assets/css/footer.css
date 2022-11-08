@@ -3,7 +3,7 @@
     font-family: 'Raleway','Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     padding:57px 2% 57px 8% ;
     align-items: center;
-    background-color:#155B5B ;
+    background-color:#003F6C ;
     /* color:#4cc5b2; */
     color:rgb(212, 212, 212);
     border-bottom:1px solid  rgb(244, 237, 255);
@@ -33,7 +33,7 @@ a{
 }
 .footer-p2{
     padding:8% 86px 12% 4%;
-    background-color: #207651;
+    background-color: #003F6C;
     /* font-size: x-large; */
     /* overflow-y: scroll  ; */
     color:rgb(219, 219, 219);
