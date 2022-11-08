@@ -1,6 +1,7 @@
 # Conference Website
 
-Developed by [Encode Web Team](https://github.com/Encode-PDEU) ([Preet Sojitra](https://github.com/Preet-Sojitra), [Parth Sood](https://github.com/psood708) and [Aniket Patel](https://github.com/Aniket-Patel-swg))
+<!-- Developed by [Encode Web Team](https://github.com/Encode-PDEU) ([Preet Sojitra](https://github.com/Preet-Sojitra), [Parth Sood](https://github.com/psood708) and [Aniket Patel](https://github.com/Aniket-Patel-swg)) -->
+Developed by [Encode Web Team](https://github.com/Encode-PDEU)
 
 # Folder Structure
 
