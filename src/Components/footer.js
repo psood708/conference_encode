@@ -7,21 +7,6 @@ import { ImFacebook } from "react-icons/im"
 export default function Footer() {
     return (
         <div>
-            <div className="footer-p1">
-                <div className="conf">
-                    <div className="foot-topic">
-                        <BiCopyright />  2022 Green Hydrogen Conference
-                    </div>
-                    <div className="medias">
-                    <ul className="connect">
-                        <li>Connect with us</li>
-                        <li className="lnks"><a href="/"><FaTwitter /></a></li>
-                        <li className="lnks"><a href="/"><ImLinkedin2 /></a></li>
-                        <li className="lnks"><a href="/"><ImFacebook /></a></li>
-                    </ul>
-                    </div>
-                </div>
-            </div>
             <div className="footer-p2">
                 <div className="parts">
                     <ul>
@@ -51,6 +36,21 @@ export default function Footer() {
                 </ul>
                 </div>
                
+            </div>
+            <div className="footer-p1">
+                <div className="conf">
+                    <div className="foot-topic">
+                        <BiCopyright />  2022 Green Hydrogen Conference
+                    </div>
+                    <div className="medias">
+                    <ul className="connect">
+                        <li>Connect with us</li>
+                        <li className="lnks"><a href="/"><FaTwitter /></a></li>
+                        <li className="lnks"><a href="/"><ImLinkedin2 /></a></li>
+                        <li className="lnks"><a href="/"><ImFacebook /></a></li>
+                    </ul>
+                    </div>
+                </div>
             </div>
         </div>
 
