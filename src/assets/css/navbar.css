@@ -1,5 +1,5 @@
 .header {
-  background-color: #004C5C;
+  background-color: #004c5c;
   opacity: 1;
   padding-top: 1%;
   /* position: fixed; */
@@ -7,7 +7,8 @@
 .nav-up {
   display: flex;
   justify-content: flex-end;
-  gap: 25px;
+  /* gap: 25px; */
+  gap: 20px;
   padding-bottom: 10px;
   margin-bottom: 10px;
 
@@ -47,7 +48,8 @@
 .nav-main-menu {
   display: flex;
   justify-content: space-between;
-  gap: 25px;
+  /* gap: 25px; */
+  gap: 20px;
   /* padding-bottom: 0; */
   /* margin-right: 6%; */
 }
@@ -118,7 +120,7 @@
     top: 80px;
     gap: 0;
     flex-direction: column;
-    background-color: #004C5C;
+    background-color: #004c5c;
     width: 100%;
     text-align: center;
     transition: 0.3s;
@@ -151,7 +153,7 @@
     /* transform: scale(1.2); */
 
     transition-delay: 0.3s;
-    background-color: #004C5C;
+    background-color: #004c5c;
     border-radius: 10px;
     color: #f0cb47;
     transition: 0.7s ease-out;
