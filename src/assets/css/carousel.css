@@ -117,7 +117,7 @@
 
 @media (min-width: 600px) and (max-width: 1000px) {
   .allCarousels-container {
-    height: 810px;
+    height: 820px;
   }
   .carousel-image-container img {
     width: 75%;
@@ -125,7 +125,7 @@
 }
 @media (min-width: 1000px) and (max-width: 1200px) {
   .allCarousels-container {
-    height: 780px;
+    height: 800px;
   }
   .carousel-image-container img {
     width: 60%;
@@ -180,7 +180,7 @@
 
   /* Carousel.js file css */
   .allCarousels-container {
-    height: 50vh;
+    height: 30rem;
     /* height: 55vh; */
   }
   .btns-container {

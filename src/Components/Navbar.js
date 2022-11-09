@@ -1,6 +1,7 @@
 import React, {useState} from "react"
 import logo from "../assets/images/logo.png"
 import "../assets/css/navbar.css"
+import {Link} from "react-router-dom"
 // import Theme from "./Theme";
 
 // import { useRef,useEffect } from "react"
@@ -35,47 +36,52 @@ export default function Navbar() {
         <div className="links">
           {/* <ul className="nav-up">
             <li>
-              <a href="/conference/commingsoon" className="upLinks">
+              <Link to="/commingsoon" className="upLinks">
                 SPONSOR
-              </a>
+              </Link>
             </li>
             <li>
-              <a href="/conference/commingsoon" className="upLinks">
+              <Link to="/commingsoon" className="upLinks">
                 REGISTER
-              </a>
+              </Link>
             </li>
           </ul> */}
 
           <ul className="nav-main-menu">
             <li className="nav-item">
-              <a href="/conference" className="nav-link">
+              <Link to="/" className="nav-link">
                 HOME
-              </a>
+              </Link>
             </li>
             <li className="nav-item">
-              <a href="/conference/themes" className="nav-link">
+              <Link to="/themes" className="nav-link">
                 THEME
-              </a>
+              </Link>
             </li>
             <li className="nav-item">
-              <a href="/conference/commingsoon" className="nav-link">
+              <Link to="/commingsoon" className="nav-link">
                 KEYNOTE SPEAKERS
-              </a>
+              </Link>
             </li>
             <li className="nav-item">
-              <a href="/conference/committee" className="nav-link">
+              <Link to="/committee" className="nav-link">
                 COMMITTEES
-              </a>
+              </Link>
             </li>
             <li className="nav-item">
-              <a href="/conference/commingsoon" className="nav-link">
+              <Link to="/commingsoon" className="nav-link">
                 CALL FOR PAPER
-              </a>
+              </Link>
             </li>
             <li className="nav-item">
-              <a href="/conference/contact" className="nav-link">
+              <Link to="/contact" className="nav-link">
                 CONTACT US
-              </a>
+              </Link>
+            </li>
+            <li className="nav-item">
+              <Link to="/registration" className="nav-link">
+                REGISTERATION
+              </Link>
             </li>
             <li className="nav-item">
               <a href="/conference/comingsoon" className="nav-link">

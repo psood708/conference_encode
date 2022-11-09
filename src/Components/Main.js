@@ -5,11 +5,19 @@ export default function Main() {
   return (
     <div className="main">
       <div className="main-text-container">
-        <h1 className="main-heading">Thrive Together</h1>
+        <h1 className="main-heading">
+          Green Hydrogen for Global Decarbonization
+        </h1>
         <p className="main-desc">
-          Recharge and reboot at SIGGRAPH 2019, as multifaceted as you
-          are—featuring global innovators who are changing what’s possible in
-          computer graphics, animation, VR, Gaming, and Emerging Technologies.
+          Green Hydrogen is expected to become a $ 12-15 trillion global
+          industry by 2050. Green Hydrogen has the potential to become a vital
+          component of the energy mix in the next few decades that has captured
+          a clear investor interest.
+          <br />
+          The first International Hydrogen Energy & Economy conference which is
+          being organised by the Catalysis & Hydrogen Research lab from school
+          of petroleum technology in Pandit Deendayal Energy University,
+          Gandhinagar, Gujarat.
         </p>
       </div>
       <div className="heading-container">

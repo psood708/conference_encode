@@ -1,0 +1,74 @@
+.regFee {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  height: 100%;
+  width: 100%;
+  margin-bottom: 6rem;
+  color: #3a3a3a;
+}
+.regHead {
+  width: 80%;
+  margin: 4rem 0 2rem 0;
+}
+.regHead h2 {
+  margin: 1rem 0;
+}
+.regData {
+  width: 80%;
+}
+.regDataField,
+.regDataTable {
+  width: 100%;
+}
+.regDataField {
+  margin: 3rem 0;
+}
+table {
+  width: 100%;
+  border: 1px solid #EEEEEE;
+  background: #4cc5b31b;
+}
+thead {
+  background: #155B5B;
+  display: flex;
+  width: 100%;
+  color: #fff;
+  padding: (12px * 1.5) 0;
+}
+
+tr {
+  display: flex;
+  width: 100%;
+  padding: (12px * 1.5) 0;
+  height: 3rem;
+  text-align: center;
+  line-height: 3rem;
+}
+td:nth-child(1) {
+  padding-left: 2rem;
+  text-align: left;
+}
+
+td,
+th {
+  flex: 1 1 20%;
+  text-align: center;
+}
+
+th {
+  text-transform: uppercase;
+}
+
+h3,
+h4 {
+  font-weight: normal;
+}
+h2{
+  color: #000;
+}
+
+.regNotes {
+  color: #c01921;
+}

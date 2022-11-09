@@ -7,7 +7,7 @@ export default function Theme() {
     <div>
       <Navbar />
       <div className="theme-head">
-        <h1>Green Hydrogen ,Zero Carbon Footprint and Catalyst</h1>
+        <h1>Green Hydrogen, Zero Carbon Footprint and Catalyst</h1>
 
         <p>
           The first International Hydrogen Energy & Economy conference which is
@@ -38,7 +38,22 @@ export default function Theme() {
           ment in types of equipment, compressors, devices, products,
           technologies and ser- vices in the hydrogen industry.
         </p>
-
+        <div className="themeslist">
+          <h3>Themes</h3>
+          <ul>
+            <li>Hydrogen Production and Catalysis</li>
+            <li>Fuel Cells</li>
+            <li>Fuel Cells</li>
+            <li>Hydrogen Storage</li>
+            <li>Hydrogen Transportation</li>
+            <li>Hydrogen Economy, Strategy, and Policy</li>
+            <li>Hydrogen Utilization</li>
+            <li>Carbon capture, utilization, and storage</li>
+            <li>Sustainable Hydrogen Technologies</li>
+            <li>Waste to Hydrogen Energy</li>
+            <li>AI/ML & Big Data</li>
+          </ul>
+        </div>
         <Footer />
       </div>
     </div>
