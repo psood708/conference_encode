@@ -19,20 +19,18 @@ function App() {
     //     <Route exact path="/conference/registration" element={<RegistrationFeePage />} />
     //   </Routes>
     // </HashRouter>
-    <BrowserRouter>
-      <Routes>
-        {/* <Route exact path="/" element={<RegistrationFeePage />} /> */}
-        <Route exact path="/" element={<FirstPage />} />
-        <Route exact path="/conference" element={<FirstPage />} />
-        <Route exact path="/committee" element={<Committee />} />
-        <Route exact path="/themes" element={<Theme />} />
-        <Route exact path="/commingsoon" element={<CommingSoon />} />
-        <Route exact path="/contact" element={<ContactPage />} />
-        <Route exact path="/registration" element={<RegistrationFeePage />} />
-      </Routes>
-    </BrowserRouter>
-
-
+    // <BrowserRouter>
+    <Routes>
+      {/* <Route exact path="/" element={<RegistrationFeePage />} /> */}
+      <Route exact path="/" element={<FirstPage />} />
+      <Route exact path="/conference" element={<FirstPage />} />
+      <Route exact path="/committee" element={<Committee />} />
+      <Route exact path="/themes" element={<Theme />} />
+      <Route exact path="/commingsoon" element={<CommingSoon />} />
+      <Route exact path="/contact" element={<ContactPage />} />
+      <Route exact path="/registration" element={<RegistrationFeePage />} />
+    </Routes>
+    // </BrowserRouter>
   )
 }
 

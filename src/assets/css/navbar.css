@@ -48,7 +48,8 @@
 .nav-main-menu {
   display: flex;
   justify-content: space-between;
-  gap: 25px;
+  /* gap: 25px; */
+  gap: 20px;
   /* padding-bottom: 0; */
   /* margin-right: 6%; */
 }
