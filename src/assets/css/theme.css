@@ -1,5 +1,6 @@
 .theme-head p{
     margin: 2% 10% 2% 10%;
+    text-align: justify;
 }
 .theme-head h1{
 
@@ -10,4 +11,26 @@
 .theme-head .last{
     margin-bottom: 10%;
 }
- 
+.themeslist{
+    width: 90%;
+    margin: 2% 10% 2% 10%;
+    display: flex;
+    justify-content: center;
+    /* align-items: center; */
+    flex-direction: column;
+    margin-bottom: 100px;
+    overflow: hidden;
+}
+.themeslist h3{
+    font-size: 3rem;
+    font-weight: 600;
+}
+.themeslist ul{
+    list-style: none;
+    display: block;
+}
+.themeslist ul li{
+    /* text-align: center; */
+    width: 50%;
+    margin: 20px 0;
+}
