@@ -18,8 +18,8 @@
   list-style: none;
 }
 .nav-main-menu a {
-  color: rgb(86, 142, 95);
-  font-weight: 100;
+  color: white;
+  font-weight: 500;
   text-decoration: none;
 }
 .nav-up a {
@@ -27,7 +27,7 @@
   text-decoration: none;
 }
 .navbar {
-  min-height: 120px;
+  min-height: 80px;
   /* position: fixed; */
   /* here we have to adjust the min height */
   display: flex;
@@ -39,7 +39,8 @@
   margin-left: 8%;
 }
 .navbar .logo img {
-  max-width: 70%;
+  max-width: 50%;
+  align-self: left;
 }
 .search {
   display: flex;
@@ -48,8 +49,13 @@
 .nav-main-menu {
   display: flex;
   justify-content: space-between;
+<<<<<<< HEAD
+  gap: 20px;
+  margin-left: 10px;
+=======
   /* gap: 25px; */
   gap: 20px;
+>>>>>>> 06ffcbcd34e39ade9dd9c6d737726b325e79201e
   /* padding-bottom: 0; */
   /* margin-right: 6%; */
 }
@@ -117,8 +123,9 @@
     border-top: 3px bold green;
     position: fixed;
     right: -100%;
-    top: 80px;
+    top: 70px;
     gap: 0;
+    font-size:medium;
     flex-direction: column;
     background-color: #004c5c;
     width: 100%;

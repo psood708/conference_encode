@@ -34,7 +34,7 @@ export default function Navbar() {
           <img src={logo} alt="Logo" />
         </div>
         <div className="links">
-          <ul className="nav-up">
+          {/* <ul className="nav-up">
             <li>
               <Link to="/commingsoon" className="upLinks">
                 SPONSOR
@@ -45,7 +45,7 @@ export default function Navbar() {
                 REGISTER
               </Link>
             </li>
-          </ul>
+          </ul> */}
 
           <ul className="nav-main-menu">
             <li className="nav-item">
@@ -82,6 +82,11 @@ export default function Navbar() {
               <Link to="/registration" className="nav-link">
                 REGISTERATION
               </Link>
+            </li>
+            <li className="nav-item">
+              <a href="/conference/comingsoon" className="nav-link">
+                REGISTRATION
+              </a>
             </li>
           </ul>
         </div>
