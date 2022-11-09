@@ -7,7 +7,7 @@ export default function Theme() {
     <div>
       <Navbar />
       <div className="theme-head">
-        <h1>Green Hydrogen ,Zero Carbon Footprint and Catalyst</h1>
+        <h1>Green Hydrogen, Zero Carbon Footprint and Catalyst</h1>
 
         <p>
           The first International Hydrogen Energy & Economy conference which is
