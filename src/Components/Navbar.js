@@ -91,7 +91,7 @@ export default function Navbar() {
 
         <div id="hamburger" className="hamburger" onClick={ToggleSwitch}>
           <span className="bar"></span>
-          <span className="bar"></span>
+          <span className="bar"></span>git pu
           <span className="bar"></span>
         </div>
       </nav>
