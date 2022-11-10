@@ -1,9 +1,17 @@
+.committeewrap{
+    padding: 5rem 0;
+    /* display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center; */
+}
 .title{
     text-align: center !important;
 }
 
 p{
     font-size: 15px;
+    margin: 30px 0;
 }
 
 .subheading{
@@ -17,7 +25,6 @@ p{
     text-align: center;
     padding: 0.75rem;
 }
-
 .gridname{
     display: grid;
     padding: 0.5rem;
