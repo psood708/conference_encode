@@ -83,11 +83,6 @@ export default function Navbar() {
                 REGISTERATION
               </Link>
             </li>
-            <li className="nav-item">
-              <a href="/conference/comingsoon" className="nav-link">
-                REGISTRATION
-              </a>
-            </li>
           </ul>
         </div>
 
