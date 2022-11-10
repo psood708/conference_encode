@@ -6,7 +6,7 @@ import Footer from "../Components/Footer"
 import Main from "../Components/Main"
 import Navbar from "../Components/Navbar"
 import Section2 from "../Components/Section2"
-import Sponsor from "../Components/Sponsor"
+import Sponsor from "../Components/sponsor"
 
 const FistPage = () => {
   return (

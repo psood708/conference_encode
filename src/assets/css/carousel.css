@@ -44,7 +44,7 @@
 /* CSS for Carousel.js file*/
 .carousels-section {
   background-color: #007350;
-  color: rgb(1, 78, 11);
+  color: rgb(230, 238, 231);
   position: relative;
   margin-top: 3rem;
 }
@@ -68,10 +68,13 @@
   border: none;
   border-radius: 50px;
   width: 180px;
-  color: #2c4228;
+  color: rgb(255, 255, 255);
   font-weight: 600;
   font-size: 15px;
   cursor: pointer;
+}
+.btn :hover{
+  color:rgb(255, 255, 255);
 }
 .prev-btn {
   text-align: center;
@@ -93,7 +96,7 @@
   background-color: #fff;
 }
 .active-indicator {
-  background-color: #4cc5b2;
+  background-color: #99040465;
 }
 
 @media (min-width: 600px) and (max-width: 1200px) {

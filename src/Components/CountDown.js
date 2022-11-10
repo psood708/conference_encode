@@ -29,8 +29,8 @@ export default function CountDown() {
   return (
     <div className="countdown-container">
       <div className="count-down-heading">
-        <h1> Next Event </h1>
-        <h1>in</h1>
+        <h1> Next Event In</h1>
+        {/* <h1>in</h1> */}
       </div>
       <div className="timer-container">
         <div className="days">

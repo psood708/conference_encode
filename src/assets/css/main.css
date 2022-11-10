@@ -4,17 +4,17 @@
 .main {
   background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)),
     url("../images/Windmill image.jpg");
-  background-color: #007904;
+  background-color: #004c5c;
   background-repeat: no-repeat;
   background-size: contain;
   width: 100%;
   color: #fff;
-}
+} 
 
 .main-text-container {
   max-width: 75%;
   margin: auto;
-  padding-top: 20px;
+  padding-top: 15px;
 }
 
 .main-heading {
@@ -82,7 +82,7 @@
   .main {
     background: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.7) #007904),
       url("../images/Windmill image.jpg") no-repeat;
-    background-size: contain;
+    background-size: auto;
   }
   .main-text-container {
     padding-top: 15%;

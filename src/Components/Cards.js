@@ -5,7 +5,7 @@ const Cards = () => {
   return (
     <div className="Cards">
       <div className="card-container">
-        <div className="card">
+        <div className="card"> 
           Investment Strategies & Business Models to Deploy Green Hydrogen
           Projects
         </div>

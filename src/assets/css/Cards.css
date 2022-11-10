@@ -1,11 +1,13 @@
 /* Cards */
 @import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,400;0,500;0,700;1,100;1,900&display=swap');
 .Cards{
-    padding-top: 7em;
+    padding-top: 7em; 
     padding-bottom: 1em;
+    background-color: #f5f5f5;
+    
 }
 .cards-container {
-    display: flex;
+    display: flex; 
     gap: 20px;
     justify-content: center;
     flex-wrap: wrap;
@@ -25,5 +27,5 @@
     padding: 0 15px;
     display: flex;
     align-items: flex-end;
-    padding-bottom: 20px;
+    /* padding-bottom: 20px; */
   }
