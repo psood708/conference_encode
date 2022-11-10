@@ -34,9 +34,9 @@
   justify-content: space-between;
   align-items: center;
   padding: 0 20px;
-  gap: 10px;
-  margin-right: 8%;
-  margin-left: 8%;
+  gap: 18px;
+  margin-right: 5%;
+  margin-left: 5%;
 }
 .navbar .logo img {
   max-width: 50%;
@@ -49,6 +49,7 @@
 .nav-main-menu {
   display: flex;
   justify-content: space-between;
+/* <<<<<<< HEAD */
 /* <<<<<<< HEAD
   gap: 20px;
   margin-left: 10px; */
@@ -56,6 +57,10 @@
   /* gap: 25px; */
   gap: 20px;
 /* >>>>>>> 06ffcbcd34e39ade9dd9c6d737726b325e79201e */
+/* ======= */
+  /* gap: 25px; */
+  /* gap: 20px; */
+/* >>>>>>> d1d2e9583dc18b69dfb589447dde053feb4f94e1 */
   /* padding-bottom: 0; */
   /* margin-right: 6%; */
 }
@@ -125,7 +130,7 @@
     right: -100%;
     top: 70px;
     gap: 0;
-    font-size:medium;
+    font-size: medium;
     flex-direction: column;
     background-color: #004c5c;
     width: 100%;

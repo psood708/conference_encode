@@ -79,9 +79,12 @@ export default function Navbar() {
               </Link>
             </li>
             <li className="nav-item">
-              <a href="/registration" className="nav-link">
-                REGISTRATION
-              </a>
+ 
+
+              <Link to="/registration" className="nav-link">
+                REGISTERATION
+              </Link>
+
             </li>
           </ul>
         </div>
