@@ -43,8 +43,9 @@
 
 /* CSS for Carousel.js file*/
 .carousels-section {
-  background-color: #007350;
-  color: rgb(1, 78, 11);
+  /* background-color: #007350; */
+  background-color: #005773;
+  color: rgb(244, 255, 246);
   position: relative;
   margin-top: 3rem;
 }
@@ -63,12 +64,12 @@
   padding-bottom: 25px;
 }
 .btn {
-  background-color: #5ac057;
+  background-color: #579bc0;
   padding: 5px 12px;
   border: none;
   border-radius: 50px;
   width: 180px;
-  color: #2c4228;
+  color: #242524;
   font-weight: 600;
   font-size: 15px;
   cursor: pointer;
@@ -93,7 +94,7 @@
   background-color: #fff;
 }
 .active-indicator {
-  background-color: #4cc5b2;
+  background-color: #4ca5c5;
 }
 
 @media (min-width: 600px) and (max-width: 1200px) {

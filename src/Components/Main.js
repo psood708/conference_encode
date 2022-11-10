@@ -4,7 +4,7 @@ import "../assets/css/main.css"
 export default function Main() {
   return (
     <div className="main">
-      <div className="main-text-container">
+      {/* <div className="main-text-container">
         <h1 className="main-heading">
           Green Hydrogen for Global Decarbonization
         </h1>
@@ -20,13 +20,27 @@ export default function Main() {
           Gandhinagar, Gujarat.
         </p>
       </div>
-      <div className="heading-container">
+      <div className="heading-container"> */}
         {/* <div className="card">Thrust Areas</div>
         <div className="card">Objectives & Outcomes</div>
         <div className="card">Organizing Committee</div>
         <div className="card">Fees & Important Dates</div>
         <div className="card">About Us</div> */}
-        <p>Green Hydrogen</p>
+        {/* <p>Green Hydrogen</p>
+      </div> */}
+      <div className="HeroSection">
+        <p className="FirstSmallText">
+          1st International conference 
+        </p>
+          <p className="MainHeading1">
+          GREEN HYDROGEN FOR GLOBAL DECARBONIZATION 
+        {/* </p> */}
+        {/* <p className="MainHeading2"> */}
+        
+        </p>
+        <p className="SecondSmallText">
+          March 16Th - 17Th, 2023 | PDEU | Gandhinagar 
+        </p>
       </div>
     </div>
   )
