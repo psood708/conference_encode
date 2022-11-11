@@ -53,7 +53,8 @@
   overflow-x: auto;
   position: relative;
   /* height: 85vh; */
-  height: 750px;
+  /* height: 750px; */
+  height: 820px;
 }
 .btns-container {
   display: flex;
