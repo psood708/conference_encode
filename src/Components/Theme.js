@@ -1,61 +1,234 @@
-import React from "react"
-import Navbar from "./Navbar"
-import Footer from "./Footer"
-import "../assets/css/theme.css"
+import React from "react";
+import Navbar from "./Navbar";
+import Footer from "./Footer";
+import "../assets/css/theme.css";
 export default function Theme() {
   return (
-    <div>
+    <div style={{backgroundColor: "#537ba8"}}>
       <Navbar />
-      <div className="theme-head">
-        <h1>Green Hydrogen, Zero Carbon Footprint and Catalyst</h1>
-
-        <p>
-          The first International Hydrogen Energy & Economy conference which is
-          being organized by the Catalysis & Hydrogen Research lab from school
-          of petroleum tech- nology in Pandit Deendayal Energy University,
-          Gandhinagar, Gujarat. Pandit Deendayal Energy University, Gandhinagar
-          is the one of the leading research insti- tutes in India in energy
-          sector and various fields.
-        </p>
-        <p>
-          Green hydrogen is expected to become a $ 12-15 trillion global
-          industry by 2050. Green Hydrogen has the potential to become a vital
-          component of the energy mix in the next few decades that has captured
-          a clear investor interest in the 1st In- ternational conference on
-          green hydrogen for global decarbonization.
-        </p>
-        <p className="last">
-          The two-day 1st International conference on green hydrogen for global
-          decar- bonization will bring together policymakers, regulators,
-          innovators, oil and gas com- panies, infrastructure companies,
-          technology providers, industry experts and inves- tors to present
-          their perspectives and discuss projects to give further stimulus in
-          shaping the future of green hydrogen. It will also provide a global
-          platform for leading developers to showcase the project's innovations
-          and technologies for producing green hydrogen on a commercial scale
-          and explore the investor interest in financing their projects. The
-          conference will provide a platform for expelling the latest develop-
-          ment in types of equipment, compressors, devices, products,
-          technologies and ser- vices in the hydrogen industry.
-        </p>
-        <div className="themeslist">
-          <h3>Themes</h3>
-          <ul>
-            <li>Hydrogen Production and Catalysis</li>
-            <li>Fuel Cells</li>
-            <li>Fuel Cells</li>
-            <li>Hydrogen Storage</li>
-            <li>Hydrogen Transportation</li>
-            <li>Hydrogen Economy, Strategy, and Policy</li>
-            <li>Hydrogen Utilization</li>
-            <li>Carbon capture, utilization, and storage</li>
-            <li>Sustainable Hydrogen Technologies</li>
-            <li>Waste to Hydrogen Energy</li>
-            <li>AI/ML & Big Data</li>
-          </ul>
+     
+      <div className="wrapper" >
+        
+        <div className="cols">
+          <div className="col" ontouchstart="this.classList.toggle('hover');">
+            <div className="container">
+              <div
+                className="front"
+                style={{backgroundImage: "url(https://unsplash.it/500/500/)"}}
+               
+              >
+                <div className="inner">
+                  <p>Hydrogen Production and Catalysis</p>
+                  <span>Lorem ipsum</span>
+                </div>
+              </div>
+              <div className="back">
+                <div className="inner">
+                  <p>
+                    Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+                    Alias cum repellat velit quae suscipit c.
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div className="col" ontouchstart="this.classList.toggle('hover');">
+            <div className="container">
+              <div className="front" style={{backgroundImage: "url(https://unsplash.it/511/511/)"}}>
+                <div className="inner">
+                  <p>Fuel Cells</p>
+                  <span>Lorem ipsum</span>
+                </div>
+              </div>
+              <div className="back">
+                <div className="inner">
+                  <p>
+                    Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+                    Alias cum repellat velit quae suscipit c.
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div className="col" ontouchstart="this.classList.toggle('hover');">
+            <div className="container">
+              <div
+                className="front"
+                style={{backgroundImage: "url(https://unsplash.it/511/511/)"}}
+                // style="background-image: url(https://unsplash.it/502/502/)"
+              >
+                <div className="inner">
+                  <p>Hydrogen Storage</p>
+                  <span>Lorem ipsum</span>
+                </div>
+              </div>
+              <div className="back">
+                <div className="inner">
+                  <p>
+                    Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+                    Alias cum repellat velit quae suscipit c.
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div className="col" ontouchstart="this.classList.toggle('hover');">
+            <div className="container">
+              <div
+                className="front"
+                style={{backgroundImage: "url(https://unsplash.it/511/511/)"}}
+                // style="background-image: url(https://unsplash.it/503/503/)"
+              >
+                <div className="inner">
+                  <p>Hydrogen Transportation</p>
+                  <span>Lorem ipsum</span>
+                </div>
+              </div>
+              <div className="back">
+                <div className="inner">
+                  <p>
+                    Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+                    Alias cum repellat velit quae suscipit c.
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div className="col" ontouchstart="this.classList.toggle('hover');">
+            <div className="container">
+              <div
+                className="front"
+                style={{backgroundImage: "url(https://unsplash.it/511/511/)"}}
+                // style="background-image: url(https://unsplash.it/504/504/"
+              >
+                <div className="inner">
+                  <p>Hydrogen Economy, Strategy, and Policy</p>
+                  <span>Lorem ipsum</span>
+                </div>
+              </div>
+              <div className="back">
+                <div className="inner">
+                  <p>
+                    Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+                    Alias cum repellat velit quae suscipit c.
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div className="col" ontouchstart="this.classList.toggle('hover');">
+            <div className="container">
+              <div
+                className="front"
+                style={{backgroundImage: "url(https://unsplash.it/511/511/)"}}
+                // style="background-image: url(https://unsplash.it/505/505/)"
+              >
+                <div className="inner">
+                  <p>Hydrogen Utilization</p>
+                  <span>Lorem ipsum</span>
+                </div>
+              </div>
+              <div className="back">
+                <div className="inner">
+                  <p>
+                    Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+                    Alias cum repellat velit quae suscipit c.
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div className="col" ontouchstart="this.classList.toggle('hover');">
+            <div className="container">
+              <div
+                className="front"
+                style={{backgroundImage: "url(https://unsplash.it/511/511/)"}}
+                // style="background-image: url(https://unsplash.it/506/506/)"
+              >
+                <div className="inner">
+                  <p>Carbon capture, utilization, and storage</p>
+                  <span>Lorem ipsum</span>
+                </div>
+              </div>
+              <div className="back">
+                <div className="inner">
+                  <p>
+                    Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+                    Alias cum repellat velit quae suscipit c.
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div className="col" ontouchstart="this.classList.toggle('hover');">
+            <div className="container">
+              <div
+                className="front"
+                style={{backgroundImage: "url(https://unsplash.it/511/511/)"}}
+                // style="background-image: url(https://unsplash.it/508/508/)"
+              >
+                <div className="inner">
+                  <p>Sustainable Hydrogen Technologies</p>
+                  <span>Lorem ipsum</span>
+                </div>
+              </div>
+              <div className="back">
+                <div className="inner">
+                  <p>
+                    Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+                    Alias cum repellat velit quae suscipit c.
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div className="col" ontouchstart="this.classList.toggle('hover');">
+            <div className="container">
+              <div
+                className="front"
+                style={{backgroundImage: "url(https://unsplash.it/511/511/)"}}
+                // style="background-image: url(https://unsplash.it/508/508/)"
+              >
+                <div className="inner">
+                  <p>Waste to Hydrogen Energy</p>
+                  <span>Lorem ipsum</span>
+                </div>
+              </div>
+              <div className="back">
+                <div className="inner">
+                  <p>
+                    Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+                    Alias cum repellat velit quae suscipit c.
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div className="col" ontouchstart="this.classList.toggle('hover');">
+            <div className="container">
+              <div
+                className="front"
+                style={{backgroundImage: "url(https://unsplash.it/511/511/)"}}
+                // style="background-image: url(https://unsplash.it/508/508/)"
+              >
+                <div className="inner">
+                  <p>AI/ML & Big Data</p>
+                  <span>Lorem ipsum</span>
+                </div>
+              </div>
+              <div className="back">
+                <div className="inner">
+                  <p>
+                    Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+                    Alias cum repellat velit quae suscipit c.
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
         </div>
-        <Footer />
       </div>
+      <Footer />
     </div>
-  )
+  );
 }

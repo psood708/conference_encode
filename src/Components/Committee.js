@@ -1,6 +1,7 @@
 import React from "react";
 import Navbar from "./Navbar";
 import ".././assets/css/committee.css";
+import Footer from "./Footer";
 
 const Committee = () => {
   return (
@@ -121,8 +122,8 @@ const Committee = () => {
             <p>Dr. Namrata, PDEU</p>
           </div>
         </div>
-        
       </div>
+      <Footer />
     </div>
   );
 };
