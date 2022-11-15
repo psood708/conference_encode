@@ -80,7 +80,7 @@ export default function Navbar() {
             </li>
             <li className="nav-item">
               <Link to="/registration" className="nav-link">
-                REGISTERATION
+                REGISTRATION
               </Link>
             </li>
           </ul>

@@ -1,21 +1,21 @@
-import React from "react";
-import Navbar from "./Navbar";
-import Footer from "./Footer";
-import "../assets/css/theme.css";
+import React from "react"
+import Navbar from "./Navbar"
+import Footer from "./Footer"
+import "../assets/css/theme.css"
 export default function Theme() {
   return (
     <div style={{backgroundColor: "#537ba8"}}>
       <Navbar />
-     
-      <div className="wrapper" >
-        
+
+      <h1 className="themes-heading">Themes</h1>
+
+      <div className="wrapper">
         <div className="cols">
           <div className="col" ontouchstart="this.classList.toggle('hover');">
             <div className="container">
               <div
                 className="front"
                 style={{backgroundImage: "url(https://unsplash.it/500/500/)"}}
-               
               >
                 <div className="inner">
                   <p>Hydrogen Production and Catalysis</p>
@@ -34,7 +34,10 @@ export default function Theme() {
           </div>
           <div className="col" ontouchstart="this.classList.toggle('hover');">
             <div className="container">
-              <div className="front" style={{backgroundImage: "url(https://unsplash.it/511/511/)"}}>
+              <div
+                className="front"
+                style={{backgroundImage: "url(https://unsplash.it/511/511/)"}}
+              >
                 <div className="inner">
                   <p>Fuel Cells</p>
                   <span>Lorem ipsum</span>
@@ -230,5 +233,5 @@ export default function Theme() {
       </div>
       <Footer />
     </div>
-  );
+  )
 }
