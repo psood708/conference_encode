@@ -8,7 +8,7 @@ export default function CountDown() {
   const [seconds, setSeconds] = useState(0)
 
   // Set this deadline for the event. Currently it is set for new year 2023
-  const deadline = "December 31 2022 "
+  const deadline = "March 16 2023 "
 
   const getTime = () => {
     const time = Date.parse(deadline) - Date.now()

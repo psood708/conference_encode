@@ -5,86 +5,106 @@
     justify-content: center;
     align-items: center;
 } */
-.committeewrap{
-    padding: 5rem 0;
+.committeewrap {
+  padding: 5rem 0;
 }
-.title{
-    text-align: center !important;
+.title {
+  text-align: center !important;
 }
-.Page-title h3{
-    padding-bottom: 1.2em;
+.Page-title h3 {
+  padding-bottom: 1.2em;
 }
-.names h4{
-    padding-top: 1.2rem;
-    font-size: 28px;
-    text-decoration: underline;
-    padding-bottom: 1rem;
-    font-weight: 600;
-    color: #787878;
+.names h4 {
+  padding-top: 1.2rem;
+  font-size: 28px;
+  text-decoration: underline;
+  padding-bottom: 1rem;
+  font-weight: 600;
+  color: #787878;
 }
-.names{
-    font-size: 19px;
+.names {
+  font-size: 19px;
 }
-.title-subheading{
-    text-align: center !important;
-    font-size: 40px;
-    font-weight: 900;
-    color: #585858;
-    text-decoration: underline #787878;
+.title-subheading {
+  text-align: center !important;
+  font-size: 40px;
+  font-weight: 900;
+  color: #585858;
+  text-decoration: underline #787878;
 }
-p{
-    font-size: 15px;
-    margin: 30px 0;
+p {
+  font-size: 15px;
+  margin: 30px 0;
 }
-.subheading-1{
-    text-align: center;
-    font-weight: bolder;
-    font-size: 30px;
-    text-decoration: underline;
+.subheading-1 {
+  text-align: center;
+  font-weight: bolder;
+  font-size: 30px;
+  text-decoration: underline;
 }
-.subheading{
-    padding-top: 2em;
-    text-align: center !important;
-    font-size: 20px;
-    /* font-weight: bolder; */
-    /* text-decoration: underline; */
-    color: #585858;
+.subheading {
+  padding-top: 2em;
+  text-align: center !important;
+  font-size: 20px;
+  /* font-weight: bolder; */
+  /* text-decoration: underline; */
+  color: #585858;
 }
-.subheading-details{
-    padding: 1em;
+.subheading-details {
+  padding: 1em;
 }
-.subheading h3{
-    font-size: 25px;
-    font-weight: 900;
-    text-decoration: underline;
-    padding-bottom: 1.8em;
-    padding-top: 2em;
+.subheading h3 {
+  font-size: 25px;
+  font-weight: 900;
+  text-decoration: underline;
+  padding-bottom: 1.8em;
+  padding-top: 2em;
 }
-.names u{
-    font-size: 25px;
-    color: rgb(66, 66, 66);
-    text-decoration: underline #787878;
+.names u {
+  font-size: 25px;
+  color: rgb(66, 66, 66);
+  text-decoration: underline #787878;
 }
-.names span{
-    margin-top: 3em;
+.names span {
+  margin-top: 3em;
 }
-.names{
-    text-align: center;
-    padding: 0.75rem;
+.names {
+  text-align: center;
+  padding: 0.75rem;
 }
-.subheading-2{
-    text-align: center;
-    padding-top: 5em;
+.subheading-2 {
+  text-align: center;
+  padding-top: 5em;
 }
-.subheading-2 h3{
-    font-size: 25px;
-    text-decoration: underline;
-    padding-bottom: 2em;
+.subheading-2 h3 {
+  font-size: 25px;
+  text-decoration: underline;
+  padding-bottom: 2em;
 }
-.subheading-details-2{
-    padding: 0.5em;
-    font-size: 20px;
+.subheading-details-2 {
+  padding: 0.5em;
+  font-size: 20px;
 }
+.gridname {
+  text-align: center;
+}
+.gridname p {
+  font-size: 20px;
+}
+.gridname-delegates {
+  text-align: center;
+}
+.gridname-delegates p {
+  font-size: 20px;
+}
+
+.subheading {
+  font-size: 25px;
+  color: black;
+  padding-bottom: 0.3em;
+  text-decoration: underline;
+}
+
 /* .gridname{
     display: grid;
     padding: 0.5rem;

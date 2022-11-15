@@ -30,7 +30,7 @@ export default function Main() {
       </div> */}
       <div className="HeroSection">
         <p className="FirstSmallText">
-          1<sup>st </sup> International conference
+          1<sup>st </sup> International Conference on
         </p>
         <p className="MainHeading1">
           GREEN HYDROGEN FOR GLOBAL DECARBONIZATION
@@ -38,8 +38,10 @@ export default function Main() {
           {/* <p className="MainHeading2"> */}
         </p>
         <p className="SecondSmallText">
-          March 16 <sup> th </sup> - 17 <sup>th </sup>, 2023 | PDEU |
-          Gandhinagar
+          March 16 <sup> th </sup> - 17 <sup>th </sup>, 2023
+        </p>
+        <p className="ThirdSmallText">
+          Pandit Deendayal Energy University, Gandhinagar, India
         </p>
       </div>
     </div>
