@@ -39,3 +39,16 @@
     text-align: center;
   }
 }
+
+.con-content p {
+  margin: 20px 0;
+}
+
+.student-organisers {
+  text-decoration: underline;
+  font-size: 22px;
+}
+
+.student-name {
+  font-size: 20px;
+}

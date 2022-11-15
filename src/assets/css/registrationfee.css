@@ -7,6 +7,7 @@
   width: 100%;
   margin-bottom: 6rem;
   color: #3a3a3a;
+  /* background-color: #537ba8; */
 }
 .regHead {
   width: 80%;
@@ -14,6 +15,8 @@
 }
 .regHead h2 {
   margin: 1rem 0;
+  text-align: center;
+  font-size: 35px;
 }
 .regData {
   width: 80%;
@@ -27,11 +30,11 @@
 }
 table {
   width: 100%;
-  border: 1px solid #EEEEEE;
+  border: 1px solid #eeeeee;
   background: #4cc5b31b;
 }
 thead {
-  background: #155B5B;
+  background: #155b5b;
   display: flex;
   width: 100%;
   color: #fff;
@@ -65,7 +68,7 @@ h3,
 h4 {
   font-weight: normal;
 }
-h2{
+h2 {
   color: #000;
 }
 

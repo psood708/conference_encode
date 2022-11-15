@@ -6,6 +6,7 @@ import {Routes, Route, BrowserRouter} from "react-router-dom"
 import CommingSoon from "./Components/CommingSoon"
 import Committee from "./Components/Committee"
 import Theme from "./Components/Theme"
+import Keynote from "./Components/Keynotespeakers"
 function App() {
   return (
     // <HashRouter>
@@ -29,6 +30,7 @@ function App() {
       <Route exact path="/commingsoon" element={<CommingSoon />} />
       <Route exact path="/contact" element={<ContactPage />} />
       <Route exact path="/registration" element={<RegistrationFeePage />} />
+      <Route exact path="/keynotespeakers" element={<Keynote />} />
     </Routes>
     // </BrowserRouter>
   )

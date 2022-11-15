@@ -45,7 +45,7 @@
 .carousels-section {
   /* background-color: #007350; */
   background-color: #005773;
-  color: rgb(244, 255, 246);
+  color: rgb(244, 255, 246) !important;
   position: relative;
   margin-top: 3rem;
 }
@@ -53,7 +53,8 @@
   overflow-x: auto;
   position: relative;
   /* height: 85vh; */
-  height: 750px;
+  /* height: 750px; */
+  height: 820px;
 }
 .btns-container {
   display: flex;

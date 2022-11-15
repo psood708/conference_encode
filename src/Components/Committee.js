@@ -1,10 +1,11 @@
 import React from "react";
 import Navbar from "./Navbar";
-import Footer from './Footer'
+// import Footer from './Footer'
 import ".././assets/css/committee.css";
-
+import Footer from "./Footer";
 const Committee = () => {
   return (
+    
     <div>
       <Navbar />
       <div className="committeewrap">
@@ -338,7 +339,7 @@ const Committee = () => {
           Mr. Shaikh Faisal
           </div>
         </div>
-        {/* <div>
+         <div> 
           <h3 className="subheading">International Advisory Committee</h3>
           <div className="gridname">
             <p>Prof. Japan Trivedi, University of Alberta, Canada</p>
@@ -370,7 +371,7 @@ const Committee = () => {
             <p>Dr. Pankaj Khanna, IIT Gandhinagar</p>
             <p>Dr. Arup Ray, IIT Bhilai</p>
           </div>
-        </div> */}
+        </div> 
         {/* <div>
           <h3 className="subheading">
             Organizing Committee
@@ -389,12 +390,17 @@ const Committee = () => {
             <p>Dr. Maunish Shah, PDEU</p>
             <p>Dr. Namrata, PDEU</p>
           </div>
-        </div> */}
+ 
+             </div> */}
 
-      </div>
+ 
+        </div>
+ 
+    {/* </div> */}
       <Footer />
     </div>
-  );
-};
+    
+  )
+} ;
 
 export default Committee;

@@ -28,7 +28,7 @@
   text-decoration: none;
 }
 .navbar {
-min-height: 80px;
+  min-height: 80px;
   /* position: fixed; */
   /* here we have to adjust the min height */
   display: flex;
@@ -152,13 +152,13 @@ min-height: 80px;
   .nav-main-menu li {
     border-top: 3px bold white;
   }
-  ul :hover {
-    /* transform: scale(1.2); */
+  /* ul :hover {
+    transform: scale(1.2);
 
     transition-delay: 0.3s;
     background-color: #004c5c;
     border-radius: 10px;
     color: #f0cb47;
     transition: 0.7s ease-out;
-  }
+  } */
 }

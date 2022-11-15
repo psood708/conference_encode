@@ -1,15 +1,13 @@
-import "../assets/css/registrationfee.css";
+import "../assets/css/registrationfee.css"
 
 const Registraionfee = () => {
   return (
     <>
       <div className="regFee">
         <div className="regHead">
-          <h2>
-            Registration Fee for 1st International Conference on Green Hydrogen
-            For Global De-Carbonization.
-          </h2>
-          <small>Pandit Deendayal Energy University, Gandhinagar</small><br />
+          <h2>Registration</h2>
+          <small>Pandit Deendayal Energy University, Gandhinagar</small>
+          <br />
           <small>16th and 17th March, Hybrid Mode</small>
         </div>
         <div className="regData">
@@ -21,7 +19,7 @@ const Registraionfee = () => {
               <table>
                 <thead>
                   <tr>
-                    <th>Country</th>
+                    <th>Category</th>
                     <th data-priority="2">INR(₹)</th>
                     <th data-priority="3">USD($)</th>
                   </tr>
@@ -54,7 +52,7 @@ const Registraionfee = () => {
               <table>
                 <thead>
                   <tr>
-                    <th>Country</th>
+                    <th>Category</th>
                     <th data-priority="2">INR(₹)</th>
                     <th data-priority="3">USD($)</th>
                   </tr>
@@ -87,7 +85,7 @@ const Registraionfee = () => {
               <table>
                 <thead>
                   <tr>
-                    <th>Country</th>
+                    <th>Category</th>
                     <th data-priority="2">INR(₹)</th>
                     <th data-priority="3">USD($)</th>
                   </tr>
@@ -119,12 +117,28 @@ const Registraionfee = () => {
         <div className="regDetails">
           <p>*All Prices excluding GST. </p>
           <p>**18% GST is applicable on registration fees</p>
-          <p>10% additional discount if 5 & above nos. of Students/delegates pay at once while registering for the
-conference from the same organization.</p>
-          <p>For Registrations, please email us at <span><a className="url" href="mailto:green.hydrogen@pdpu.ac.in">green.hydrogen@pdpu.ac.in</a></span> or <span><a className="url" href="mailto:greenhydrogenpdpu@gmail.com">greenhydrogenpdpu@gmail.com</a></span></p>
+          <p>
+            10% additional discount if 5 & above nos. of Students/delegates pay
+            at once while registering for the conference from the same
+            organization.
+          </p>
+          <p>
+            For Registrations, please email us at{" "}
+            <span>
+              <a className="url" href="mailto:green.hydrogen@pdpu.ac.in">
+                green.hydrogen@pdpu.ac.in
+              </a>
+            </span>{" "}
+            or{" "}
+            <span>
+              <a className="url" href="mailto:greenhydrogenpdpu@gmail.com">
+                greenhydrogenpdpu@gmail.com
+              </a>
+            </span>
+          </p>
         </div>
       </div>
     </>
-  );
-};
-export default Registraionfee;
+  )
+}
+export default Registraionfee
