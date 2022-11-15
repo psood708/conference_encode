@@ -59,7 +59,7 @@ export default function Navbar() {
               </Link>
             </li>
             <li className="nav-item">
-              <Link to="/commingsoon" className="nav-link">
+              <Link to="/keynotespeakers" className="nav-link">
                 KEYNOTE SPEAKERS
               </Link>
             </li>

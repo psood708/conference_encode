@@ -1,7 +1,7 @@
 .countdown-container {
   /* background-color: #004c5c; */
   background-color: #005567;
-  color: #ffffff;
+  color: #ffffff !important;
   display: flex;
   justify-content: space-evenly;
   /* padding: 40px 0; */

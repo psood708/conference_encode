@@ -45,7 +45,7 @@
 .carousels-section {
   /* background-color: #007350; */
   background-color: #005773;
-  color: rgb(244, 255, 246);
+  color: rgb(244, 255, 246) !important;
   position: relative;
   margin-top: 3rem;
 }
