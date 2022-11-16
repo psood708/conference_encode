@@ -7,6 +7,7 @@ import Main from "../Components/Main"
 import Navbar from "../Components/Navbar"
 import Section2 from "../Components/Section2"
 import Sponsor from "../Components/Sponsor"
+import AboutConference from "../Components/AboutConference"
 
 const FistPage = () => {
   return (
@@ -14,6 +15,7 @@ const FistPage = () => {
       <Navbar />
       <Main />
       <CountDown />
+      <AboutConference />
       <Cards />
       <Section2 />
       <Carousel />
