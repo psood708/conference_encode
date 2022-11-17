@@ -6,9 +6,9 @@ const Registraionfee = () => {
       <div className="regFee">
         <div className="regHead">
           <h2>Registration</h2>
-          <small>Pandit Deendayal Energy University, Gandhinagar</small>
-          <br />
-          <small>16th and 17th March, Hybrid Mode</small>
+        </div>
+        <div className="regNotes">
+          <p>The last Date for Registration is 5th March 2023</p>
         </div>
         <div className="regData">
           <div className="regDataField">
@@ -111,9 +111,7 @@ const Registraionfee = () => {
             </div>
           </div>
         </div>
-        <div className="regNotes">
-          <p>The last Date for Registration is 5th March 2023</p>
-        </div>
+
         <div className="regDetails">
           <p>*All Prices excluding GST. </p>
           <p>**18% GST is applicable on registration fees</p>

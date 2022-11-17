@@ -1,0 +1,26 @@
+.pdeu-img-container {
+  display: flex;
+  justify-content: center;
+  margin-top: 80px;
+}
+
+.pdeu-img {
+  height: 500px;
+  width: 80%;
+  object-fit: cover;
+}
+
+.about-heading {
+  margin-top: 30px;
+  text-align: center;
+}
+
+.about-pdeu-text {
+  padding: 0 50px;
+}
+
+.about-pdeu {
+  font-size: 18px;
+  text-align: justify;
+  margin: 20px;
+}

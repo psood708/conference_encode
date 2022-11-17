@@ -11,7 +11,7 @@
 }
 .regHead {
   width: 80%;
-  margin: 4rem 0 2rem 0;
+  margin: 4rem 0 0rem 0;
 }
 .regHead h2 {
   margin: 1rem 0;
@@ -74,4 +74,8 @@ h2 {
 
 .regNotes {
   color: #c01921;
+}
+.regNotes p {
+  margin: 0;
+  font-size: 20px;
 }

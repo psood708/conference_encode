@@ -30,7 +30,7 @@
   font-size: 40px;
   font-weight: 900;
   color: #585858;
-  text-decoration: underline #787878;
+  /* text-decoration: underline #787878; */
 }
 p {
   font-size: 15px;
@@ -52,8 +52,9 @@ p {
 }
 .subheading-details {
   padding: 1em;
+  text-decoration: none;
 }
-.subheading h3 {
+.subheading > h3 {
   font-size: 25px;
   font-weight: 900;
   text-decoration: underline;
@@ -102,7 +103,7 @@ p {
   font-size: 25px;
   color: black;
   padding-bottom: 0.3em;
-  text-decoration: underline;
+  /* text-decoration: underline; */
 }
 
 /* .gridname{
@@ -123,3 +124,7 @@ p {
     grid-template-columns: 1fr 1fr;
     place-items: center;
 } */
+
+.committe-location {
+  font-size: 20px;
+}

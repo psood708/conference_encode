@@ -7,6 +7,7 @@ import CommingSoon from "./Components/CommingSoon"
 import Committee from "./Components/Committee"
 import Theme from "./Components/Theme"
 import Keynote from "./Components/Keynotespeakers"
+import CallForPaper from "./Components/CallForPaper"
 function App() {
   return (
     // <HashRouter>
@@ -31,6 +32,7 @@ function App() {
       <Route exact path="/contact" element={<ContactPage />} />
       <Route exact path="/registration" element={<RegistrationFeePage />} />
       <Route exact path="/keynotespeakers" element={<Keynote />} />
+      <Route exact path="/callforpapers" element={<CallForPaper />} />
     </Routes>
     // </BrowserRouter>
   )

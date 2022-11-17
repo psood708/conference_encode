@@ -1,22 +1,23 @@
 .cards {
   /* display: grid; */
   min-height: 175px;
-  width: 203px;
-  background-color: #d9d9d9;
+  /* width: 203px; */
+  /* background-color: #d9d9d9; */
   /* grid-row: auto; */
 }
 .empty-cards {
   display: none;
 }
 .heading {
-  font-size: xx-large;
+  font-size: 45px;
   margin-top: 5%;
-  margin-left: 17%;
+  /* margin-left: 17%; */
   margin-bottom: 3%;
   color: #34215b;
+  text-align: center;
 }
 .card-container {
-  display: flex;
+  /* display: flex; */
   gap: 30px;
   margin-right: 10%;
   margin-left: 10%;
@@ -43,13 +44,12 @@
 
 @media (min-width: 1400px) and (max-width: 1730px) {
   .heading {
-    font-size: xx-large;
     margin-top: 5%;
-    margin-left: 17%;
+    /* margin-left: 17%; */
     margin-bottom: 3%;
   }
   .card-container {
-    display: flex;
+    /* display: flex; */
     gap: 30px;
     margin-right: 15%;
     margin-left: 20%;
@@ -84,4 +84,44 @@
     margin-left: 0;
     text-align: center;
   }
+}
+
+.speaker-img {
+  height: 200px;
+  width: 200px;
+  object-fit: cover;
+  object-position: top center;
+  border-radius: 50%;
+}
+.cards {
+  display: flex;
+  /* justify-content: center;
+  align-items: center; */
+  margin-top: 30px;
+}
+
+.speaker-information {
+  margin-left: 50px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.img-container {
+  position: relative;
+}
+
+.img-overlay {
+  background-color: black;
+  height: 200px;
+  width: 200px;
+  position: absolute;
+  top: 0;
+  display: none;
+  border-radius: 50%;
+  opacity: 0.5;
+}
+
+.img-container:hover .img-overlay {
+  display: block;
 }

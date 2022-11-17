@@ -245,6 +245,10 @@ tr {
   font-family: "Roboto", "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
   color: rgb(201, 201, 201);
   padding: 0.35em;
+  text-transform: uppercase;
+}
+.heading-smallcase {
+  text-transform: lowercase;
 }
 /* .MainHeading2{
   font-weight: 900;

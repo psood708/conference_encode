@@ -29,10 +29,10 @@ export default function Main() {
       {/* <p>Green Hydrogen</p>
       </div> */}
       <div className="HeroSection">
-        <p className="FirstSmallText">
-          1<sup>st </sup> International Conference on
-        </p>
         <p className="MainHeading1">
+          1<sup className="heading-smallcase">st </sup> International Conference
+          on
+          <br />
           GREEN HYDROGEN FOR GLOBAL DECARBONIZATION
           {/* </p> */}
           {/* <p className="MainHeading2"> */}
@@ -41,7 +41,9 @@ export default function Main() {
           March 16 <sup> th </sup> - 17 <sup>th </sup>, 2023
         </p>
         <p className="ThirdSmallText">
-          Pandit Deendayal Energy University, Gandhinagar, India
+          Pandit Deendayal Energy University
+          <br />
+          Gandhinagar, India
         </p>
       </div>
     </div>

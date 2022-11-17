@@ -69,7 +69,7 @@ export default function Navbar() {
               </Link>
             </li>
             <li className="nav-item">
-              <Link to="/commingsoon" className="nav-link">
+              <Link to="/callforpapers" className="nav-link">
                 CALL FOR PAPER
               </Link>
             </li>
@@ -80,7 +80,7 @@ export default function Navbar() {
             </li>
             <li className="nav-item">
               <Link to="/registration" className="nav-link">
-{/* <<<<<<< HEAD
+                {/* <<<<<<< HEAD
                 
 =======
 >>>>>>> e3a6dbb00e98131306d3ef9aeb66b041c96472b4 */}
