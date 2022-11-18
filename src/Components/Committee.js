@@ -175,17 +175,18 @@ const Committee = () => {
               Edith Cowan University, Australia
             </h3>
             <div className="subheading-details">
-            Dr. Deepak Dubal, <br />
-            <h3 className="committe-location">
-              Queensland University of Technology, Brisbane, AUS
-            </h3>
-          </div>
-          <div className="subheading-details">
-            Prof. Dmitry Yakhvarov, <br />
-            <h3 className="committe-location">
-              A.E ARbuzov institute of Organic and Physical Chemistry, Kazan, Russia
-            </h3>
-          </div>
+              Dr. Deepak Dubal, <br />
+              <h3 className="committe-location">
+                Queensland University of Technology, Brisbane, AUS
+              </h3>
+            </div>
+            <div className="subheading-details">
+              Prof. Dmitry Yakhvarov, <br />
+              <h3 className="committe-location">
+                A.E ARbuzov institute of Organic and Physical Chemistry, Kazan,
+                Russia
+              </h3>
+            </div>
           </div>
           {/* <div className="subheading-details">
             Dr. Hussein Hoteit, <br />
@@ -240,11 +241,11 @@ const Committee = () => {
             <h3 className="committe-location">IIT Mandi</h3>
           </div>
           <div className="subheading-details">
-           Aditi Halder, <br />
+            Aditi Halder, <br />
             <h3 className="committe-location">IIT Mandi</h3>
           </div>
           <div className="subheading-details">
-           Dr Tarun Kuamr NAiya, <br />
+            Dr Tarun Kuamr NAiya, <br />
             <h3 className="committe-location">ISM Dhanbad</h3>
           </div>
         </div>
@@ -339,7 +340,7 @@ const Committee = () => {
           <div className="subheading-details-2">Mr. Anuj Jain</div>
           <div className="subheading-details-2">Ms. Chaandini JP</div>
           <div className="subheading-details-2">Mr. Kiran B</div>
-          <div className="subheading-details-2">Mr. Shaikh Faisal</div>
+          <div className="subheading-details-2">Mr. Shaikh Fazeel</div>
         </div>
         {/* <div>
           <h3 className="subheading">

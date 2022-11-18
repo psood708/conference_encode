@@ -2,6 +2,8 @@ import React, {useState} from "react"
 import logo from "../assets/images/logo.png"
 import "../assets/css/navbar.css"
 import {Link} from "react-router-dom"
+import {FontAwesomeIcon} from "@fortawesome/react-fontawesome"
+import {faChevronDown} from "@fortawesome/free-solid-svg-icons"
 // import Theme from "./Theme";
 
 // import { useRef,useEffect } from "react"
@@ -82,23 +84,27 @@ export default function Navbar() {
                 </Link>
                 </div>
               </div> */}
-              <div class="dropdown">
-              <button class="dropbtn">
-                FOR AUTHORS
-              </button>
-              <div class="dropdown-content">
-              <Link to="/callforpapers" className="nav-link">
-                CALL FOR PAPER
-              </Link>
-              <Link to="/registration" className="nav-link">
-                REGISTRATION
-              </Link>
-              </div>
-              </div>
+              <li class="dropdown">
+                <div class="dropbtn">
+                  FOR AUTHORS
+                  <FontAwesomeIcon
+                    icon={faChevronDown}
+                    className="down-arrow-icon"
+                  />
+                </div>
+                <div class="dropdown-content">
+                  <Link to="/callforpapers" className="nav-link">
+                    CALL FOR PAPER
+                  </Link>
+                  <Link to="/registration" className="nav-link">
+                    REGISTRATION
+                  </Link>
+                </div>
+              </li>
             </li>
             <li className="nav-item">
               <Link to="/awards" className="nav-link">
-                AWARDS 
+                AWARDS
               </Link>
             </li>
             <li className="nav-item">
@@ -106,7 +112,6 @@ export default function Navbar() {
                 CONTACT US
               </Link>
             </li>
-            
           </ul>
         </div>
 

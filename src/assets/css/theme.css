@@ -65,7 +65,7 @@
   color: #fff;
   font-size: 1.5rem;
 }
-.back p{
+.back p {
   text-align: left;
 }
 .back {
@@ -193,4 +193,8 @@
     width: 100%;
     margin: 0 0 2rem 0;
   }
+}
+
+.inner li {
+  font-size: 18px;
 }
