@@ -1,4 +1,28 @@
-.awards{
-    background-color: #f5f5f5;
-    padding: 15em;
+.awards {
+  background-color: #f5f5f5;
+  padding: 15em;
+  padding-top: 10em;
+}
+
+.awards-lists {
+  margin-top: 30px;
+}
+
+.awards-lists li {
+  list-style: none;
+  font-size: 16px;
+}
+
+.awards-lists ul {
+  font-weight: 600;
+  font-size: 20px;
+}
+
+.awards-submission {
+  margin-top: 30px;
+}
+
+.awards p {
+  font-size: 16px;
+  text-align: justify;
 }

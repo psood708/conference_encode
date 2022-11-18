@@ -6,13 +6,14 @@
   font-family: Calibri;
   margin: 0 100px;
   padding: 5em;
+  /* background-image: url("https://img.freepik.com/free-photo/hydrogen-molecule_642973-18.jpg?w=1380&t=st=1668761763~exp=1668762363~hmac=24849c47be4e041b6d2d548629c1df59a2d1a490a425ccac36d785c0b6bc2f41"); */
 }
 /* .whatsapp-icon{
   position: absolute;
   padding-left: 90%;
   padding-top: 37%;
 } */
-.whatsapp-icon p{
+.whatsapp-icon p {
   align-self: right;
 }
 .title h1 {
@@ -59,4 +60,15 @@
 
 .student-name {
   font-size: 20px;
+}
+.whatsapp-icon {
+  font-size: 50px;
+  position: absolute;
+  bottom: 20px;
+  right: 50px;
+  cursor: pointer;
+}
+
+.whatsapp-icon img {
+  width: 50px;
 }
