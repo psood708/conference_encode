@@ -43,7 +43,8 @@ export default function Main() {
         <p className="ThirdSmallText">
           Pandit Deendayal Energy University
           <br />
-          Gandhinagar, India
+          Gandhinagar, 
+          Gujarat, <br /> India
         </p>
       </div>
     </div>

@@ -7,6 +7,14 @@
   margin: 0 100px;
   padding: 5em;
 }
+/* .whatsapp-icon{
+  position: absolute;
+  padding-left: 90%;
+  padding-top: 37%;
+} */
+.whatsapp-icon p{
+  align-self: right;
+}
 .title h1 {
   font-size: 50px;
 }

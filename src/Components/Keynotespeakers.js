@@ -27,7 +27,7 @@ export default function Keynote() {
             {/* <p>Some text</p> */}
           </div>
         </div>
-        <div className="cards">
+        {/* <div className="cards">
           <img
             src="keynote-speakers/image-4.png"
             alt="speaker"
@@ -36,9 +36,9 @@ export default function Keynote() {
           <div className="speaker-information">
             <h1>Dr. Marta Duenas Diez</h1>
             <h2>LIFTE H2, Boston, USA</h2>
-            {/* <p>Some text</p> */}
+            <p>Some text</p>
           </div>
-        </div>
+        </div> */}
         <div className="cards">
           <img
             src="keynote-speakers/image-2.png"
@@ -51,7 +51,7 @@ export default function Keynote() {
             {/* <p>Some text</p> */}
           </div>
         </div>
-        <div className="cards">
+        {/* <div className="cards">
           <img
             src="keynote-speakers/image-6.png"
             alt="speaker"
@@ -60,9 +60,9 @@ export default function Keynote() {
           <div className="speaker-information">
             <h1>Prof. Damaraju</h1>
             <h2>ONGC Energy Center, Faridabad</h2>
-            {/* <p>Some text</p> */}
+            <p>Some text</p>
           </div>
-        </div>
+        </div> */}
         <div className="cards">
           <img
             src="keynote-speakers/image-3.png"

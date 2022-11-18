@@ -174,6 +174,18 @@ const Committee = () => {
             <h3 className="committe-location">
               Edith Cowan University, Australia
             </h3>
+            <div className="subheading-details">
+            Dr. Deepak Dubal, <br />
+            <h3 className="committe-location">
+              Queensland University of Technology, Brisbane, AUS
+            </h3>
+          </div>
+          <div className="subheading-details">
+            Prof. Dmitry Yakhvarov, <br />
+            <h3 className="committe-location">
+              A.E ARbuzov institute of Organic and Physical Chemistry, Kazan, Russia
+            </h3>
+          </div>
           </div>
           {/* <div className="subheading-details">
             Dr. Hussein Hoteit, <br />
@@ -215,6 +227,26 @@ const Committee = () => {
             Dr. Arup Ray, <br />
             <h3 className="committe-location">IIT Bhilai</h3>
           </div>
+          <div className="subheading-details">
+            Dr. Venkata Krishnan, <br />
+            <h3 className="committe-location">IIT Mandi</h3>
+          </div>
+          <div className="subheading-details">
+            Dr. Sanyasinaidu Boddu, <br />
+            <h3 className="committe-location">INSCT Mohali</h3>
+          </div>
+          <div className="subheading-details">
+            Rik Rani Koner, <br />
+            <h3 className="committe-location">IIT Mandi</h3>
+          </div>
+          <div className="subheading-details">
+           Aditi Halder, <br />
+            <h3 className="committe-location">IIT Mandi</h3>
+          </div>
+          <div className="subheading-details">
+           Dr Tarun Kuamr NAiya, <br />
+            <h3 className="committe-location">ISM Dhanbad</h3>
+          </div>
         </div>
 
         <div className="subheading">
@@ -248,11 +280,24 @@ const Committee = () => {
             <h3 className="committe-location">PDEU Gandhinagar</h3>
           </div>
           <div className="subheading-details">
+            Dr. Vishvesh J Badheka, <br />
+            <h3 className="committe-location">PDEU Gandhinagar</h3>
+          </div>
+          <div className="subheading-details">
             Dr. Ramesh Guduru, <br />
             <h3 className="committe-location">PDEU Gandhinagar</h3>
           </div>
           <div className="subheading-details">
+            Dr. Rajesh Patel, <br />
+            <h3 className="committe-location">PDEU Gandhinagar</h3>
+          </div>
+          <div className="subheading-details">
             Dr. Nitin Chaudhury,
+            <br />
+            <h3 className="committe-location">PDEU Gandhinagar</h3>
+          </div>
+          <div className="subheading-details">
+            Dr. Abhijit D Ray,
             <br />
             <h3 className="committe-location">PDEU Gandhinagar</h3>
           </div>

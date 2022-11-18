@@ -33,7 +33,7 @@ const Registraionfee = () => {
                   <tr>
                     <td>Faculty</td>
                     <td>6000</td>
-                    <td>250</td>
+                    <td>300</td>
                   </tr>
                   <tr>
                     <td>Industry</td>
@@ -60,18 +60,18 @@ const Registraionfee = () => {
                 <tbody>
                   <tr>
                     <td>Postgraduate/Research Scholar</td>
-                    <td>4000</td>
-                    <td>150</td>
+                    <td>5000</td>
+                    <td>200</td>
                   </tr>
                   <tr>
                     <td>Faculty</td>
-                    <td>6000</td>
-                    <td>250</td>
+                    <td>8000</td>
+                    <td>500</td>
                   </tr>
                   <tr>
                     <td>Industry</td>
-                    <td>8000</td>
-                    <td>500</td>
+                    <td>10000</td>
+                    <td>650</td>
                   </tr>
                 </tbody>
               </table>
@@ -93,18 +93,18 @@ const Registraionfee = () => {
                 <tbody>
                   <tr>
                     <td>Postgraduate/Research Scholar</td>
-                    <td>4000</td>
-                    <td>150</td>
-                  </tr>
-                  <tr>
-                    <td>Faculty</td>
                     <td>6000</td>
                     <td>250</td>
                   </tr>
                   <tr>
+                    <td>Faculty</td>
+                    <td>10000</td>
+                    <td>650</td>
+                  </tr>
+                  <tr>
                     <td>Industry</td>
-                    <td>8000</td>
-                    <td>500</td>
+                    <td>12000</td>
+                    <td>950</td>
                   </tr>
                 </tbody>
               </table>

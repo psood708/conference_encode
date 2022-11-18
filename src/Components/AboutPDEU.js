@@ -5,7 +5,7 @@ export default function AboutPDEU() {
   return (
     <div>
       <div className="pdeu-img-container">
-        <img src="about-pdeu.png" className="pdeu-img" alt="pdeu-img" />
+        <img src="https://f000.backblazeb2.com/file/hp-cloud/Conference/about+pdeu.png" className="pdeu-img" alt="pdeu-img" />
       </div>
       <h1 className="about-heading">
         About Pandit Deendayal Energy University
@@ -48,9 +48,13 @@ export default function AboutPDEU() {
         <div className="pdeu-img-container">
           <img src="spt.png" className="pdeu-img" alt="pdeu-img" />
         </div>
-        <h1 className="about-heading">
-          About Department of Petroleum Engineering
-        </h1>
+        <p className="about-heading">
+          {/* About Department of Petroleum Engineering */}
+          <h1> About</h1>
+          <h1>Department of Petroleum Engineering
+          &
+          School of Energy Technology</h1>
+        </p>
         <div className="about-pdeu-text">
           <p className="about-pdeu">
             School of Energy Technology is a constituent school of Pandit

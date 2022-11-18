@@ -6,7 +6,7 @@ import aiml from "../assets/images/themes/ai-ml.jpg"
 
 export default function Theme() {
   return (
-    <div style={{backgroundColor: "#537ba8"}}>
+    <div style={{backgroundColor: "#f5f5f5"}}>
       <Navbar />
 
       <h1 className="themes-heading">Themes</h1>
@@ -30,8 +30,26 @@ export default function Theme() {
               <div className="back">
                 <div className="inner">
                   <p>
-                    Lorem ipsum, dolor sit amet consectetur adipisicing elit.
-                    Alias cum repellat velit quae suscipit c.
+                    <ul>
+                      <li>
+                      Hydrogen production using renewable energy
+                      </li>
+                      <li>
+                      Bifunctional catalysts for water splitting
+                      </li>
+                      <li>
+                      Catalysts for HER
+                      </li>
+                      <li>
+                      OER and ORR
+                      </li>
+                      <li>
+                      Electrocatalysis
+                      </li>
+                      <li>
+                        Electrodes
+                      </li>
+                    </ul> 
                   </p>
                 </div>
               </div>
@@ -54,8 +72,11 @@ export default function Theme() {
               <div className="back">
                 <div className="inner">
                   <p>
-                    Lorem ipsum, dolor sit amet consectetur adipisicing elit.
-                    Alias cum repellat velit quae suscipit c.
+                    <ul>
+                      <li>Fuel Cell</li>
+                      <li> Reversible Fuel Cell</li>
+                      <li> Membrane for fuel cell and electrolyser</li>
+                    </ul>
                   </p>
                 </div>
               </div>
@@ -79,8 +100,9 @@ export default function Theme() {
               <div className="back">
                 <div className="inner">
                   <p>
-                    Lorem ipsum, dolor sit amet consectetur adipisicing elit.
-                    Alias cum repellat velit quae suscipit c.
+                    <li>Solid</li>
+                    <li>Liquid and Gaseous H2 storage</li>
+                    <li> H2 compressor</li>
                   </p>
                 </div>
               </div>
@@ -104,8 +126,12 @@ export default function Theme() {
               <div className="back">
                 <div className="inner">
                   <p>
-                    Lorem ipsum, dolor sit amet consectetur adipisicing elit.
-                    Alias cum repellat velit quae suscipit c.
+                    <ul>
+                      <li>In-line Transportation</li>
+                      <li>By road transportation</li>
+                      <li>Filling stations</li>
+                      <li>Roadmaps</li>
+                    </ul>
                   </p>
                 </div>
               </div>
@@ -129,8 +155,10 @@ export default function Theme() {
               <div className="back">
                 <div className="inner">
                   <p>
-                    Lorem ipsum, dolor sit amet consectetur adipisicing elit.
-                    Alias cum repellat velit quae suscipit c.
+                    <ul>
+                      <li>H2 based economy</li>
+                      <li> strategies and Policies inside India and outside India</li>
+                    </ul>
                   </p>
                 </div>
               </div>
@@ -154,8 +182,11 @@ export default function Theme() {
               <div className="back">
                 <div className="inner">
                   <p>
-                    Lorem ipsum, dolor sit amet consectetur adipisicing elit.
-                    Alias cum repellat velit quae suscipit c.
+                    <ul>
+                      <li>H2 in households</li>
+                      <li>vehicles</li>
+                      <li>industries</li>
+                    </ul>
                   </p>
                 </div>
               </div>
@@ -179,8 +210,11 @@ export default function Theme() {
               <div className="back">
                 <div className="inner">
                   <p>
-                    Lorem ipsum, dolor sit amet consectetur adipisicing elit.
-                    Alias cum repellat velit quae suscipit c.
+                    <ul>
+                      <li>CO2 capture</li>
+                      <li>CO2 sequestration</li>
+                      <li>CO2 storage</li>
+                    </ul>
                   </p>
                 </div>
               </div>
@@ -204,8 +238,9 @@ export default function Theme() {
               <div className="back">
                 <div className="inner">
                   <p>
-                    Lorem ipsum, dolor sit amet consectetur adipisicing elit.
-                    Alias cum repellat velit quae suscipit c.
+                    <ul>
+                      <li>Green hydrogen infrastructure and utilization for future</li>
+                    </ul>
                   </p>
                 </div>
               </div>
@@ -229,8 +264,10 @@ export default function Theme() {
               <div className="back">
                 <div className="inner">
                   <p>
-                    Lorem ipsum, dolor sit amet consectetur adipisicing elit.
-                    Alias cum repellat velit quae suscipit c.
+                    <ul>
+                      <li>H2 production from biomass</li>
+                      <li>Other wastes</li>
+                    </ul>
                   </p>
                 </div>
               </div>
@@ -254,8 +291,9 @@ export default function Theme() {
               <div className="back">
                 <div className="inner">
                   <p>
-                    Lorem ipsum, dolor sit amet consectetur adipisicing elit.
-                    Alias cum repellat velit quae suscipit c.
+                    <ul>
+                      <li>AI and ML approach for water splitting and CO2 sequestration and storage</li>
+                    </ul>
                   </p>
                 </div>
               </div>

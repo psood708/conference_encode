@@ -2,6 +2,16 @@ import "../assets/css/contact.css"
 
 const Contact = () => {
   return (
+
+    <>
+    {/* <div className="icon">
+      <div className="whatsapp-icon">
+      <p>
+        check text
+      </p>
+    </div>
+    </div> */}
+    
     <div className="contactus">
       <div className="con-title">
         <h1>Contacts</h1>
@@ -10,15 +20,16 @@ const Contact = () => {
         <ul>
           <li>
             <p>General Inquiries & Sponsorship</p>
-            <a className="url" href="mailto:Green.hydrogen@pdpu.ac.in">
-              Email Id: Green.hydrogen@pdpu.ac.in
+            <a className="url" href="mailto:greenhydrogenpdpu@gmail.com">
+              Email Id: greenhydrogenpdpu@gmail.com
             </a>
           </li>
           <li>
             <p>Technical & Paper Submissions: </p>
-            <a className="url" href="mailto:greenhydrogenpdpu@gmail.com">
-              Email Id: greenhydrogenpdpu@gmail.com
+            <a className="url" href="mailto:Green.hydrogen@pdpu.ac.in">
+              Email Id: Green.hydrogen@pdpu.ac.in
             </a>
+            
           </li>
           <h1 className="student-organisers">Student Organisers</h1>
           <li>
@@ -38,6 +49,8 @@ const Contact = () => {
         </ul>
       </div>
     </div>
+    </>
+    
   )
 }
 

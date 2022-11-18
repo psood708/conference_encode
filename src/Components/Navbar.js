@@ -69,8 +69,36 @@ export default function Navbar() {
               </Link>
             </li>
             <li className="nav-item">
+              {/* <div className="dropdown">
+                <button className="dropdown-button">
+                  For Authors
+                </button>
+                <div className="dropdown-content">
+                <Link to="/callforpapers" className="nav-link">
+                  CALL FOR PAPER
+                </Link>
+                <Link to="/registration" className="nav-link">
+                  REGISTRATION
+                </Link>
+                </div>
+              </div> */}
+              <div class="dropdown">
+              <button class="dropbtn">
+                FOR AUTHORS
+              </button>
+              <div class="dropdown-content">
               <Link to="/callforpapers" className="nav-link">
                 CALL FOR PAPER
+              </Link>
+              <Link to="/registration" className="nav-link">
+                REGISTRATION
+              </Link>
+              </div>
+              </div>
+            </li>
+            <li className="nav-item">
+              <Link to="/awards" className="nav-link">
+                AWARDS 
               </Link>
             </li>
             <li className="nav-item">
@@ -78,15 +106,7 @@ export default function Navbar() {
                 CONTACT US
               </Link>
             </li>
-            <li className="nav-item">
-              <Link to="/registration" className="nav-link">
-                {/* <<<<<<< HEAD
-                
-=======
->>>>>>> e3a6dbb00e98131306d3ef9aeb66b041c96472b4 */}
-                REGISTRATION
-              </Link>
-            </li>
+            
           </ul>
         </div>
 
