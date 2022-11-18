@@ -47,7 +47,7 @@ const Awards = () => {
 
         <h2 className="awards-submission">
           {" "}
-          The last date for Nomination is 30th November 2022{" "}
+          The last date for Nomination is 28Th February 2023{" "}
         </h2>
         <div className="awards-lists">
           <ul>Please Note: </ul>

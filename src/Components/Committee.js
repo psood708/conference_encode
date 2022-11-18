@@ -145,7 +145,7 @@ const Committee = () => {
           </div>
           <div className="subheading-details">
             Prof. Daewon Pak, <br />
-            <h3 className="committe-location">SNUST,S.Korea</h3>
+            <h3 className="committe-location">SNUST,South Korea</h3>
           </div>
           <div className="subheading-details">
             Dr. Diego Santos, <br />
@@ -225,7 +225,7 @@ const Committee = () => {
             <h3 className="committe-location">IIT Gandhinagar</h3>
           </div>
           <div className="subheading-details">
-            Dr. Arup Ray, <br />
+            Dr. Arup Mukherjee, <br />
             <h3 className="committe-location">IIT Bhilai</h3>
           </div>
           <div className="subheading-details">
@@ -234,7 +234,7 @@ const Committee = () => {
           </div>
           <div className="subheading-details">
             Dr. Sanyasinaidu Boddu, <br />
-            <h3 className="committe-location">INSCT Mohali</h3>
+            <h3 className="committe-location">INST Mohali</h3>
           </div>
           <div className="subheading-details">
             Rik Rani Koner, <br />
