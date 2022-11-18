@@ -144,7 +144,7 @@ const Committee = () => {
             <h3 className="committe-location">UM, Malaysia</h3>
           </div>
           <div className="subheading-details">
-            Prof. Devan Pak, <br />
+            Prof. Daewon Pak, <br />
             <h3 className="committe-location">SNUST,S.Korea</h3>
           </div>
           <div className="subheading-details">

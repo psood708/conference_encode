@@ -2,8 +2,9 @@
 @import url("https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,400;0,500;0,700;1,100;1,900&display=swap");
 
 .main {
-  background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)),
+  background: linear-gradient(rgba(202, 202, 202, 0.4), rgba(203, 203, 203, 0.4)),
     url("../images/Windmill image.jpg");
+
   background-color: #005567;
   background-repeat: no-repeat;
   /* background-size: contain; */
@@ -243,7 +244,7 @@ tr {
   font-size: clamp(30px, calc(1.875rem + ((1vw - 3.2px) * 4.5455)), 70px);
   min-height: 0vw;
   font-family: "Roboto", "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
-  color: rgb(201, 201, 201);
+  color: #cde1ff;
   padding: 0.35em;
   text-transform: uppercase;
 }
@@ -262,7 +263,7 @@ tr {
   font-family: "Raleway", "Roboto", "Segoe UI", Tahoma, Geneva, Verdana,
     sans-serif;
   font-size: 23px;
-  color: rgb(197, 197, 197);
+  color: #cde1ff;
   /* padding-top: 1.5em; */
   margin: 0;
   /* padding-bottom: 8em; */
@@ -271,6 +272,6 @@ tr {
 .ThirdSmallText {
   /* font-size: 23px; */
   font-size: clamp(20px, calc(1.25rem + ((1vw - 3.2px) * 0.7353)), 25px);
-  color: rgb(197, 197, 197);
+  color: #cde1ff;
   padding-bottom: 7em;
 }
