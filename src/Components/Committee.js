@@ -8,76 +8,8 @@ const Committee = () => {
     <div>
       <Navbar />
       <div className="committeewrap">
-        {/* <h1 className="title">
-          {" "}
-          International Conference on Green Hydrogen for global decarbonization
-        </h1> */}
-        {/* <div>
-          <h3 className="subheading-1">Organizing Committee</h3>
-          <div className="names">
-            <p>
-              <u>Chief Patron</u>
-              <br />
-              <span>
-                Prof. S. Sundar Manoharan <br /> 
-                Director General, PDEU 
-                <br /> Pandit
-                Deendayal Energy University Gandhinagar
-              </span>
-            </p>
-            <p>
-              <u>Patron</u>
-              <br />
-              <span>
-                Dr. Anirbid B Sircar <br /> Director, SOET, PDEU 
-                <br /> School of Energy
-                Technology <br /> Pandit Deendayal Energy University,
-                Gandhinagar
-              </span>
-              <br />
-              <br />
-              <span>
-                Prof. Dhaval Pujara <br /> Director SOT, PDEU 
-                <br /> PDEU Gandhinagar
-              </span>
-            </p>
-            <p>
-              <u>Chairman</u>
-              <br />
-              <span>
-                Dr. Uttam Kumar Bhui <br /> HOD PE, SOET, PDEU 
-                <br /> Petroleum
-                Engineering <br /> School of Energy Technology <br /> Pandit
-                Deendayal Energy University, Gandhinagar
-              </span>
-            </p>
-            <p>
-              <u>Convener</u>
-              <br />
-              <span>
-                Dr. Rohit Srivastava <br /> School of Energy Technology <br />{" "}
-                Pandit Deendayal Energy University, Gandhinagar
-                Dr. Bhawanisingh Desai <br /> Dean R & D, PDEU
-              </span>
-            </p>
-            <p>
-              <u>Treasurer</u>
-              <br />
-              <span>
-                Dr. Hari S <br /> School of Energy Technology <br /> Pandit
-                Deendayal Energy University, Gandhinagar
-              </span>
-              <br />
-              <br />
-              <span>
-                Mr. Hari Pavan Yalamati <br /> School of Energy Technology{" "}
-                <br /> Pandit Deendayal Energy University, Gandhinagar
-              </span>
-            </p>
-          </div>
-        </div> */}
         <div className="Page-title">
-          <h3 className="title-subheading">Organising Committee</h3>
+          <h3 className="title-subheading">Organizing Committee</h3>
           <div className="names">
             <h4>CHIEF-PATRON</h4>
             Prof. S. Sundar Manoharan,
@@ -96,7 +28,7 @@ const Committee = () => {
             Director SOT, PDEU
           </div>
           <div className="names">
-            <h4>CHAREMEN</h4>
+            <h4>CHAIR</h4>
             Dr. Uttam Kumar Bhui,
             <br />
             HOD PE, SOET, PDEU
@@ -122,12 +54,11 @@ const Committee = () => {
             Dr Balasubramanian Ragunathan,
             <br />
              SOET, PDEU
-            {/* <h4>TREASURER</h4> */}
+           <br />
             Dr. Hari Sreenivasan
             <br />
             SOET, PDEU
-            <p></p>
-            {/* <h4>TREASURER</h4> */}
+            <br />
             Mr. Hari Pavan Sriram Yalamati
             <br />
             SOET, PDEU
@@ -343,7 +274,7 @@ const Committee = () => {
             <h3 className="committe-location">PDEU Gandhinagar</h3>
           </div>
           <div className="subheading-details">
-            Dr. Nitin Chaudhury,
+            Dr. Nitin Chaudhari,
             <br />
             <h3 className="committe-location">PDEU Gandhinagar</h3>
           </div>
@@ -355,8 +286,8 @@ const Committee = () => {
         </div>
 
         <div className="subheading-2">
-          <h3>ORGANIZING COMMITTEE (SOET PDEU Gandhinagar)</h3>
-          <h1 className="subheading-details-2">Dr. Rohit Srivastava</h1>
+          <h3>ORGANIZING COMMITTEE </h3>
+          <div className="subheading-details-2">Dr. Rohit Srivastava</div>
           <div className="subheading-details-2">Dr. Achinta Bera</div>
           <div className="subheading-details-2">Dr. Vivek Ramalingam</div>
           <div className="subheading-details-2">Dr. Amit Verma</div>
@@ -372,7 +303,6 @@ const Committee = () => {
           <div className="subheading-details-2">Dr. Balasubramanian Ragunathan</div>
           <div className="subheading-details-2">Dr. Shanker Krishna</div>
           <div className="subheading-details-2">Dr. Maunish Shah</div>
-
           <div className="subheading-details-2">Dr. Namrata Bist</div>
           <div className="subheading-details-2">Dr. Akash Patel</div>
           <div className="subheading-details-2">Dr. Kaushal Kishor</div>
@@ -380,7 +310,7 @@ const Committee = () => {
         </div>
 
         <div className="subheading-2">
-          <h3>STUDENT ORGANIZING COMMITTEE (SOET PDEU Gandhinagar)</h3>
+          <h3>STUDENT ORGANIZING COMMITTEE </h3>
           <div className="subheading-details-2">Ms. Avni Goswami</div>
           <div className="subheading-details-2">Ms. Sneha Lavate</div>
           <div className="subheading-details-2">

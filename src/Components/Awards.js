@@ -47,7 +47,7 @@ const Awards = () => {
 
         <h2 className="awards-submission">
           {" "}
-          The last date for Nomination is 28Th February 2023{" "}
+          The last date for Nomination is 28th February 2023{" "}
         </h2>
         <div className="awards-lists">
           <ul>Please Note: </ul>
@@ -58,7 +58,7 @@ const Awards = () => {
             4. Awardee should be registered for the conference at 200 USD.
           </li>
           <li>
-            5. For any queries, contact at{" "}
+            5. For any Registration and queries, contact at{" "}
             <a href="mailto:green.hydrogen@pdpu.ac.in">
               green.hydrogen@pdpu.ac.in
             </a>

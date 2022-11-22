@@ -20,11 +20,6 @@ export default function CallForPaper() {
           (Impact Factor: 7.1)
         </p>
       </div>
-      <h1 className="callforpaper-heading-1">
-        {" "}
-        Download the Abstract Template
-      </h1>
-
       <p className="submission-text">
         Last date for submission of abstract is 31st January 2023.
       </p>
