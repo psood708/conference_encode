@@ -73,20 +73,20 @@ const Committee = () => {
             <h3 className="committe-location">Arizona State University, USA</h3>
           </div>
           <div className="subheading-details">
-            Dr. Bishnu Bastakoti, <br />
-            <h3 className="committe-location">NCANTSU, USA</h3>
+            Dr. Bishnu  P Bastakoti, <br />
+            <h3 className="committe-location">North Carolina Agriculture and Technical State University, USA</h3>
           </div>
           <div className="subheading-details">
             Dr. Neha Chaturvedi <br />
-            <h3 className="committe-location">NCU, USA</h3>
+            <h3 className="committe-location">North Carolina State University, USA</h3>
           </div>
           <div className="subheading-details">
             Dr. Pei Meng <br />
-            <h3 className="committe-location">UM, Malaysia</h3>
+            <h3 className="committe-location">Universiti Malaya, Malaysia</h3>
           </div>
           <div className="subheading-details">
             Prof. Daewon Pak, <br />
-            <h3 className="committe-location">SNUST,South Korea</h3>
+            <h3 className="committe-location">Seoul National University of Science and Technology, South Korea</h3>
           </div>
           <div className="subheading-details">
             Dr. Diego Santos, <br />
@@ -94,7 +94,7 @@ const Committee = () => {
           </div>
           <div className="subheading-details">
             Dr. Mahesh Gangishetty, <br />
-            <h3 className="committe-location">MSU, USA</h3>
+            <h3 className="committe-location">Mississippi State University, USA</h3>
           </div>
           <div className="subheading-details">
             Prof. Japan Trivedi <br />
@@ -178,11 +178,11 @@ const Committee = () => {
             <h3 className="committe-location">INST Mohali</h3>
           </div>
           <div className="subheading-details">
-            Rik Rani Koner, <br />
+           Dr. Rik Rani Koner, <br />
             <h3 className="committe-location">IIT Mandi</h3>
           </div>
           <div className="subheading-details">
-            Aditi Halder, <br />
+            Dr. Aditi Halder, <br />
             <h3 className="committe-location">IIT Mandi</h3>
           </div>
           <div className="subheading-details">
@@ -219,11 +219,11 @@ const Committee = () => {
           </div>
           <div className="subheading-details">
           Mr. Balaiha Swamy, <br />
-            <h3 className="committe-location"> IOCL </h3>
+            <h3 className="committe-location"> Indian Oil Corporation Ltd </h3>
           </div>
           <div className="subheading-details">
           Mr. C.H Seeta Ram, <br />
-            <h3 className="committe-location">  BPCL </h3>
+            <h3 className="committe-location">  Bharat Petroleum Corporation Ltd </h3>
           </div>
         </div>
 
@@ -231,7 +231,7 @@ const Committee = () => {
           <h3>LOCAL ADVISORY COMMITTEE</h3>
           <div className="subheading-details">
             Prof. Tarun Shah, <br />
-            <h3 className="committe-location">Registarar, PDEU, Gandhinagar</h3>
+            <h3 className="committe-location">Registrar</h3>
           </div>
           <div className="subheading-details">
             Prof. T.P Singh, <br />
@@ -295,7 +295,7 @@ const Committee = () => {
           <div className="subheading-details-2">Dr. Balanagalu Basupalli</div>
           <div className="subheading-details-2">Dr. Abhishek Kumar Gupta</div>
           <div className="subheading-details-2">Dr. Ankur Solanki</div>
-          <div className="subheading-details-2">Dr. Marry Hepzibahm</div>
+          <div className="subheading-details-2">Dr. HEPZIBAH Mary MARY</div>
           <div className="subheading-details-2">Dr. Rajat Saxena</div>
           <div className="subheading-details-2">Mr. Gaurav Hazarika</div>
           <div className="subheading-details-2">Dr. Lakshmann Rao Jeeru</div>
@@ -313,37 +313,15 @@ const Committee = () => {
           <h3>STUDENT ORGANIZING COMMITTEE </h3>
           <div className="subheading-details-2">Ms. Avni Goswami</div>
           <div className="subheading-details-2">Ms. Sneha Lavate</div>
-          <div className="subheading-details-2">
-            Mr. Hari Pavan Sriram Yalamati
-          </div>
+          <div className="subheading-details-2">Mr. Hari Pavan Sriram Yalamati</div>
+          <div className="subheading-details-2">Mr. Anuj Jain</div>
+          <div className="subheading-details-2">Ms. Chaandini JP</div>
           <div className="subheading-details-2">Mr. Shubham Nayer</div>
           <div className="subheading-details-2">Mr. Anshul</div>
           <div className="subheading-details-2">Mr. Isaac Wilson</div>
-          <div className="subheading-details-2">Mr. Anuj Jain</div>
-          <div className="subheading-details-2">Ms. Chaandini JP</div>
           <div className="subheading-details-2">Mr. Kiran B</div>
           <div className="subheading-details-2">Mr. Shaikh Fazeel</div>
         </div>
-        {/* <div>
-          <h3 className="subheading">
-            Organizing Committee
-          </h3>
-          <div className="names">
-            <p>Dr. Vivek Ramalingam, PDEU</p>
-            <p>Dr. Amit Verma, PDEU</p>
-            <p>Dr. Paul Naveen, PDEU</p>
-            <p>Dr. Balanagalu Basupalli, PDEU</p>
-            <p>Dr. Abhishek Kumar Gupta, PDEU</p>
-            <p>Dr. Ankur Solanki, PDEU</p>
-            <p>Dr. Rajat Saxena, PDEU</p>
-            <p>Mr. Gaurav Hazarika, PDEU</p>
-            <p>Dr. Lakshmann Rao Jeeru, PDEU</p>
-            <p>Dr. Shanker Krishna, PDEU</p>
-            <p>Dr. Maunish Shah, PDEU</p>
-            <p>Dr. Namrata, PDEU</p>
-          </div>
- 
-             </div> */}
       </div>
 
       {/* </div> */}

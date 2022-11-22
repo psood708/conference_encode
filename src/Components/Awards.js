@@ -58,9 +58,12 @@ const Awards = () => {
             4. Awardee should be registered for the conference at 200 USD.
           </li>
           <li>
-            5. For any Registration and queries, contact at{" "}
-            <a href="mailto:green.hydrogen@pdpu.ac.in">
+            5. For any Registration and queries, contact us at{" "}<br />
+            Email id : <a href="mailto:green.hydrogen@pdpu.ac.in">
               green.hydrogen@pdpu.ac.in
+            </a> <br />
+            Email id : <a href="mailto:greenhydrogenpdpu@gmail.com">
+            greenhydrogenpdpu@gmail.com
             </a>
           </li>
         </div>

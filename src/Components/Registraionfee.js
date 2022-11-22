@@ -26,7 +26,7 @@ const Registraionfee = () => {
                 </thead>
                 <tbody>
                   <tr>
-                    <td>Postgraduate/Research Scholar</td>
+                    <td>PG/PhD Students</td>
                     <td>4000</td>
                     <td>150</td>
                   </tr>
@@ -59,7 +59,7 @@ const Registraionfee = () => {
                 </thead>
                 <tbody>
                   <tr>
-                    <td>Postgraduate/Research Scholar</td>
+                    <td>PG/PhD Students</td>
                     <td>5000</td>
                     <td>200</td>
                   </tr>
@@ -92,7 +92,7 @@ const Registraionfee = () => {
                 </thead>
                 <tbody>
                   <tr>
-                    <td>Postgraduate/Research Scholar</td>
+                    <td>PG/PhD Students</td>
                     <td>6000</td>
                     <td>250</td>
                   </tr>
@@ -120,8 +120,14 @@ const Registraionfee = () => {
             at once while registering for the conference from the same
             organization.
           </p>
-          <p>
-            For Registrations, please email us at{" "}
+         
+          <p>For payments visit this <a className="url" href="https://onlinepayment.pdpu.ac.in/conferences">
+                page
+              </a></p>
+             <p> After Payment please fill this <a className="url" href="https://hpurl.ga/RegistrationForm">
+                Google Form</a>.</p>
+                <p>
+            For any quires, please email us at{" "}
             <span>
               <a className="url" href="mailto:green.hydrogen@pdpu.ac.in">
                 green.hydrogen@pdpu.ac.in

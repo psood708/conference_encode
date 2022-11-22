@@ -20,7 +20,7 @@
   text-decoration: underline;
   padding-bottom: 1rem;
   font-weight: 600;
-  color: #787878;
+  color: #000000;
 }
 .names {
   font-size: 19px;
@@ -29,7 +29,7 @@
   text-align: center !important;
   font-size: 40px;
   font-weight: 900;
-  color: #585858;
+  color: #050505;
   /* text-decoration: underline #787878; */
 }
 p {
