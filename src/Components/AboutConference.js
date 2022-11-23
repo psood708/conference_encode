@@ -15,8 +15,8 @@ export default function AboutConference() {
         </p>
         <p>
         This two-day conference will bring together academicians, policymakers, regulators, innovators, oil and gas companies, infrastructure companies, technology providers, industry experts and investors to present their perspectives and provide stimulus in shaping the future of green hydrogen. It will provide a global platform for leading developers to showcase their innovations and technologies and explore investor interest in financing their projects.
-
         </p>
+        <p>The Prime Minister's Independence Day speech on August 15th, 2021, signalling the launch of the National Hydrogen Mission, attests to India's intent to be a global hub for green hydrogen. As PM Modi's speech outlines, "not only will green hydrogen be the basis of growth through green jobs. but it will also set an example for the world towards a clean energy transition. The conference will provide a platform for expelling the latest development in equipment, compressors, devices, products, technologies, and services in the hydrogen industry.</p>
       </div>
     </div>
   )
