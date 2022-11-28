@@ -16,11 +16,18 @@ export default function AboutPDEU() {
       </h1>
       <div className="about-pdeu-text">
         <p className="about-pdeu">
-        Pandit Deendayal Energy University (PDEU), formerly known as Pandit Deendayal Petroleum University (PDPU), was established by Gujarat Energy Research Management Institute (GERMI) as a Private University through the State Act with a vision “To emerge as a world-class Institution of Excellence in Energy Education, Research and Innovation which will prepare and sensitize the youth and ultimately the society for radical yet sustainable societal transformation”. This objective is being addressed through several specialized and well-planned undergraduate and postgraduate programs and intense research initiatives in science, technology, management, and humanities. Today it has nine centres of excellence, viz. International Automobile, Siemens, Center for Bio-fuel & Bioenergy studies, Solar Research & Development Center, Center of Excellence in Geothermal Energy, Drilling & Stimulation Center, Center of Excellence in Climate Change, Innovation and Incubation Center and Water treatment management centre.
+        Pandit Deendayal Energy University (PDEU), formerly known as Pandit Deendayal Petroleum University (PDPU), was established by
+         Gujarat Energy Research Management Institute (GERMI) as a Private University through the State Act with a vision “To emerge as
+         a world-class Institution of Excellence in Energy Education, Research and Innovation which will prepare and sensitize the youth 
+         and ultimately the society for radical yet sustainable societal transformation”. This objective is being addressed through several 
+         specialized and well-planned undergraduate and postgraduate programs and intense research initiatives in science, technology, management, 
+         and humanities. Today it has nine centres of excellence, viz. International Automobile, Siemens, Center for Bio-fuel & Bioenergy studies, 
+         Solar Research & Development Center, Center of Excellence in Geothermal Energy, Drilling & Stimulation Center, Center of Excellence in Climate
+         Change, Innovation and Incubation Center and Water treatment management centre.
 
         </p>
         <p className="about-pdeu">
-        PDEU ranks 1st (Private University) in Gujarat. NAAC accredited, “A++” grade (3.52/4). It is also ISO 14001:2015 and ISO 9001:2015 certified. PDEU is the only private college in Gujarat to get autonomous status from the University Grant Commission (UGC) in 2018.
+        PDEU ranks 1<sup> st </sup> (Private University) in Gujarat. NAAC accredited, “A++” grade (3.52/4). It is also ISO 14001:2015 and ISO 9001:2015 certified. PDEU is the only private college in Gujarat to get autonomous status from the University Grant Commission (UGC) in 2018.
 
         </p>
         <p className="about-pdeu">

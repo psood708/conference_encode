@@ -38,7 +38,7 @@ export default function Main() {
           {/* <p className="MainHeading2"> */}
         </p>
         <p className="SecondSmallText">
-          March 16 <sup> th </sup> - 17 <sup>th </sup>, 2023
+          March 17 <sup> th </sup> - 18 <sup>th </sup>, 2023
         </p>
         <p className="ThirdSmallText">
           Pandit Deendayal Energy University

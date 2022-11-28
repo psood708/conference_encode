@@ -127,6 +127,7 @@ const Registraionfee = () => {
              <p> After Payment please fill this <a className="url" href="https://hpurl.ga/RegistrationForm">
                 Google Form</a>.</p>
                 <p>
+         
             For any quires, please email us at{" "}
             <span>
               <a className="url" href="mailto:green.hydrogen@pdpu.ac.in">

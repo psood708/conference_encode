@@ -90,7 +90,7 @@ const Committee = () => {
           </div>
           <div className="subheading-details">
             Dr. Diego Santos, <br />
-            <h3 className="committe-location">ISTP, Portuagal</h3>
+            <h3 className="committe-location">Instituto Superior Tecnico, Portuagal</h3>
           </div>
           <div className="subheading-details">
             Dr. Mahesh Gangishetty, <br />

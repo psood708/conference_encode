@@ -1,0 +1,7 @@
+﻿-- logger module started --
+main: one instance mode ENABLED
+main: Running vlc with the default interface. Use 'cvlc' to use vlc without interface.
+main: Status file authenticated
+avcodec: Using D3D11VA (Intel(R) UHD Graphics, vendor 8086(Intel), device 8a56, revision 7) for hardware decoding
+direct3d11 error: SetThumbNailClip failed: 0x800706f4
+-- logger module stopped --
