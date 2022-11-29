@@ -23,17 +23,10 @@ export default function AboutPDEU() {
          specialized and well-planned undergraduate and postgraduate programs and intense research initiatives in science, technology, management, 
          and humanities. Today it has nine centres of excellence, viz. International Automobile, Siemens, Center for Bio-fuel & Bioenergy studies, 
          Solar Research & Development Center, Center of Excellence in Geothermal Energy, Drilling & Stimulation Center, Center of Excellence in Climate
-         Change, Innovation and Incubation Center and Water treatment management centre.
-
-        </p>
-        <p className="about-pdeu">
-        PDEU ranks 1<sup> st </sup> (Private University) in Gujarat. NAAC accredited, “A++” grade (3.52/4). It is also ISO 14001:2015 and ISO 9001:2015 certified. PDEU is the only private college in Gujarat to get autonomous status from the University Grant Commission (UGC) in 2018.
-
-        </p>
-        <p className="about-pdeu">
-        At present university has several sponsored research projects and consultancies. The Department of Scientific and Industrial Research under the Ministry of Science and Technology (Government of India) has accorded recognition to PDEU, Gandhinagar, as a Scientific and Industrial Research Organization (SIRO).
-
-        </p>
+         Change, Innovation and Incubation Center and Water treatment management centre.PDEU ranks 1<sup> st </sup> (Private University) in Gujarat. NAAC accredited, “A++” grade (3.52/4). 
+         It is also ISO 14001:2015 and ISO 9001:2015 certified. PDEU is the only private college in Gujarat to get autonomous status from the University Grant Commission (UGC) in 2018.
+         At present university has several sponsored research projects and consultancies. The Department of Scientific and Industrial Research under the Ministry of Science and Technology 
+         (Government of India) has accorded recognition to PDEU, Gandhinagar, as a Scientific and Industrial Research Organization (SIRO).        </p>
       </div>
 
       <div className="about-spt-container">

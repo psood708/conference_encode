@@ -1,6 +1,6 @@
 import React from "react"
 import Cards from "../Components/Cards"
-import Carousel from "../Components/Carousel"
+// import Carousel from "../Components/Carousel"
 import CountDown from "../Components/CountDown"
 import Footer from "../Components/Footer"
 import Main from "../Components/Main"

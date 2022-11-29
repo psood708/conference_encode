@@ -73,6 +73,10 @@ const Committee = () => {
             <h3 className="committe-location">Arizona State University, USA</h3>
           </div>
           <div className="subheading-details">
+          Dr. Marta Duenas Diez, <br />
+            <h3 className="committe-location">LIFTE H2, Boston, USA</h3>
+          </div>
+          <div className="subheading-details">
             Dr. Bishnu  P Bastakoti, <br />
             <h3 className="committe-location">North Carolina Agriculture and Technical State University, USA</h3>
           </div>

@@ -30,9 +30,7 @@ export default function CallForPaper() {
       </div>
 
       <p className="mail-text">
-        Please submit your abstracts to <br />
-        <a href="mailto:green.hydrogen@pdpu.ac.in">green.hydrogen@pdpu.ac.in</a> <br />
-        <a href="greenhydrogenpdpu@gmail.com">greenhydrogenpdpu@gmail.com</a>
+        Please submit your abstracts to <a href="https://forms.gle/a7g4aAtJZuepZmNdA"> Google Form</a>
       </p>
       <Footer />
     </div>

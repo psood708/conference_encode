@@ -2,7 +2,6 @@ import React from "react"
 import Navbar from "./Navbar"
 import Footer from "./Footer"
 import "../assets/css/theme.css"
-import aiml from "../assets/images/themes/ai-ml.jpg"
 
 export default function Theme() {
   return (

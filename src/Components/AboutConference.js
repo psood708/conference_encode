@@ -8,12 +8,9 @@ export default function AboutConference() {
       <div className="about-para-container">
         <p>
         The 1st International Conference on Green Hydrogen for Global Decarbonisation is 
-        being organized by the Department of Petroleum Engineering and the School of Energy Technology, 
+        being organized by the Department of Petroleum Engineering, School of Energy Technology, 
         Pandit Deendayal Energy University (PDEU), Gujarat-India. PDEU is one of the leading research institutes 
-        in the energy sector and allied branches of engineering.
-        </p>
-        <p>
-        Green Hydrogen possesses the immense potential to become a vital component of 
+        in the energy sector and allied branches of engineering.Green Hydrogen possesses the immense potential to become a vital component of 
         the energy mix. It is expected to become a $ 12-15 trillion global industry by 2050. 
         It has also captured a clear investor interest at the 1st International Conference 
         on Green Hydrogen for Global Decarbonization.
@@ -29,7 +26,7 @@ export default function AboutConference() {
         <p>The Prime Minister's Independence Day speech on August 15th, 2021, signalling the 
         launch of the National Hydrogen Mission, attests to India's intent to be a global hub for
         green hydrogen. As PM Modi's speech outlines, "not only will green hydrogen be the basis of 
-        growth through green jobs. but it will also set an example for the world towards a clean energy 
+        growth through green jobs but it will also set an example for the world towards a clean energy 
         transition. The conference will provide a platform for expelling the latest development in 
         equipment, compressors, devices, products, technologies, and services in the hydrogen industry.</p>
       </div>

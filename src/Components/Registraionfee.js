@@ -8,7 +8,7 @@ const Registraionfee = () => {
           <h2>Registration</h2>
         </div>
         <div className="regNotes">
-          <p>The last Date for Registration is 5th March 2023</p>
+          <p>The last Date to Register online is 5th March 2023</p>
         </div>
         <div className="regData">
           <div className="regDataField">
@@ -124,7 +124,7 @@ const Registraionfee = () => {
           <p>For payments visit this <a className="url" href="https://onlinepayment.pdpu.ac.in/conferences">
                 page
               </a></p>
-             <p> After Payment please fill this <a className="url" href="https://hpurl.ga/RegistrationForm">
+             <p> After Payment please fill this <a className="url" href="https://forms.gle/mighpe7EFqzhmfZn6">
                 Google Form</a>.</p>
                 <p>
          

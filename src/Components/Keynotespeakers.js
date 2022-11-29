@@ -1,8 +1,6 @@
 import React from "react"
 import Navbar from "./Navbar"
 import Footer from "./Footer"
-// import "../assets/css/speaker.css"
-// import {img1} from "../assets/images/keynote-speakers/image.png"
 import "../assets/css/section_2.css"
 
 export default function Keynote() {
