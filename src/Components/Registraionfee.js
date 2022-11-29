@@ -8,12 +8,12 @@ const Registraionfee = () => {
           <h2>Registration</h2>
         </div>
         <div className="regNotes">
-          <p>The last Date to Register online is 5th March 2023</p>
+          <p>The last Date to Register online is 5<sup>th</sup> March 2023</p>
         </div>
         <div className="regData">
           <div className="regDataField">
             <h4 className="dataFieldHeader">
-              Early Bird Registration Fees (valid till 15th December)
+              Early Bird Registration Fees (valid till 15<sup>th</sup> December)
             </h4>
             <div className="regDataTable">
               <table>
@@ -46,7 +46,7 @@ const Registraionfee = () => {
           </div>
           <div className="regDataField">
             <h4 className="dataFieldHeader">
-              Registration Fees (valid till 15th February)
+              Registration Fees (valid till 15<sup>th</sup> February)
             </h4>
             <div className="regDataTable">
               <table>
@@ -79,7 +79,7 @@ const Registraionfee = () => {
           </div>
           <div className="regDataField">
             <h4 className="dataFieldHeader">
-              Late Registration Fees (valid till 5th March)
+              Late Registration Fees (valid till 5<sup>th</sup> March)
             </h4>
             <div className="regDataTable">
               <table>

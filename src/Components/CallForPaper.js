@@ -21,7 +21,7 @@ export default function CallForPaper() {
         </p>
       </div>
       <p className="submission-text">
-        Last date for submission of abstract is 31st January 2023.
+        Last date for submission of abstract is 31<sup>st</sup> January 2023.
       </p>
       <div className="button-container">
         <button className="callforpaper-button">
