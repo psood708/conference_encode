@@ -113,19 +113,24 @@ const Registraionfee = () => {
         </div>
 
         <div className="regDetails">
-          <p>*All Prices excluding GST. </p>
-          <p>**18% GST is applicable on registration fees</p>
-          <p>
-            10% additional discount if 5 & above nos. of Students/delegates pay
+          <p>*All Prices excluding GST. <br/>      
+           **18% GST is applicable on registration fees<br/>
+            ***10% additional discount if 5 & above nos. of Students/delegates pay
             at once while registering for the conference from the same
             organization.
           </p>
-         
-          <p>For payments visit this <a className="url" href="https://onlinepayment.pdpu.ac.in/conferences">
-                page
-              </a></p>
-             <p> After Payment please fill this <a className="url" href="https://forms.gle/mighpe7EFqzhmfZn6">
-                Google Form</a>.</p>
+              <div className="button-container">
+        <button className="payment-button">
+          <a href="https://onlinepayment.pdpu.ac.in/conferences " target="_blank">Pay Here</a>
+        </button>
+      </div>
+      <p><center>After Payment Register Here</center></p>
+      <div className="button-container">
+        <button className="register-button">
+          <a href="https://forms.gle/mighpe7EFqzhmfZn6" target="_blank">Register Here</a>
+        </button>
+      </div>
+             <p> </p>
                 <p>
          
             For any quires, please email us at{" "}
