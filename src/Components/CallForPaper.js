@@ -11,7 +11,7 @@ export default function CallForPaper() {
       <div className="text-container">
         <img src="ijhe.jpeg" alt="ijhe" />
         <p className="callforpaper-text">
-          The conference proceedings will be published in <br />
+          The selected papers from the conference will be published in <br />
           <a href="https://www.sciencedirect.com/journal/international-journal-of-hydrogen-energy">
             {" "}
             "International Journal of Hydrogen Energy."
@@ -21,7 +21,7 @@ export default function CallForPaper() {
         </p>
       </div>
       <p className="submission-text">
-        Last date for submission of abstract is 31<sup>st</sup> January 2023.
+        Last date for submission of abstract is 15<sup>th</sup> January 2023.
       </p>
       <div className="button-container">
         <button className="callforpaper-button">

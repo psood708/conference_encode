@@ -7,12 +7,12 @@ export default function AboutConference() {
       <h1 className="about-heading">About Conference</h1>
       <div className="about-para-container">
         <p>
-        The 1st International Conference on Green Hydrogen for Global Decarbonisation is 
+        The 1<sup>st</sup> International Conference on Green Hydrogen for Global Decarbonisation is 
         being organized by the Department of Petroleum Engineering, School of Energy Technology, 
-        Pandit Deendayal Energy University (PDEU), Gujarat-India. PDEU is one of the leading research institutes 
-        in the energy sector and allied branches of engineering.Green Hydrogen possesses the immense potential to become a vital component of 
+        Pandit Deendayal Energy University (PDEU), Gujarat-India. PDEU is one of the leading research and academic institutes 
+        in the energy sector and allied branches of engineering. Green Hydrogen possesses the immense potential to become a vital component of 
         the energy mix. It is expected to become a $ 12-15 trillion global industry by 2050. 
-        It has also captured a clear investor interest at the 1st International Conference 
+        It has also captured a clear investor interest at the 1<sup>st</sup> International Conference 
         on Green Hydrogen for Global Decarbonization.
         </p>
         <p>
@@ -23,7 +23,7 @@ export default function AboutConference() {
         to showcase their innovations and technologies and explore investor interest in financing 
         their projects.
         </p>
-        <p>The Prime Minister's Independence Day speech on August 15th, 2021, signalling the 
+        <p>The Prime Minister's Independence Day speech on August 15<sup>th</sup>, 2021, signalling the 
         launch of the National Hydrogen Mission, attests to India's intent to be a global hub for
         green hydrogen. As PM Modi's speech outlines, "not only will green hydrogen be the basis of 
         growth through green jobs but it will also set an example for the world towards a clean energy 

@@ -122,7 +122,7 @@ export default function Keynote() {
           </div>
         </div> */}
       </div>
-      <div className="heading"> Speakers</div>
+      <div className="heading"> Enlighting Talk</div>
       <Footer />
     </div>
   )

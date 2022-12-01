@@ -28,7 +28,7 @@ const Committee = () => {
             Director SOT, PDEU
           </div>
           <div className="names">
-            <h4>CHAIR</h4>
+            <h4>CHAIRS</h4>
             Dr. Uttam Kumar Bhui,
             <br />
             HOD PE, SOET, PDEU
@@ -50,7 +50,7 @@ const Committee = () => {
             SOET, PDEU
           </div>
           <div className="names">
-            <h4>TREASURER</h4>
+            <h4>TREASURERS</h4>
             Dr Balasubramanian Ragunathan,
             <br />
              SOET, PDEU
@@ -93,7 +93,7 @@ const Committee = () => {
             <h3 className="committe-location">Seoul National University of Science and Technology, South Korea</h3>
           </div>
           <div className="subheading-details">
-            Dr. Diego Santos, <br />
+            Dr. Diogo M.F Santos, <br />
             <h3 className="committe-location">Instituto Superior Tecnico, Portuagal</h3>
           </div>
           <div className="subheading-details">
@@ -192,10 +192,6 @@ const Committee = () => {
           <div className="subheading-details">
             Dr Tarun Kuamr Naiya, <br />
             <h3 className="committe-location">IIT(ISM) Dhanbad</h3>
-          </div>
-          <div className="subheading-details">
-            Prof. Tarun Gupta, <br />
-            <h3 className="committe-location">IIT kanpur</h3>
           </div>
           <div className="subheading-details">
             Prof. Tarun Gupta, <br />
@@ -314,7 +310,7 @@ const Committee = () => {
         </div>
 
         <div className="subheading-2">
-          <h3>STUDENT ORGANIZING COMMITTEE </h3>
+          <h3>SCHOLARS/STUDENTS ORGANIZING COMMITTEE </h3>
           <div className="subheading-details-2">Ms. Avni Goswami</div>
           <div className="subheading-details-2">Ms. Sneha Lavate</div>
           <div className="subheading-details-2">Mr. Hari Pavan Sriram Yalamati</div>

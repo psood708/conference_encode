@@ -13,7 +13,7 @@ const Registraionfee = () => {
         <div className="regData">
           <div className="regDataField">
             <h4 className="dataFieldHeader">
-              Early Bird Registration Fees (valid till 15<sup>th</sup> December)
+              Early Bird Registration Fees (valid till 31<sup>st</sup> January, 2023)
             </h4>
             <div className="regDataTable">
               <table>
@@ -79,7 +79,7 @@ const Registraionfee = () => {
           </div>
           <div className="regDataField">
             <h4 className="dataFieldHeader">
-              Late Registration Fees (valid till 5<sup>th</sup> March)
+              Late / On Spot  Registration Fees 
             </h4>
             <div className="regDataTable">
               <table>

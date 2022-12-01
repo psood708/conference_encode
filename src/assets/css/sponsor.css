@@ -3,11 +3,26 @@
   width: 120px;
   background-color: #d9d9d9;
 }
+.sponsor-img{
+  min-height: 110px;
+  width: 120px;
+}
+.spon-img-css{
+  min-height: 110px;
+  width: 120px;
+  background-color: white;
+}
+.spe-img{
+  min-height: 110px;
+  width: 120px;
+  background-color: white;
+  align-content: center;
+}
 .topic {
   margin-left: 17%;
   font-size: xx-large;
   padding: 5% 0 2% 0;
-  color: #34215b;
+  color: #000000;
 }
 .tab-container {
   display: flex;
