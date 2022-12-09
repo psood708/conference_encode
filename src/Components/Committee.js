@@ -217,14 +217,14 @@ const Committee = () => {
           Prof. S.K Maity, <br />
             <h3 className="committe-location"> IIT Hyderabad</h3>
           </div>
-          <div className="subheading-details">
+          {/* <div className="subheading-details">
           Mr. Balaiha Swamy, <br />
             <h3 className="committe-location"> Indian Oil Corporation Ltd </h3>
           </div>
           <div className="subheading-details">
           Mr. C.H Seeta Ram, <br />
             <h3 className="committe-location">  Bharat Petroleum Corporation Ltd </h3>
-          </div>
+          </div> */}
         </div>
 
         <div className="subheading">

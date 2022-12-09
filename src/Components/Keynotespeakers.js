@@ -85,31 +85,31 @@ export default function Keynote() {
             {/* <p>Some text</p> */}
           </div>
         </div>
+        <div className="cards">
+          <img
+            src="https://www.eme.psu.edu/sites/www.eme.psu.edu/files/styles/directory_photo/public/directoryphotos/dzade.png?itok=jadv9Pp2"
+            alt="speaker"
+            className="speaker-img"
+          />
+          <div className="speaker-information">
+            <h1>Dr. Nelson Y. Dzade</h1>
+            <h2>Pennsylvania State University</h2>
+            {/* <p>Some text</p> */}
+          </div>
+        </div>
+        <div className="cards">
+          <img
+            src="https://f000.backblazeb2.com/file/hp-cloud/Conference/Garcia-Navarro.jpeg"
+            alt="speaker"
+            className="speaker-img"
+          />
+          <div className="speaker-information">
+            <h1>Dr. -Ing. Julio C. Garcia-Navarro</h1>
+            <h2>University of Stuttgart</h2>
+            {/* <p>Some text</p> */}
+          </div>
+        </div>
         {/* <div className="cards">
-          <img
-            src="keynote-speakers/image.png"
-            alt="speaker"
-            className="speaker-img"
-          />
-          <div className="speaker-information">
-            <h1>Name</h1>
-            <h2>University</h2>
-            <p>Some text</p>
-          </div>
-        </div>
-        <div className="cards">
-          <img
-            src="keynote-speakers/image.png"
-            alt="speaker"
-            className="speaker-img"
-          />
-          <div className="speaker-information">
-            <h1>Name</h1>
-            <h2>University</h2>
-            <p>Some text</p>
-          </div>
-        </div>
-        <div className="cards">
           <img
             src="keynote-speakers/image.png"
             alt="speaker"

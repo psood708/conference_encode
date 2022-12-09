@@ -58,6 +58,7 @@ td,
 th {
   flex: 1 1 20%;
   text-align: center;
+  color: black;
 }
 
 th {
@@ -67,6 +68,7 @@ th {
 h3,
 h4 {
   font-weight: normal;
+  color: black; 
 }
 h2 {
   color: #000;
@@ -109,8 +111,11 @@ h2 {
   padding: 10px 20px;
   border-radius: 25px;
   border: none;
-  background-color: red;
+  background-color: gold;
 }
 .register-button:hover {
-  background-color: blue;
+  background-color: goldenrod;
+}
+.url{
+  color: blue;
 }

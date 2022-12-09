@@ -20,7 +20,7 @@ export default function Footer() {
           <ul>
             <li>Green Hydrogen A-Z</li>
             <li>
-              <a href="/committee">Committee </a>
+              <a href="https://conference.icghgd.com/committee">Committee </a>
             </li>
           </ul>
         </div>
@@ -41,7 +41,7 @@ export default function Footer() {
       <div className="footer-p1">
         <div className="conf">
           <div className="foot-topic">
-            <BiCopyright /> 2022 Green Hydrogen Conference
+            <BiCopyright />ICGHGD-23
           </div>
           <div className="medias">
             <ul className="connect">

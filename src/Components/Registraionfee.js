@@ -121,13 +121,13 @@ const Registraionfee = () => {
           </p>
               <div className="button-container">
         <button className="payment-button">
-          <a href="https://onlinepayment.pdpu.ac.in/conferences " target="_blank">Pay Here</a>
+          <a href="https://onlinepayment.pdpu.ac.in/conferences " rel="opener">Pay Here</a>
         </button>
       </div>
       <p><center>After Payment Register Here</center></p>
       <div className="button-container">
         <button className="register-button">
-          <a href="https://forms.gle/mighpe7EFqzhmfZn6" target="_blank">Register Here</a>
+          <a href="https://forms.gle/mighpe7EFqzhmfZn6" rel="opener">Register Here</a>
         </button>
       </div>
              <p> </p>
