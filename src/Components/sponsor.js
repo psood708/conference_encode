@@ -32,7 +32,7 @@ export default function Sponsor(){
         </div>
         <div className="spe-img">
         <img
-            src="https://media-exp1.licdn.com/dms/image/C4D0BAQH2BxM_aWDsmg/company-logo_200_200/0/1648718211226?e=1671667200&v=beta&t=pkA5wwvLUa5LlU_lXVfXaAd3ZNkUPKobC0RWqLESffk"
+            src="https://f000.backblazeb2.com/file/hp-cloud/iadc.png"
             alt="sponsor"
             className="spon-img-css"
           />

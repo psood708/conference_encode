@@ -63,7 +63,7 @@ export default function Keynote() {
         </div>
         <div className="cards">
           <img
-            src="https://media-exp1.licdn.com/dms/image/C5603AQE8yvnMzY-P4w/profile-displayphoto-shrink_800_800/0/1657945586484?e=1676505600&v=beta&t=89pdMcxy3sS6494nWzUFh6BKB5gJsaGoYem10xtdehs"
+            src="https://f000.backblazeb2.com/file/hp-cloud/kiran.jpeg"
             alt="speaker"
             className="speaker-img"
           />
@@ -138,7 +138,7 @@ export default function Keynote() {
         </div>
         <div className="cards">
           <img
-            src="https://media-exp1.licdn.com/dms/image/C4D03AQF_RVNfr9b-Kw/profile-displayphoto-shrink_800_800/0/1630632946883?e=1676505600&v=beta&t=dXd1nYgajd5CY0pW5k_uy-1aeCLWTssmhOEe_BAe_1w"
+            src="https://f000.backblazeb2.com/file/hp-cloud/bishnu.jpeg"
             alt="speaker"
             className="speaker-img"
           />
@@ -150,7 +150,7 @@ export default function Keynote() {
         </div>
         <div className="cards">
           <img
-            src="https://media-exp1.licdn.com/dms/image/D4D03AQGm2pwRQFPePw/profile-displayphoto-shrink_200_200/0/1667128928198?e=1676505600&v=beta&t=-cruln-cJt3obQ-NeIj6iF10b9nLPCd9NoBINVWJ0XM"
+            src="https://f000.backblazeb2.com/file/hp-cloud/krishnan.jpeg"
             alt="speaker"
             className="speaker-img"
           />
