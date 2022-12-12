@@ -37,6 +37,42 @@ export default function Keynote() {
             <p>Some text</p>
           </div>
         </div> */}
+         <div className="cards">
+          <img
+            src="https://www.eme.psu.edu/sites/www.eme.psu.edu/files/styles/directory_photo/public/directoryphotos/dzade.png?itok=jadv9Pp2"
+            alt="speaker"
+            className="speaker-img"
+          />
+          <div className="speaker-information">
+            <h1>Dr. Nelson Y. Dzade</h1>
+            <h2>Pennsylvania State University</h2>
+            {/* <p>Some text</p> */}
+          </div>
+        </div>
+        <div className="cards">
+          <img
+            src="https://f000.backblazeb2.com/file/hp-cloud/Conference/Garcia-Navarro.jpeg"
+            alt="speaker"
+            className="speaker-img"
+          />
+          <div className="speaker-information">
+            <h1>Dr. -Ing. Julio C. Garcia-Navarro</h1>
+            <h2>University of Stuttgart</h2>
+            {/* <p>Some text</p> */}
+          </div>
+        </div>
+        <div className="cards">
+          <img
+            src="https://media-exp1.licdn.com/dms/image/C5603AQE8yvnMzY-P4w/profile-displayphoto-shrink_800_800/0/1657945586484?e=1676505600&v=beta&t=89pdMcxy3sS6494nWzUFh6BKB5gJsaGoYem10xtdehs"
+            alt="speaker"
+            className="speaker-img"
+          />
+          <div className="speaker-information">
+            <h1>Dr kiran K alla</h1>
+            <h2>Plug Power Inc. USA</h2>
+            {/* <p>Some text</p> */}
+          </div>
+        </div>
         <div className="cards">
           <img
             src="keynote-speakers/image-2.png"
@@ -63,18 +99,6 @@ export default function Keynote() {
         </div> */}
         <div className="cards">
           <img
-            src="keynote-speakers/image-3.png"
-            alt="speaker"
-            className="speaker-img"
-          />
-          <div className="speaker-information">
-            <h1>Prof. S Bandopadhyay</h1>
-            <h2>IIT Bombay</h2>
-            {/* <p>Some text</p> */}
-          </div>
-        </div>
-        <div className="cards">
-          <img
             src="keynote-speakers/image.png"
             alt="speaker"
             className="speaker-img"
@@ -87,42 +111,56 @@ export default function Keynote() {
         </div>
         <div className="cards">
           <img
-            src="https://www.eme.psu.edu/sites/www.eme.psu.edu/files/styles/directory_photo/public/directoryphotos/dzade.png?itok=jadv9Pp2"
+            src="keynote-speakers/image-3.png"
             alt="speaker"
             className="speaker-img"
           />
           <div className="speaker-information">
-            <h1>Dr. Nelson Y. Dzade</h1>
-            <h2>Pennsylvania State University</h2>
+            <h1>Prof. S Bandopadhyay</h1>
+            <h2>IIT Bombay</h2>
+            {/* <p>Some text</p> */}
+          </div>
+        </div>
+      </div>
+      <div className="heading"> Enlighting Talk</div>
+      <div className="card-container">
+      <div className="cards">
+          <img
+            src="https://f000.backblazeb2.com/file/hp-cloud/Conference/arnab-datta.jpeg"
+            alt="speaker"
+            className="speaker-img"
+          />
+          <div className="speaker-information">
+            <h1>Arnab Datta</h1>
+            <h2>IIT Bombay</h2>
             {/* <p>Some text</p> */}
           </div>
         </div>
         <div className="cards">
           <img
-            src="https://f000.backblazeb2.com/file/hp-cloud/Conference/Garcia-Navarro.jpeg"
+            src="https://media-exp1.licdn.com/dms/image/C4D03AQF_RVNfr9b-Kw/profile-displayphoto-shrink_800_800/0/1630632946883?e=1676505600&v=beta&t=dXd1nYgajd5CY0pW5k_uy-1aeCLWTssmhOEe_BAe_1w"
             alt="speaker"
             className="speaker-img"
           />
           <div className="speaker-information">
-            <h1>Dr. -Ing. Julio C. Garcia-Navarro</h1>
-            <h2>University of Stuttgart</h2>
+            <h1>Bishnu Bastakoti</h1>
+            <h2>North Carolina Agricultural and Technical State University</h2>
             {/* <p>Some text</p> */}
           </div>
         </div>
-        {/* <div className="cards">
+        <div className="cards">
           <img
-            src="keynote-speakers/image.png"
+            src="https://media-exp1.licdn.com/dms/image/D4D03AQGm2pwRQFPePw/profile-displayphoto-shrink_200_200/0/1667128928198?e=1676505600&v=beta&t=-cruln-cJt3obQ-NeIj6iF10b9nLPCd9NoBINVWJ0XM"
             alt="speaker"
             className="speaker-img"
           />
           <div className="speaker-information">
-            <h1>Name</h1>
-            <h2>University</h2>
-            <p>Some text</p>
+            <h1>Venkata Krishnan</h1>
+            <h2>IIT Mandi</h2>
+            {/* <p>Some text</p> */}
           </div>
-        </div> */}
+        </div>
       </div>
-      <div className="heading"> Enlighting Talk</div>
       <Footer />
     </div>
   )
