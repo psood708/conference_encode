@@ -125,3 +125,22 @@
 .img-container:hover .img-overlay {
   display: block;
 }
+
+
+
+@media (max-width: 600px) {
+ .speaker-img{
+  width: 150px;
+  height: 150px;
+ }
+ .speaker-information{
+  margin-left: 30px;
+ }
+ .speaker-information h1{
+  font-size: 25px;
+ }
+ .speaker-information h2{
+  font-size: 20px;
+ }
+}
+  
