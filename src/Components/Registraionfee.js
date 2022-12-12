@@ -113,9 +113,8 @@ const Registraionfee = () => {
         </div>
 
         <div className="regDetails">
-          <p>*All Prices excluding GST. <br/>      
-           **18% GST is applicable on registration fees<br/>
-            ***10% additional discount if 5 & above nos. of Students/delegates pay
+          <p>*All Prices including GST. <br/>
+            **10% additional discount if 5 & above nos. of Students/delegates pay
             at once while registering for the conference from the same
             organization.
           </p>

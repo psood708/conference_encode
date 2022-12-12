@@ -25,7 +25,7 @@ export default function Sponsor(){
         </div>
         <div className="spe-img">
         <img
-            src="https://scontent.fbom3-2.fna.fbcdn.net/v/t39.30808-6/298785477_431218259027249_1755035749492390583_n.png?_nc_cat=100&ccb=1-7&_nc_sid=09cbfe&_nc_ohc=ZAN3FfGdgUgAX-J-JR1&_nc_ht=scontent.fbom3-2.fna&oh=00_AfCxH3REHH2ubDNE8IDXp5Mo12R8MXPcFGIdT4CLbJHERg&oe=638D4B01"
+            src="https://f000.backblazeb2.com/file/hp-cloud/Conference/SPE+PDEU+Logo+With+White+Blue+Text.png"
             alt="sponsor"
             className="spon-img-css"
           />
@@ -39,7 +39,7 @@ export default function Sponsor(){
         </div>
         <div className="spe-img">
         <img
-            src="https://scontent.fpnq13-1.fna.fbcdn.net/v/t39.30808-6/241140609_206978231451746_7856208376661288579_n.jpg?_nc_cat=110&ccb=1-7&_nc_sid=09cbfe&_nc_ohc=tmww-akgHXEAX9TAw2w&_nc_ht=scontent.fpnq13-1.fna&oh=00_AfASzRgOqlNCwLJDhl286C6aYa4IXylhR-Mlw0EyA-ruUw&oe=638D3F07"
+            src="https://f000.backblazeb2.com/file/hp-cloud/Conference/fipi.png"
             alt="sponsor"
             className="spon-img-css"
           /></div>
