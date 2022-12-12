@@ -37,12 +37,14 @@ export default function Keynote() {
             <p>Some text</p>
           </div>
         </div> */}
-         <div className="cards">
-          <img
-            src="https://www.eme.psu.edu/sites/www.eme.psu.edu/files/styles/directory_photo/public/directoryphotos/dzade.png?itok=jadv9Pp2"
-            alt="speaker"
-            className="speaker-img"
-          />
+        <div className="cards">
+          <div className="img-container">
+            <img
+              src="https://www.eme.psu.edu/sites/www.eme.psu.edu/files/styles/directory_photo/public/directoryphotos/dzade.png?itok=jadv9Pp2"
+              alt="speaker"
+              className="speaker-img"
+            />
+          </div>
           <div className="speaker-information">
             <h1>Dr. Nelson Y. Dzade</h1>
             <h2>Pennsylvania State University</h2>
@@ -124,7 +126,7 @@ export default function Keynote() {
       </div>
       <div className="heading"> Enlighting Talk</div>
       <div className="card-container">
-      <div className="cards">
+        <div className="cards">
           <img
             src="https://f000.backblazeb2.com/file/hp-cloud/Conference/arnab-datta.jpeg"
             alt="speaker"

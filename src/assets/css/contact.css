@@ -72,3 +72,16 @@
 .whatsapp-icon img {
   width: 50px;
 }
+
+@media (max-width:600px) {
+  .contactus{
+    padding: 4rem;
+    margin: 0;
+    position: relative;
+  }
+
+  .whatsapp-icon{
+    bottom: 0px;
+    right: 10px;
+  }
+}
