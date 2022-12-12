@@ -70,7 +70,7 @@ export default function Keynote() {
             className="speaker-img"
           />
           <div className="speaker-information">
-            <h1>Dr kiran K alla</h1>
+            <h1>Dr. Kiran K Alla</h1>
             <h2>Plug Power Inc. USA</h2>
             {/* <p>Some text</p> */}
           </div>
@@ -124,7 +124,7 @@ export default function Keynote() {
           </div>
         </div>
       </div>
-      <div className="heading"> Enlighting Talk</div>
+      <div className="heading"> EnlighteningTalk</div>
       <div className="card-container">
         <div className="cards">
           <img
@@ -133,7 +133,7 @@ export default function Keynote() {
             className="speaker-img"
           />
           <div className="speaker-information">
-            <h1>Arnab Datta</h1>
+            <h1>Dr. Arnab Datta</h1>
             <h2>IIT Bombay</h2>
             {/* <p>Some text</p> */}
           </div>
@@ -145,7 +145,7 @@ export default function Keynote() {
             className="speaker-img"
           />
           <div className="speaker-information">
-            <h1>Bishnu Bastakoti</h1>
+            <h1>Prof. Bishnu Bastakoti</h1>
             <h2>North Carolina Agricultural and Technical State University</h2>
             {/* <p>Some text</p> */}
           </div>
@@ -157,7 +157,7 @@ export default function Keynote() {
             className="speaker-img"
           />
           <div className="speaker-information">
-            <h1>Venkata Krishnan</h1>
+            <h1>Dr. Venkata Krishnan</h1>
             <h2>IIT Mandi</h2>
             {/* <p>Some text</p> */}
           </div>

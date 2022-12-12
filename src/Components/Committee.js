@@ -120,7 +120,7 @@ const Committee = () => {
               Edith Cowan University, Australia
             </h3>
             <div className="subheading-details">
-              Dr. Deepak Dubal, <br />
+              Prof. Deepak Dubal, <br />
               <h3 className="committe-location">
                 Queensland University of Technology, Brisbane, AUS
               </h3>
@@ -314,11 +314,11 @@ const Committee = () => {
           <div className="subheading-details-2">Ms. Avni Goswami</div>
           <div className="subheading-details-2">Ms. Sneha Lavate</div>
           <div className="subheading-details-2">Mr. Hari Pavan Sriram Yalamati</div>
+          <div className="subheading-details-2">Mr. Isaac Wilson</div>
           <div className="subheading-details-2">Mr. Anuj Jain</div>
           <div className="subheading-details-2">Ms. Chaandini JP</div>
-          <div className="subheading-details-2">Mr. Shubham Nayer</div>
+          <div className="subheading-details-2">Mr. Shubham Nayak</div>
           <div className="subheading-details-2">Mr. Anshul</div>
-          <div className="subheading-details-2">Mr. Isaac Wilson</div>
           <div className="subheading-details-2">Mr. Kiran B</div>
           <div className="subheading-details-2">Mr. Shaikh Fazeel</div>
         </div>
