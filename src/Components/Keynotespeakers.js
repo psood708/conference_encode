@@ -47,7 +47,7 @@ export default function Keynote() {
           </div>
           <div className="speaker-information">
             <h1>Dr. Nelson Y. Dzade</h1>
-            <h2>Pennsylvania State University</h2>
+            <h2>Pennsylvania State University, USA</h2>
             {/* <p>Some text</p> */}
           </div>
         </div>
@@ -59,7 +59,7 @@ export default function Keynote() {
           />
           <div className="speaker-information">
             <h1>Dr. -Ing. Julio C. Garcia-Navarro</h1>
-            <h2>University of Stuttgart</h2>
+            <h2>University of Stuttgart, Germany</h2>
             {/* <p>Some text</p> */}
           </div>
         </div>
@@ -71,7 +71,7 @@ export default function Keynote() {
           />
           <div className="speaker-information">
             <h1>Dr. Kiran K Alla</h1>
-            <h2>Plug Power Inc. USA</h2>
+            <h2>Plug Power Inc, USA</h2>
             {/* <p>Some text</p> */}
           </div>
         </div>
@@ -83,7 +83,7 @@ export default function Keynote() {
           />
           <div className="speaker-information">
             <h1>Prof. Rama Prabhu S.</h1>
-            <h2>IIT Chennai</h2>
+            <h2>IIT Madras, India</h2>
             {/* <p>Some text</p> */}
           </div>
         </div>
@@ -107,7 +107,7 @@ export default function Keynote() {
           />
           <div className="speaker-information">
             <h1>Prof. S Basu</h1>
-            <h2>IIT Delhi</h2>
+            <h2>IIT Delhi, India</h2>
             {/* <p>Some text</p> */}
           </div>
         </div>
@@ -119,7 +119,7 @@ export default function Keynote() {
           />
           <div className="speaker-information">
             <h1>Prof. S Bandopadhyay</h1>
-            <h2>IIT Bombay</h2>
+            <h2>IIT Bombay, India</h2>
             {/* <p>Some text</p> */}
           </div>
         </div>
@@ -134,7 +134,7 @@ export default function Keynote() {
           />
           <div className="speaker-information">
             <h1>Dr. Arnab Datta</h1>
-            <h2>IIT Bombay</h2>
+            <h2>IIT Bombay, India</h2>
             {/* <p>Some text</p> */}
           </div>
         </div>
@@ -146,7 +146,7 @@ export default function Keynote() {
           />
           <div className="speaker-information">
             <h1>Prof. Bishnu Bastakoti</h1>
-            <h2>North Carolina Agricultural and Technical State University</h2>
+            <h2>North Carolina Agricultural and Technical State University, USA</h2>
             {/* <p>Some text</p> */}
           </div>
         </div>
@@ -158,7 +158,7 @@ export default function Keynote() {
           />
           <div className="speaker-information">
             <h1>Dr. Venkata Krishnan</h1>
-            <h2>IIT Mandi</h2>
+            <h2>IIT Mandi, India</h2>
             {/* <p>Some text</p> */}
           </div>
         </div>

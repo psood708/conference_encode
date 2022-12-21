@@ -11,7 +11,7 @@ export default function AboutConference() {
         being organized by the Department of Petroleum Engineering, School of Energy Technology, 
         Pandit Deendayal Energy University (PDEU), Gujarat-India. PDEU is one of the leading research and academic institutes 
         in the energy sector and allied branches of engineering. Green Hydrogen possesses the immense potential to become a vital component of 
-        the energy mix. It is expected to become a $ 12-15 trillion global industry by 2050. 
+        the energy mix. It is expected to become a $12-15 trillion global industry by 2050. 
         It has also captured a clear investor interest at the 1<sup>st</sup> International Conference 
         on Green Hydrogen for Global Decarbonization.
         </p>
@@ -25,7 +25,7 @@ export default function AboutConference() {
         </p>
         <p>The Prime Minister's Independence Day speech on August 15<sup>th</sup>, 2021, signalling the 
         launch of the National Hydrogen Mission, attests to India's intent to be a global hub for
-        green hydrogen. As PM Modi's speech outlines, "not only will green hydrogen be the basis of 
+        green hydrogen. As PM Modi's speech outlines, not only will green hydrogen be the basis of 
         growth through green jobs but it will also set an example for the world towards a clean energy 
         transition. The conference will provide a platform for expelling the latest development in 
         equipment, compressors, devices, products, technologies, and services in the hydrogen industry.</p>

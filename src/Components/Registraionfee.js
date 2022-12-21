@@ -8,7 +8,7 @@ const Registraionfee = () => {
           <h2>Registration</h2>
         </div>
         <div className="regNotes">
-          <p>The last Date to Register online is 5<sup>th</sup> March 2023</p>
+          <p>The last Date to Register online is 5<sup>th</sup> March, 2023</p>
         </div>
         <div className="regData">
           <div className="regDataField">
@@ -113,11 +113,19 @@ const Registraionfee = () => {
         </div>
 
         <div className="regDetails">
-          <p>*All Prices including GST. <br/>
-            **10% additional discount if 5 & above nos. of Students/delegates pay
+          <p>*All Prices including GST<br/>
+           **10% additional discount if 5 & above nos. of Students/delegates pay
             at once while registering for the conference from the same
             organization.
+                      </p>
+          <p><b>Registration Fee Includes:</b>
+            <li> Conference kit (name tag, pen, notepad, etc.)</li>
+            <li>Lunch/high-tea/dinner on all days of the conference</li>
+            <li>Access to all technical sessions</li>
+            <li>Access to all exhibition stalls</li>
+            
           </p>
+          <p> <b>Note: </b>Based on the request accomidation will be arranged and charges will be shared.</p>
               <div className="button-container">
         <button className="payment-button">
           <a href="https://onlinepayment.pdpu.ac.in/conferences " rel="opener">Pay Here</a>

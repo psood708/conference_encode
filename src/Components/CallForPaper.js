@@ -11,8 +11,8 @@ export default function CallForPaper() {
       <div className="text-container">
         <img src="ijhe.jpeg" alt="ijhe" />
         <p className="callforpaper-text">
-          The selected papers from the conference will be published in <br />
-          <a href="https://www.sciencedirect.com/journal/international-journal-of-hydrogen-energy">
+          The selected papers will be published in <br />
+          <a href="https://www.journals.elsevier.com/international-journal-of-hydrogen-energy/call-for-papers/1st-international-conference-on-green-hydrogen-for-global-de-carbonization">
             {" "}
             "International Journal of Hydrogen Energy."
           </a>{" "}

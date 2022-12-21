@@ -18,7 +18,7 @@ const Committee = () => {
           </div>
           <div className="names">
             <h4>PATRONS</h4>
-            Dr. Anirbid B Sircar,
+            Prof. Anirbid B Sircar,
             <br />
             Director, SOET, PDEU
             <br />
@@ -51,7 +51,7 @@ const Committee = () => {
           </div>
           <div className="names">
             <h4>TREASURERS</h4>
-            Dr Balasubramanian Ragunathan,
+            Dr. Balasubramanian Ragunathan,
             <br />
              SOET, PDEU
            <br />
@@ -122,7 +122,7 @@ const Committee = () => {
             <div className="subheading-details">
               Prof. Deepak Dubal, <br />
               <h3 className="committe-location">
-                Queensland University of Technology, Brisbane, AUS
+                Queensland University of Technology, Brisbane, Australia
               </h3>
             </div>
             <div className="subheading-details">
@@ -190,7 +190,7 @@ const Committee = () => {
             <h3 className="committe-location">IIT Mandi</h3>
           </div>
           <div className="subheading-details">
-            Dr Tarun Kuamr Naiya, <br />
+            Dr. Tarun Kumar Naiya, <br />
             <h3 className="committe-location">IIT(ISM) Dhanbad</h3>
           </div>
           <div className="subheading-details">
@@ -231,19 +231,15 @@ const Committee = () => {
           <h3>LOCAL ADVISORY COMMITTEE</h3>
           <div className="subheading-details">
             Prof. Tarun Shah, <br />
-            <h3 className="committe-location">Registrar</h3>
+            <h3 className="committe-location">Registrar, PDEU Gandhinagar</h3>
+          </div>
+          <div className="subheading-details">
+            Prof. Anirbid B Sircar, <br />
+            <h3 className="committe-location">Director SOET, PDEU Gandhinagar</h3>
           </div>
           <div className="subheading-details">
             Prof. T.P Singh, <br />
-            <h3 className="committe-location">PDEU, Gandhinagar</h3>
-          </div>
-          <div className="subheading-details">
-            Dr Anirbid B sircar, <br />
-            <h3 className="committe-location">Director SOET, PDEU</h3>
-          </div>
-          <div className="subheading-details">
-            Prof. R.K.Vij, <br />
-            <h3 className="committe-location">PDEU, Gandhinagar</h3>
+            <h3 className="committe-location">Dean Student Affairs, PDEU Gandhinagar</h3>
           </div>
           <div className="subheading-details">
             Prof. Surendra Singh Kachhwaha, <br />
@@ -258,19 +254,23 @@ const Committee = () => {
             <h3 className="committe-location">Dean R&D, PDEU Gandhinagar</h3>
           </div>
           <div className="subheading-details">
+            Dr. Vishvesh J Badheka, <br />
+            <h3 className="committe-location">Dean Academic Affairs, PDEU Gandhinagar</h3>
+          </div>
+          <div className="subheading-details">
+            Dr. Rajesh Patel, <br />
+            <h3 className="committe-location">Dean Admission and Placement, PDEU Gandhinagar</h3>
+          </div>
+          <div className="subheading-details">
+            Prof. R.K.Vij, <br />
+            <h3 className="committe-location">PDEU Gandhinagar</h3>
+          </div>
+          <div className="subheading-details">
             Prof. Ranjan Sengupta, <br />
             <h3 className="committe-location">PDEU Gandhinagar</h3>
           </div>
           <div className="subheading-details">
-            Dr. Vishvesh J Badheka, <br />
-            <h3 className="committe-location">PDEU Gandhinagar</h3>
-          </div>
-          <div className="subheading-details">
             Dr. Ramesh Guduru, <br />
-            <h3 className="committe-location">PDEU Gandhinagar</h3>
-          </div>
-          <div className="subheading-details">
-            Dr. Rajesh Patel, <br />
             <h3 className="committe-location">PDEU Gandhinagar</h3>
           </div>
           <div className="subheading-details">
@@ -295,7 +295,7 @@ const Committee = () => {
           <div className="subheading-details-2">Dr. Balanagalu Basupalli</div>
           <div className="subheading-details-2">Dr. Abhishek Kumar Gupta</div>
           <div className="subheading-details-2">Dr. Ankur Solanki</div>
-          <div className="subheading-details-2">Dr. HEPZIBAH Mary MARY</div>
+          <div className="subheading-details-2">Dr. Hepzibah Mary</div>
           <div className="subheading-details-2">Dr. Rajat Saxena</div>
           <div className="subheading-details-2">Mr. Gaurav Hazarika</div>
           <div className="subheading-details-2">Dr. Lakshmann Rao Jeeru</div>
