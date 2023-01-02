@@ -100,8 +100,8 @@ export default function Theme() {
                 <div className="inner">
                   <p>
                     <li>Solid</li>
-                    <li>Liquid and Gaseous H2 storage</li>
-                    <li> H2 compressor</li>
+                    <li>Liquid and Gaseous H<sub>2</sub> storage</li>
+                    <li>H<sub>2</sub> compressor</li>
                   </p>
                 </div>
               </div>
@@ -155,7 +155,7 @@ export default function Theme() {
                 <div className="inner">
                   <p>
                     <ul>
-                      <li>H2 based economy</li>
+                      <li>H<sub>2</sub> based economy</li>
                       <li> strategies and Policies inside India and outside India</li>
                     </ul>
                   </p>
@@ -182,7 +182,7 @@ export default function Theme() {
                 <div className="inner">
                   <p>
                     <ul>
-                      <li>H2 in households</li>
+                      <li>H<sub>2</sub> in households</li>
                       <li>vehicles</li>
                       <li>industries</li>
                     </ul>
@@ -210,9 +210,9 @@ export default function Theme() {
                 <div className="inner">
                   <p>
                     <ul>
-                      <li>CO2 capture</li>
-                      <li>CO2 sequestration</li>
-                      <li>CO2 storage</li>
+                      <li>CO<sub>2</sub> capture</li>
+                      <li>CO<sub>2</sub> sequestration</li>
+                      <li>CO<sub>2</sub> storage</li>
                     </ul>
                   </p>
                 </div>
@@ -264,7 +264,7 @@ export default function Theme() {
                 <div className="inner">
                   <p>
                     <ul>
-                      <li>H2 production from biomass</li>
+                      <li>H<sub>2</sub> production from biomass</li>
                       <li>Other wastes</li>
                     </ul>
                   </p>
@@ -291,7 +291,7 @@ export default function Theme() {
                 <div className="inner">
                   <p>
                     <ul>
-                      <li>AI and ML approach for water splitting and CO2 sequestration and storage</li>
+                      <li>AI and ML approach for water splitting and CO<sub>2</sub> sequestration and storage</li>
                     </ul>
                   </p>
                 </div>

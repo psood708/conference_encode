@@ -25,6 +25,12 @@ export default function Sponsor(){
         </div>
         <div className="spe-img">
         <img
+            src="https://f000.backblazeb2.com/file/hp-cloud/Conference/acs.png"
+            alt="sponsor"
+            className="spon-img-css"
+          /></div>
+        <div className="spe-img">
+        <img
             src="https://f000.backblazeb2.com/file/hp-cloud/Conference/SPE+PDEU+Logo+With+White+Blue+Text.png"
             alt="sponsor"
             className="spon-img-css"
@@ -43,14 +49,25 @@ export default function Sponsor(){
             alt="sponsor"
             className="spon-img-css"
           /></div>
+          {/* <div className="spe-img">
+        <img
+            src="https://f000.backblazeb2.com/file/hp-cloud/Conference/acs2.jpeg"
+            alt="sponsor"
+            className="spon-img-css"
+          /></div>
+          <div className="spe-img">
+        <img
+            src="https://f000.backblazeb2.com/file/hp-cloud/Conference/acs3.jpeg"
+            alt="sponsor"
+            className="spon-img-css"
+          /></div> */}
         <div className="tabs"></div>
         <div className="tabs"></div>
         <div className="tabs"></div>
         <div className="tabs"></div>
         <div className="tabs"></div>
         <div className="tabs"></div>
-        <div className="tabs"></div>
-        <div className="tabs"></div>
+       
         </div>
     </div>
   )
