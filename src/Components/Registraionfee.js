@@ -26,7 +26,7 @@ const Registraionfee = () => {
                 </thead>
                 <tbody>
                   <tr>
-                    <td>PG/PhD Students</td>
+                    <td>UG/PG/PhD Students</td>
                     <td>4000</td>
                     <td>150</td>
                   </tr>
@@ -59,7 +59,7 @@ const Registraionfee = () => {
                 </thead>
                 <tbody>
                   <tr>
-                    <td>PG/PhD Students</td>
+                    <td>UG/PG/PhD Students</td>
                     <td>5000</td>
                     <td>200</td>
                   </tr>
@@ -92,7 +92,7 @@ const Registraionfee = () => {
                 </thead>
                 <tbody>
                   <tr>
-                    <td>PG/PhD Students</td>
+                    <td>UG/PG/PhD Students</td>
                     <td>6000</td>
                     <td>250</td>
                   </tr>
@@ -137,8 +137,7 @@ const Registraionfee = () => {
           <a href="https://forms.gle/mighpe7EFqzhmfZn6" rel="opener">Register Here</a>
         </button>
       </div>
-             <p> </p>
-                <p>
+             <p> 
          
             For any quires, please email us at{" "}
             <span>
