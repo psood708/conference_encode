@@ -41,7 +41,8 @@ export default function Footer() {
       <div className="footer-p1">
         <div className="conf">
           <div className="foot-topic">
-            <BiCopyright />ICGHGD-23
+            <BiCopyright />
+            ICGHGD-23
           </div>
           <div className="medias">
             <ul className="connect">
