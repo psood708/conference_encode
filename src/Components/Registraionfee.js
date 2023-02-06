@@ -13,7 +13,7 @@ const Registraionfee = () => {
         <div className="regData">
           <div className="regDataField">
             <h4 className="dataFieldHeader">
-              Early Bird Registration Fees (valid till 31<sup>st</sup> January, 2023)
+              Early Bird Registration Fees (valid till 10<sup>th</sup> February, 2023)
             </h4>
             <div className="regDataTable">
               <table>
@@ -46,7 +46,7 @@ const Registraionfee = () => {
           </div>
           <div className="regDataField">
             <h4 className="dataFieldHeader">
-              Registration Fees (valid till 15<sup>th</sup> February)
+              Registration Fees (valid till 5<sup>th</sup> March)
             </h4>
             <div className="regDataTable">
               <table>
@@ -125,7 +125,7 @@ const Registraionfee = () => {
             <li>Access to all exhibition stalls</li>
             
           </p>
-          <p> <b>Note: </b>Based on the request accomidation will be arranged and charges will be shared.</p>
+          <p> <b>Note: </b>Based on the request accommodation will be arranged and charges will be shared.</p>
               <div className="button-container">
         <button className="payment-button">
           <a href="https://onlinepayment.pdpu.ac.in/conferences " rel="opener">Pay Here</a>
