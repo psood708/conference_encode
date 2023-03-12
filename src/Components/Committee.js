@@ -246,12 +246,12 @@ const Committee = () => {
             <h3 className="committe-location">Dean SOT, PDEU Gandhinagar</h3>
           </div>
           <div className="subheading-details">
-            Dr. Praghnesh Bhatt, <br />
-            <h3 className="committe-location">Dean SOET, PDEU Gandhinagar</h3>
-          </div>
-          <div className="subheading-details">
             Dr. Bhawanisingh Desai, <br />
             <h3 className="committe-location">Dean R&D, PDEU Gandhinagar</h3>
+          </div>
+          <div className="subheading-details">
+            Dr. Praghnesh Bhatt, <br />
+            <h3 className="committe-location">Dean SOET, PDEU Gandhinagar</h3>
           </div>
           <div className="subheading-details">
             Dr. Vishvesh J Badheka, <br />
@@ -259,11 +259,11 @@ const Committee = () => {
           </div>
           <div className="subheading-details">
             Dr. Rajesh Patel, <br />
-            <h3 className="committe-location">Dean Admission and Placement, PDEU Gandhinagar</h3>
+            <h3 className="committe-location">Dean Admission, PDEU Gandhinagar</h3>
           </div>
           <div className="subheading-details">
             Prof. R.K.Vij, <br />
-            <h3 className="committe-location">PDEU Gandhinagar</h3>
+            <h3 className="committe-location">Dean of Placements, PDEU Gandhinagar</h3>
           </div>
           <div className="subheading-details">
             Prof. Ranjan Sengupta, <br />
@@ -297,6 +297,7 @@ const Committee = () => {
           <div className="subheading-details-2">Dr. Ankur Solanki</div>
           <div className="subheading-details-2">Dr. Hepzibah Mary</div>
           <div className="subheading-details-2">Dr. Rajat Saxena</div>
+          <div className="subheading-details-2">Dr. Himanshu Choksi</div>
           <div className="subheading-details-2">Mr. Gaurav Hazarika</div>
           <div className="subheading-details-2">Dr. Lakshmann Rao Jeeru</div>
           <div className="subheading-details-2">Dr. Hari Sreenivasan</div>

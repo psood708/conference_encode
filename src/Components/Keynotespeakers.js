@@ -82,7 +82,7 @@ export default function Keynote() {
             className="speaker-img"
           />
           <div className="speaker-information">
-            <h1>Dr.Lilac Amirav</h1>
+            <h1>Dr. Lilac Amirav</h1>
             <h2>Israel Institute of Technology, Haifa, Israel</h2>
             {/* <p>Some text</p> */}
           </div>
@@ -94,7 +94,7 @@ export default function Keynote() {
             className="speaker-img"
           />
           <div className="speaker-information">
-            <h1>Dr.G Ravi Chandran</h1>
+            <h1>Dr. G Ravi Chandran</h1>
             <h2>Vice President R&D, Reliance Industries, India</h2>
             {/* <p>Some text</p> */}
           </div>
