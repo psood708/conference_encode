@@ -21,7 +21,6 @@ const Awards = () => {
             marginHeight={0}
             marginWidth={0}
           />
-          <a href="https://123movies-to.org" />
           <br />
           <style
             dangerouslySetInnerHTML={{
