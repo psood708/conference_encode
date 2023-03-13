@@ -33,7 +33,11 @@
   margin: 1em;
   font-size: 1.5em;
 }
-.gmap_canvas{
-  width: 50%;
-  margin: auto;
+.weather-section{
+  text-align: center;
+  margin: 2em;
+}
+.weather-section h1{
+  font-size: 2em;
+  padding: 1.8em;
 }
