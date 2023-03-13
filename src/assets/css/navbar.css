@@ -4,6 +4,20 @@
   /* padding-top: 1%; */
   /* position: fixed; */
 }
+.icghd-logo{
+  width: 70px;
+  height: 70px;
+  margin-right: 2em;
+  /* margin: auto; */
+  margin-left: -2em;
+  margin-top: 2px;
+}
+/* .pdeu-logo{
+  margin-left: -10em;
+} */
+.logo-container{
+  display: flex;
+}
 .nav-up {
   display: flex;
   justify-content: flex-end;

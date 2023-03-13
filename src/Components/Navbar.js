@@ -1,5 +1,6 @@
 import React, {useState} from "react"
 import logo from "../assets/images/logo.png"
+import logo2 from '../assets/images/logo2.png';
 import "../assets/css/navbar.css"
 import {Link} from "react-router-dom"
 import {FontAwesomeIcon} from "@fortawesome/react-fontawesome"
@@ -33,7 +34,10 @@ export default function Navbar() {
     <div className="header">
       <nav className="navbar">
         <div className="logo">
-          <img src={logo} alt="Logo" />
+          <div className="logo-container">
+            <img className="icghd-logo" src={logo2} alt="Logo2" />
+            <img className="pdeu-logo" src={logo} alt="Logo" />
+          </div>
         </div>
         <div className="links">
           {/* <ul className="nav-up">
@@ -104,7 +108,7 @@ export default function Navbar() {
             </li>
             <li className="nav-item">
               <Link to="/awards" className="nav-link">
-                AWARDS
+                News
               </Link>
             </li>
             <li className="nav-item">
