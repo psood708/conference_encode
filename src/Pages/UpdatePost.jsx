@@ -17,7 +17,11 @@ export default function UpdatePost() {
     // console.log({update})
     setIsLoading(true)
     axios
-      .post("http://localhost:5000/api/v1/updates", {update})
+      // This is for local development
+      // .post("http://localhost:5000/api/v1/updates", {update})
+
+      // This is for production
+      .post("https://conferenceapi.onrender.com/api/v1/updates", {update})
       .then((res) => {
         // console.log(res.data)
         setIsLoading(false)

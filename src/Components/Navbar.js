@@ -15,7 +15,11 @@ export default function Navbar() {
   const [fetchedData, setFetchedData] = useState([])
   useEffect(() => {
     axios
-      .get("http://localhost:5000/api/v1/updates")
+      // This is for local development
+      // .get("http://localhost:5000/api/v1/updates")
+
+      // This is for production
+      .get("https://conferenceapi.onrender.com/api/v1/updates")
       .then((res) => {
         // console.log(res.data)
         setFetchedData(res.data)
@@ -152,7 +156,7 @@ export default function Navbar() {
 
       <Marquee gradient={false} style={{color: "white"}}>
         {fetchedData.map((data) => (
-          <Update update={data.update} />
+          <Update key={data._id} update={data.update} />
         ))}
       </Marquee>
     </div>
