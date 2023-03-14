@@ -1,14 +1,28 @@
-import React, {useState} from "react"
+import React, {useState, useEffect} from "react"
 import logo from "../assets/images/logo.png"
-import logo2 from '../assets/images/logo2.png';
+import logo2 from "../assets/images/logo2.png"
 import "../assets/css/navbar.css"
 import {Link} from "react-router-dom"
 import {FontAwesomeIcon} from "@fortawesome/react-fontawesome"
 import {faChevronDown} from "@fortawesome/free-solid-svg-icons"
-import Theme from "./Theme";
+import Theme from "./Theme"
+import Marquee from "react-fast-marquee"
+import Update from "./Update"
+import axios from "axios"
 
 // import { useRef,useEffect } from "react"
 export default function Navbar() {
+  const [fetchedData, setFetchedData] = useState([])
+  useEffect(() => {
+    axios
+      .get("http://localhost:5000/api/v1/updates")
+      .then((res) => {
+        // console.log(res.data)
+        setFetchedData(res.data)
+      })
+      .catch((err) => console.log(err))
+  }, [])
+
   const hamburgerr = document.querySelector(".hamburger")
   const navMenu = document.querySelector(".nav-main-menu")
   const [switchToggled, setSwitchToggled] = useState(false)
@@ -108,8 +122,18 @@ export default function Navbar() {
             </li>
             <li className="nav-item">
               <Link to="/awards" className="nav-link">
-                News
+                NEWS
               </Link>
+            </li>
+            <li className="nav-item">
+              <a
+                href="https://drive.google.com/file/d/1vMPKQjEftY37k_AI7zozjw3l9VUHeZxl/view?usp=sharing"
+                className="nav-link"
+                target="_blank"
+                rel="noreferrer"
+              >
+                ITINERARY
+              </a>
             </li>
             <li className="nav-item">
               <Link to="/contact" className="nav-link">
@@ -125,6 +149,12 @@ export default function Navbar() {
           <span className="bar"></span>
         </div>
       </nav>
+
+      <Marquee gradient={false} style={{color: "white"}}>
+        {fetchedData.map((data) => (
+          <Update update={data.update} />
+        ))}
+      </Marquee>
     </div>
   )
 }
