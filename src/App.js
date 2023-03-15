@@ -35,7 +35,7 @@ function App() {
       <Route exact path="/registration" element={<RegistrationFeePage />} />
       <Route exact path="/keynotespeakers" element={<Keynote />} />
       <Route exact path="/callforpapers" element={<CallForPaper />} />
-      <Route exact path="/awards" element={<Awards />} />
+      <Route exact path="/news" element={<Awards />} />
       <Route exact path="/admin/updatepost" element={<UpdatePost />} />
     </Routes>
     // </BrowserRouter>

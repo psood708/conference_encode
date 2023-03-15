@@ -1,31 +1,32 @@
-import React, { useEffect,useState} from "react";
-import "../assets/css/Awards.css";
-import Footer from "./Footer";
-import Navbar from "./Navbar";
-import "../assets/css/Awards.css";
+import React, {useEffect, useState} from "react"
+import "../assets/css/Awards.css"
+import Footer from "./Footer"
+import Navbar from "./Navbar"
+import "../assets/css/Awards.css"
 
 const Awards = () => {
+  const [lat, setLat] = useState([])
+  const [long, setLong] = useState([])
+  const [data, setData] = useState([])
 
-  const [lat, setLat] = useState([]);
-  const [long, setLong] = useState([]);
-  const [data, setData] = useState([]);
-  
   useEffect(() => {
     const fetchData = async () => {
-      navigator.geolocation.getCurrentPosition(function(position) {
-        setLat(position.coords.latitude);
-        setLong(position.coords.longitude);
-      });
+      navigator.geolocation.getCurrentPosition(function (position) {
+        setLat(position.coords.latitude)
+        setLong(position.coords.longitude)
+      })
 
-      await fetch(`${process.env.REACT_APP_API_URL}/weather/?lat=${lat}&lon=${long}&units=metric&APPID=${process.env.REACT_APP_API_KEY}`)
-      .then(res => res.json())
-      .then(result => {
-        setData(result)
-        console.log(result);
-      });
+      await fetch(
+        `https://api.openweathermap.org/data/2.5/weather/?lat=${lat}&lon=${long}&units=metric&APPID=f4f824db72fed3d0cd540959e9d54fd2`
+      )
+        .then((res) => res.json())
+        .then((result) => {
+          setData(result)
+          console.log(result)
+        })
     }
-    fetchData();
-  }, [lat,long])
+    fetchData()
+  }, [lat, long])
 
   return (
     <>
@@ -33,14 +34,16 @@ const Awards = () => {
       <div className="weather-section">
         <h1>Current Weather</h1>
         <div className="weather-container">
-            {/* {(typeof data.main != 'undefined') ? (
+          {/* {(typeof data.main != 'undefined') ? (
             <Weather weatherData={data}/>
           ): (
             <div></div>
           )} */}
         </div>
       </div>
-      <div className="map-title"><h1>Maps</h1></div>
+      <div className="map-title">
+        <h1>Maps</h1>
+      </div>
       <div className="mapouter ">
         <div className="gmap_canvas">
           <iframe
@@ -70,7 +73,7 @@ const Awards = () => {
       </div>
       <Footer />
     </>
-  );
-};
+  )
+}
 
-export default Awards;
+export default Awards
