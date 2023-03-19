@@ -39,4 +39,27 @@
   border-radius: 5px;
   padding: 0.5rem;
   cursor: pointer;
+  margin-bottom: 1rem;
+}
+
+.allUpdates {
+  margin-top: 0.5rem;
+}
+
+.update {
+  font-size: 1.3rem;
+  margin: 0.8rem 0;
+  text-align: center;
+  cursor: pointer;
+  color: black;
+}
+
+.updateListContainer a {
+  text-decoration: none;
+  color: black;
+}
+
+.goBack a {
+  text-decoration: none;
+  color: black;
 }

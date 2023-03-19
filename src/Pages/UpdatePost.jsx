@@ -1,11 +1,28 @@
-import React, {useState} from "react"
+import React, {useState, useEffect} from "react"
 import "../assets/css/update.css"
 
 import axios from "axios"
+import {Link} from "react-router-dom"
 
 export default function UpdatePost() {
   const [update, setUpdate] = useState("")
   const [isLoading, setIsLoading] = useState(false)
+  const [allUpdates, setAllUpdates] = useState([])
+
+  useEffect(() => {
+    setIsLoading(true)
+    axios
+      .get(`https://conferenceapi.onrender.com/api/v1/updates/`)
+      .then((res) => {
+        // console.log(res.data)
+        setAllUpdates(res.data)
+        setIsLoading(false)
+      })
+      .catch((err) => {
+        console.log(err)
+        setIsLoading(false)
+      })
+  }, [])
 
   const handleChange = (e) => {
     setUpdate(e.target.value)
@@ -53,6 +70,24 @@ export default function UpdatePost() {
           {isLoading ? "Posting..." : "Post"}
         </button>
       </form>
+
+      <div className="postUpdateContainer">
+        <h1 className="postUpdateHeading">All Updates</h1>
+
+        <div className="allUpdates">
+          {isLoading ? (
+            <h1>Loading...</h1>
+          ) : (
+            <ol className="updateListContainer">
+              {allUpdates.map((update) => (
+                <Link key={update._id} to={`/admin/editpost/${update._id}`}>
+                  <li className="update">{update.update}</li>
+                </Link>
+              ))}
+            </ol>
+          )}
+        </div>
+      </div>
     </div>
   )
 }
